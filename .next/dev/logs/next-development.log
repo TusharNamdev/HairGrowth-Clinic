@@ -1,1 +1,4950 @@
-[00:45:25.806] Server  LOG      ✓ Compiled in 103ms
+[00:00:26.822] Server  LOG      ✓ Ready in 19s
+[00:00:29.852] Server  LOG      ○ Compiling / ...
+[00:00:50.894] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:05.878] Browser WARN    Image with src "/images/hero-hair.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:06:14.775] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:05.668] Server  LOG      ✓ Compiled in 874ms
+[00:20:42.126] Server  LOG      ✓ Compiled in 331ms
+[00:23:44.693] Server  LOG      ✓ Compiled in 438ms
+[00:23:52.803] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:31.018] Browser WARN    Image with src "/images/hero-hair.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:25:51.266] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:00.854] Server  LOG      ✓ Compiled in 127ms
+[00:26:08.406] Server  LOG      ✓ Compiled in 104ms
+[00:26:11.214] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:30.258] Server  LOG      ✓ Compiled in 102ms
+[00:26:41.120] Server  LOG      ✓ Compiled in 83ms
+[00:26:46.960] Server  LOG      ✓ Compiled in 665ms
+[00:26:47.067] Browser ERROR   ./components/VideoReels.jsx:58:37
+Parsing ecmascript source code failed
+  56 |             640: { slidesPerView: 3 },
+  57 |             1024: { slidesPerView: 5 },
+> 58 |             1400: { slidesPerView:  },
+     |                                     ^
+  59 |           }}
+  60 |           className="py-4 w-full"
+  61 |         >
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./components/VideoReels.jsx [Client Component Browser]
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./components/VideoReels.jsx [Client Component SSR]
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+[00:27:02.879] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:14.435] Server  LOG      ✓ Compiled in 98ms
+[00:27:19.685] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:34.175] Browser WARN    Image with src "/images/hero-hair.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:27:48.859] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:00.635] Server  LOG      ✓ Compiled in 184ms
+[00:28:04.992] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:21.112] Server  LOG      ✓ Compiled in 150ms
+[00:28:25.218] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:36.537] Server  LOG      ✓ Compiled in 133ms
+[00:28:41.938] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:29:40.795] Server  LOG      ✓ Compiled in 62ms
+[00:29:43.674] Server  LOG      ✓ Compiled in 99ms
+[00:29:50.441] Server  LOG      ✓ Compiled in 104ms
+[00:30:03.801] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:30:26.941] Server  LOG      ✓ Compiled in 134ms
+[00:30:34.049] Server  LOG      ✓ Compiled in 106ms
+[00:30:40.274] Server  LOG      ✓ Compiled in 105ms
+[00:30:44.574] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:30:58.069] Server  LOG      ✓ Compiled in 216ms
+[00:31:04.885] Server  LOG      ✓ Compiled in 112ms
+[00:31:04.993] Browser ERROR   ./components/VideoReels.jsx:57:37
+Parsing ecmascript source code failed
+  55 |           breakpoints={{
+  56 |             640: { slidesPerView: 4 },
+> 57 |             1024: { slidesPerView:  },
+     |                                     ^
+  58 |             1400: { slidesPerView: 7 },
+  59 |           }}
+  60 |           className="py-4 w-full"
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./components/VideoReels.jsx [Client Component Browser]
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./components/VideoReels.jsx [Client Component SSR]
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+[00:31:10.032] Server  LOG      ✓ Compiled in 108ms
+[00:31:15.145] Server  LOG      ✓ Compiled in 112ms
+[00:31:22.124] Server  LOG      ✓ Compiled in 311ms
+[00:31:31.775] Server  LOG      ✓ Compiled in 128ms
+[00:31:34.032] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:31:47.398] Server  LOG      ✓ Compiled in 302ms
+[00:31:55.445] Server  LOG      ✓ Compiled in 112ms
+[00:32:06.923] Server  LOG      ✓ Compiled in 113ms
+[00:32:07.027] Browser ERROR   ./components/VideoReels.jsx:53:11
+Parsing ecmascript source code failed
+  51 |           }}
+  52 |           spaceBetween={}
+> 53 |           slidesPerView={2}
+     |           ^^^^^^^^^^^^^
+  54 |           centeredSlides={false}
+  55 |           breakpoints={{
+  56 |             640: { slidesPerView: 4 },
+
+Expected '</', got 'slidesPerView'
+
+Import traces:
+  Client Component Browser:
+    ./components/VideoReels.jsx [Client Component Browser]
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./components/VideoReels.jsx [Client Component SSR]
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+[00:32:08.284] Server  LOG      ✓ Compiled in 130ms
+[00:32:10.705] Server  LOG      ✓ Compiled in 168ms
+[00:32:10.813] Browser ERROR   ./components/VideoReels.jsx:52:28
+Parsing ecmascript source code failed
+  50 |             prevEl: ".swiper-button-prev",
+  51 |           }}
+> 52 |           spaceBetween={[10px]}
+     |                            ^^
+  53 |           slidesPerView={2}
+  54 |           centeredSlides={false}
+  55 |           breakpoints={{
+
+Expected '</', got 'px'
+
+Import traces:
+  Client Component Browser:
+    ./components/VideoReels.jsx [Client Component Browser]
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./components/VideoReels.jsx [Client Component SSR]
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+[00:32:12.274] Browser ERROR   ./components/VideoReels.jsx:53:28
+Parsing ecmascript source code failed
+  51 |             prevEl: ".swiper-button-prev",
+  52 |           }}
+> 53 |           spaceBetween={[10px]}
+     |                            ^^
+  54 |           slidesPerView={2}
+  55 |           centeredSlides={false}
+  56 |           breakpoints={{
+
+Expected '</', got 'px'
+
+Import traces:
+  Client Component Browser:
+    ./components/VideoReels.jsx [Client Component Browser]
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./components/VideoReels.jsx [Client Component SSR]
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+[00:32:18.946] Server  LOG      ✓ Compiled in 69ms
+[00:32:26.625] Server  LOG      ✓ Compiled in 148ms
+[00:32:46.960] Server  LOG      ✓ Compiled in 184ms
+[00:32:51.147] Server  LOG      ✓ Compiled in 81ms
+[00:34:11.745] Server  LOG      ✓ Compiled in 111ms
+[00:34:14.945] Server  LOG      ✓ Compiled in 101ms
+[00:34:18.739] Server  LOG      ✓ Compiled in 251ms
+[00:34:23.911] Server  LOG      ✓ Compiled in 107ms
+[00:36:51.071] Server  LOG      ✓ Compiled in 120ms
+[00:37:01.105] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:37:12.867] Browser WARN    Image with src "/images/stages/female-1.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:37:36.287] Server  LOG      ✓ Compiled in 125ms
+[00:37:40.422] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:24:52.979] Server  LOG      ✓ Compiled in 615ms
+[01:26:26.243] Server  LOG      ✓ Compiled in 248ms
+[01:26:35.581] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:29:51.720] Server  LOG      ✓ Compiled in 906ms
+[01:30:13.934] Server  LOG      ✓ Compiled in 159ms
+[01:30:17.958] Server  LOG      ✓ Compiled in 194ms
+[01:30:22.570] Server  LOG      ✓ Compiled in 193ms
+[01:30:32.799] Server  LOG      ✓ Compiled in 525ms
+[01:30:37.464] Server  LOG      ✓ Compiled in 273ms
+[01:30:48.714] Server  LOG      ✓ Compiled in 226ms
+[01:31:40.945] Server  LOG      ✓ Compiled in 709ms
+[01:31:54.917] Server  LOG      ✓ Compiled in 548ms
+[01:32:08.325] Server  LOG      ✓ Compiled in 122ms
+[01:32:49.163] Server  LOG      ✓ Compiled in 135ms
+[01:33:33.848] Server  LOG      ✓ Compiled in 439ms
+[01:33:56.487] Server  LOG      ✓ Compiled in 431ms
+[01:34:24.334] Server  LOG      ✓ Compiled in 243ms
+[01:34:46.145] Server  LOG      ✓ Compiled in 340ms
+[01:35:24.993] Server  LOG      ✓ Compiled in 244ms
+[01:35:49.655] Server  LOG      ✓ Compiled in 216ms
+[01:36:12.287] Server  LOG      ✓ Compiled in 287ms
+[01:36:54.808] Server  LOG      ✓ Compiled in 287ms
+[01:37:30.319] Server  LOG      ✓ Compiled in 187ms
+[01:40:46.062] Server  LOG      ✓ Compiled in 3.1s
+[01:41:12.587] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:46:13.281] Server  LOG      ✓ Compiled in 1074ms
+[01:46:13.401] Browser ERROR   ./components/VideoReels.jsx:86:49
+Parsing ecmascript source code failed
+  84 |     "https://www.youtube.com/embed/dOktKNstcE4",
+  85 |     "https://www.youtube.com/embed/K9HxeFSyk40",
+> 86 |     "https://www.youtube.com/embed/KMlQbpd6T2c",
+     |                                                 ^
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./components/VideoReels.jsx [Client Component Browser]
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./components/VideoReels.jsx [Client Component SSR]
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+[01:46:17.824] Server  LOG      ✓ Compiled in 233ms
+[01:46:47.429] Server  LOG      ✓ Compiled in 2.2s
+[01:49:15.471] Server  LOG      ✓ Compiled in 579ms
+[01:49:15.577] Browser ERROR   ./components/VideoReels.jsx:147:49
+Parsing ecmascript source code failed
+  145 |     "https://www.youtube.com/embed/dOktKNstcE4",
+  146 |     "https://www.youtube.com/embed/K9HxeFSyk40",
+> 147 |     "https://www.youtube.com/embed/KMlQbpd6T2c",
+      |                                                 ^
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./components/VideoReels.jsx [Client Component Browser]
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./components/VideoReels.jsx [Client Component SSR]
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+[01:49:18.090] Server  LOG      ✓ Compiled in 139ms
+[01:50:13.455] Server  LOG      ✓ Compiled in 524ms
+[01:50:21.367] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:54:15.523] Server  LOG      ✓ Compiled in 215ms
+[01:54:29.749] Server  LOG      ✓ Compiled in 500ms
+[01:54:35.680] Server  LOG      ✓ Compiled in 190ms
+[01:54:40.513] Server  LOG      ✓ Compiled in 138ms
+[01:55:02.242] Server  LOG      ✓ Compiled in 229ms
+[01:55:08.391] Server  LOG      ✓ Compiled in 197ms
+[01:58:51.663] Server  LOG      ✓ Compiled in 656ms
+[01:59:14.793] Server  LOG      ✓ Compiled in 186ms
+[02:09:41.250] Server  LOG      ✓ Compiled in 696ms
+[02:10:04.100] Server  LOG      ✓ Compiled in 253ms
+[02:11:23.015] Server  LOG      ✓ Compiled in 215ms
+[02:11:38.513] Server  LOG      ✓ Compiled in 227ms
+[02:12:45.067] Server  LOG      ✓ Compiled in 217ms
+[02:12:54.277] Server  LOG      ✓ Compiled in 189ms
+[02:13:42.113] Server  LOG      ✓ Compiled in 829ms
+[02:13:42.515] Browser ERROR   ./app/page.jsx:47:13
+Parsing ecmascript source code failed
+  45 |             { title: "Homeopathy", desc: "Corrects internal causes—stress, hormones, digestion." }
+  46 |
+> 47 |             { title: 'Choose stage', desc: 'Select the visual stage that matches you.' },
+     |             ^
+  48 |             { title: 'Get personalised plan', desc: 'Pick a plan and meet your hair coach.' }
+  49 |           ].map((s) => (
+  50 |             <div key={s.title} className="p-6 bg-white rounded-2xl shadow">
+
+Expected '</', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+[02:13:45.499] Browser ERROR   ./app/page.jsx:46:13
+Parsing ecmascript source code failed
+  44 |           {[
+  45 |             { title: "Homeopathy", desc: "Corrects internal causes—stress, hormones, digestion." }
+> 46 |             { title: 'Choose stage', desc: 'Select the visual stage that matches you.' },
+     |             ^
+  47 |             { title: 'Get personalised plan', desc: 'Pick a plan and meet your hair coach.' }
+  48 |           ].map((s) => (
+  49 |             <div key={s.title} className="p-6 bg-white rounded-2xl shadow">
+
+Expected '</', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+[02:13:46.441] Server  LOG      ✓ Compiled in 464ms
+[02:13:56.116] Server  LOG      ✓ Compiled in 175ms
+[02:13:58.223] Server  LOG      ✓ Compiled in 256ms
+[02:14:08.642] Server  LOG      ✓ Compiled in 189ms
+[02:14:10.015] Server  LOG      ✓ Compiled in 188ms
+[02:14:34.810] Server  LOG      ✓ Compiled in 201ms
+[02:14:48.771] Server  LOG      ✓ Compiled in 400ms
+[02:15:05.225] Server  LOG      ✓ Compiled in 271ms
+[02:20:00.031] Server  LOG      ✓ Compiled in 104ms
+[02:20:05.322] Server  LOG      ✓ Compiled in 103ms
+[02:20:41.665] Server  LOG      ✓ Compiled in 165ms
+[02:20:52.089] Server  LOG      ✓ Compiled in 168ms
+[02:21:17.814] Server  LOG      ✓ Compiled in 3.1s
+[02:22:03.232] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:22:35.045] Server  LOG      ✓ Compiled in 304ms
+[02:22:42.271] Server  LOG      ✓ Compiled in 310ms
+[02:23:36.426] Server  LOG      ○ Compiling /register ...
+[02:25:40.935] Server  LOG      ✓ Compiled in 231ms
+[02:26:04.882] Server  LOG      ✓ Compiled in 246ms
+[02:26:09.383] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:27:35.263] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:27:41.755] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/doctor.jpg" "received" null
+[02:29:20.926] Server  LOG      ✓ Compiled in 321ms
+[02:33:01.542] Server  LOG      ✓ Compiled in 354ms
+[02:33:01.806] Browser ERROR   uncaughtError: ReferenceError: Testimonials is not defined
+[02:33:16.968] Server  LOG      ✓ Compiled in 187ms
+[02:33:16.978] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:33:18.642] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:33:19.448] Browser ERROR   ./app/page.jsx:88:5
+Parsing ecmascript source code failed
+  86 |
+  87 |       <V
+> 88 |     </div>
+     |     ^
+  89 |   );
+  90 | }
+  91 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+[02:33:19.448] Browser ERROR   ./app/page.jsx:88:6
+Parsing ecmascript source code failed
+  86 |
+  87 |       <V
+> 88 |     </div>
+     |      ^^^^^
+  89 |   );
+  90 | }
+  91 |
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+[02:33:20.783] Browser ERROR   ./app/page.jsx:88:5
+Parsing ecmascript source code failed
+  86 |
+  87 |       <Vide
+> 88 |     </div>
+     |     ^
+  89 |   );
+  90 | }
+  91 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+[02:33:20.783] Browser ERROR   ./app/page.jsx:88:6
+Parsing ecmascript source code failed
+  86 |
+  87 |       <Vide
+> 88 |     </div>
+     |      ^^^^^
+  89 |   );
+  90 | }
+  91 |
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+[02:33:23.550] Browser ERROR   ./app/page.jsx:88:5
+Parsing ecmascript source code failed
+  86 |
+  87 |       <
+> 88 |     </div>
+     |     ^
+  89 |   );
+  90 | }
+  91 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+[02:33:23.550] Browser ERROR   ./app/page.jsx:88:6
+Parsing ecmascript source code failed
+  86 |
+  87 |       <
+> 88 |     </div>
+     |      ^^^^^
+  89 |   );
+  90 | }
+  91 |
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+[02:33:25.853] Browser ERROR   ./app/page.jsx:88:5
+Parsing ecmascript source code failed
+  86 |
+  87 |       <Test
+> 88 |     </div>
+     |     ^
+  89 |   );
+  90 | }
+  91 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+[02:33:25.853] Browser ERROR   ./app/page.jsx:88:6
+Parsing ecmascript source code failed
+  86 |
+  87 |       <Test
+> 88 |     </div>
+     |      ^^^^^
+  89 |   );
+  90 | }
+  91 |
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+[02:33:36.709] Browser ERROR   ./app/page.jsx:89:5
+Parsing ecmascript source code failed
+  87 |
+  88 |       <Testimonials
+> 89 |     </div>
+     |     ^
+  90 |   );
+  91 | }
+  92 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+[02:33:36.709] Browser ERROR   ./app/page.jsx:89:6
+Parsing ecmascript source code failed
+  87 |
+  88 |       <Testimonials
+> 89 |     </div>
+     |      ^^^^^
+  90 |   );
+  91 | }
+  92 |
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+[02:33:39.392] Server  LOG      ✓ Compiled in 168ms
+[02:33:40.519] Server  LOG      ✓ Compiled in 140ms
+[02:33:40.619] Browser ERROR   ./app/page.jsx:90:5
+Parsing ecmascript source code failed
+  88 |       <Testimonials/>
+  89 |       <
+> 90 |     </div>
+     |     ^
+  91 |   );
+  92 | }
+  93 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+[02:33:40.619] Browser ERROR   ./app/page.jsx:90:6
+Parsing ecmascript source code failed
+  88 |       <Testimonials/>
+  89 |       <
+> 90 |     </div>
+     |      ^^^^^
+  91 |   );
+  92 | }
+  93 |
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+[02:33:42.329] Browser ERROR   ./app/page.jsx:90:5
+Parsing ecmascript source code failed
+  88 |       <Testimonials/>
+  89 |       <FA
+> 90 |     </div>
+     |     ^
+  91 |   );
+  92 | }
+  93 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+[02:33:42.329] Browser ERROR   ./app/page.jsx:90:6
+Parsing ecmascript source code failed
+  88 |       <Testimonials/>
+  89 |       <FA
+> 90 |     </div>
+     |      ^^^^^
+  91 |   );
+  92 | }
+  93 |
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+[02:33:45.836] Server  LOG      ✓ Compiled in 708ms
+[02:33:52.900] Server  LOG      ✓ Compiled in 301ms
+[02:33:56.383] Server  LOG      ✓ Compiled in 954ms
+[02:33:56.487] Browser ERROR   ./app/page.jsx:70:25
+Parsing ecmascript source code failed
+  68 |       <Vide
+  69 |
+> 70 |       {/* ROOT CAUSES */}
+     |                         ^
+  71 |       <section className="max-w-7xl mx-auto px-6 py-12">
+  72 |         <h3 className="text-2xl font-bold">Root Causes of Hair Fall</h3>
+  73 |         <p className="text-gray-600 mt-2">Identifying the cause is the first step to effective regrowth.</p>
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+[02:33:56.749] Browser ERROR   ./app/page.jsx:70:25
+Parsing ecmascript source code failed
+  68 |       <Video
+  69 |
+> 70 |       {/* ROOT CAUSES */}
+     |                         ^
+  71 |       <section className="max-w-7xl mx-auto px-6 py-12">
+  72 |         <h3 className="text-2xl font-bold">Root Causes of Hair Fall</h3>
+  73 |         <p className="text-gray-600 mt-2">Identifying the cause is the first step to effective regrowth.</p>
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+[02:34:01.218] Server  LOG      ✓ Compiled in 217ms
+[02:34:08.553] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:37:39.412] Server  LOG      ✓ Compiled in 230ms
+[02:39:14.262] Server  LOG      ✓ Compiled in 548ms
+[02:42:46.811] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:43:18.912] Server  LOG      ✓ Compiled in 211ms
+[02:43:54.651] Server  LOG      ✓ Compiled in 152ms
+[02:43:55.980] Server  LOG      ✓ Compiled in 112ms
+[02:43:58.613] Server  LOG      ✓ Compiled in 357ms
+[02:44:03.086] Server  LOG      ✓ Compiled in 191ms
+[02:44:05.806] Server  LOG      ✓ Compiled in 115ms
+[02:44:13.175] Server  LOG      ✓ Compiled in 149ms
+[02:44:14.484] Server  LOG      ✓ Compiled in 104ms
+[02:44:16.758] Server  LOG      ✓ Compiled in 109ms
+[02:44:43.284] Server  LOG      ✓ Compiled in 135ms
+[02:44:47.252] Server  LOG      ✓ Compiled in 108ms
+[02:44:50.406] Server  LOG      ✓ Compiled in 134ms
+[02:44:54.938] Server  LOG      ✓ Compiled in 123ms
+[02:44:59.185] Server  LOG      ✓ Compiled in 118ms
+[02:45:01.427] Server  LOG      ✓ Compiled in 131ms
+[02:45:07.685] Server  LOG      ✓ Compiled in 94ms
+[02:45:11.021] Server  LOG      ✓ Compiled in 141ms
+[02:45:14.496] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:46:44.672] Server  LOG      ✓ Compiled in 116ms
+[02:46:46.088] Server  LOG      ✓ Compiled in 158ms
+[02:46:48.894] Server  LOG      ✓ Compiled in 145ms
+[02:46:55.497] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:47:01.000] Server  LOG      ✓ Compiled in 149ms
+[02:47:03.263] Server  LOG      ✓ Compiled in 135ms
+[02:47:07.814] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:47:16.629] Server  LOG      ✓ Compiled in 107ms
+[02:47:18.695] Server  LOG      ✓ Compiled in 86ms
+[02:47:21.761] Server  LOG      ✓ Compiled in 88ms
+[02:47:29.599] Server  LOG      ✓ Compiled in 316ms
+[02:47:35.293] Server  LOG      ✓ Compiled in 82ms
+[02:47:38.242] Server  LOG      ✓ Compiled in 129ms
+[02:47:42.409] Server  LOG      ✓ Compiled in 130ms
+[03:11:12.994] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:12:09.089] Server  LOG      ✓ Compiled in 134ms
+[03:13:23.122] Server  LOG      ✓ Compiled in 598ms
+[03:13:33.561] Server  LOG      ✓ Compiled in 113ms
+[03:13:45.205] Server  LOG      ✓ Compiled in 127ms
+[03:13:50.757] Server  LOG      ✓ Compiled in 188ms
+[03:15:56.080] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:56.085] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:56.096] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:56.101] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:56.113] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:56.118] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:56.127] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:56.132] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:56.143] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:56.147] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:56.151] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:56.160] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:56.164] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:56.169] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:56.178] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:56.182] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:56.186] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:56.195] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:56.202] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:56.212] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:56.216] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:56.226] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:56.232] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:56.250] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:56.262] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:56.266] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:56.276] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:56.280] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:56.283] Server  LOG      ✓ Compiled in 584ms
+[03:15:56.392] Browser ERROR   ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[03:15:56.392] Browser ERROR   ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[03:16:15.817] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:15.831] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:15.845] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:15.851] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:15.858] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:15.862] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:15.867] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:15.872] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:15.877] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:15.882] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:15.892] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:15.897] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:15.901] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:15.906] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:15.912] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:15.916] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:15.921] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:15.925] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:15.929] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:15.932] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:15.939] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:15.943] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:15.946] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:15.950] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:15.954] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:15.959] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:15.962] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:15.966] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:15.969] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:15.974] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:15.980] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:15.984] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:15.991] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:15.995] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:15.997] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:16.002] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:16.008] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:16.012] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:16.014] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:16.018] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:16.026] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:16.030] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:16.041] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:16.047] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:16.052] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:16.057] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:16.064] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:16.069] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:16.075] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:16.080] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:16.087] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:16.091] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:16.098] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:16.102] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:16.107] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:16.112] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:16.118] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:16.122] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:16.127] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:16.130] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:16.135] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:16.141] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:16.144] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:16.149] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:16.152] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:16.158] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:16.162] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:16.166] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:16.169] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:16.175] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:16.179] Server  LOG      ✓ Compiled in 176ms
+[03:16:16.290] Browser ERROR   ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[03:16:16.291] Browser ERROR   ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[03:16:20.623] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.630] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.634] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.640] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.643] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.646] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.650] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.655] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.658] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.661] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.666] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.670] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.674] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.677] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.681] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.685] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.690] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.693] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.697] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.700] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.707] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.710] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.713] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.716] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.723] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.727] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.731] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.734] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.739] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.743] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.748] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.751] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.756] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.760] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.764] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.768] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.776] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.779] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.782] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.789] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.795] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.798] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.802] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.808] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.811] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.814] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.817] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.824] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.827] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.830] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.835] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.841] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.844] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.847] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.850] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.856] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.859] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.864] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.868] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.874] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.878] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.881] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.884] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.890] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.893] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.896] Server  ERROR    ⨯ ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.899] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.905] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.909] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.912] Server  ERROR    ⨯ ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:20.914] Server  LOG      ✓ Compiled in 130ms
+[03:16:21.350] Browser ERROR   ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[03:16:21.350] Browser ERROR   ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[03:17:42.756] Browser ERROR   ./app/page.jsx:10:1
+Module not found: Can't resolve 'react-icons/gi'
+   8 | import FAQ from "@/components/FAQ";
+   9 | import VideoReels from "@/components/VideoReels";
+> 10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MdSelfImprovement } from "react-icons/md";
+  12 |
+  13 |
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[03:17:42.756] Browser ERROR   ./app/page.jsx:11:1
+Module not found: Can't resolve 'react-icons/md'
+   9 | import VideoReels from "@/components/VideoReels";
+  10 | import { GiMedicines, GiFruitBowl } from "react-icons/gi";
+> 11 | import { MdSelfImprovement } from "react-icons/md";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 |
+  14 | export default function Home() {
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[03:18:07.308] Server  LOG      ✓ Compiled in 22.3s
+[03:18:08.256] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:21:39.109] Server  LOG      ✓ Compiled in 536ms
+[03:21:55.336] Server  LOG      ✓ Compiled in 308ms
+[03:22:42.378] Server  ERROR    ⨯ ReferenceError: MdSelfImprovement is not defined
+[03:22:42.844] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:22:43.543] Browser ERROR   uncaughtError: ReferenceError: MdSelfImprovement is not defined
+[03:24:46.435] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[03:24:46.453] Server  LOG      ✓ Compiled in 116ms
+[03:24:48.390] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/doctor.jpg" "received" null
+[03:24:49.261] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:24:50.425] Browser WARN    Image with src "/images/doctor.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:28:43.796] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:35:17.317] Server  LOG      ✓ Compiled in 688ms
+[03:40:19.654] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:40:26.338] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:41:32.598] Server  LOG      ✓ Compiled in 183ms
+[03:41:34.112] Server  LOG      ✓ Compiled in 197ms
+[03:41:35.430] Server  LOG      ✓ Compiled in 179ms
+[03:41:38.484] Server  LOG      ✓ Compiled in 124ms
+[03:41:39.592] Server  LOG      ✓ Compiled in 164ms
+[03:41:41.236] Server  LOG      ✓ Compiled in 116ms
+[03:41:46.262] Server  LOG      ✓ Compiled in 121ms
+[03:41:48.416] Server  LOG      ✓ Compiled in 131ms
+[03:41:54.233] Server  LOG      ✓ Compiled in 143ms
+[03:42:07.198] Server  LOG      ✓ Compiled in 136ms
+[03:42:25.342] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:42:49.725] Server  LOG      ✓ Compiled in 155ms
+[03:42:52.538] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:42:56.962] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:42:59.539] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:43:09.399] Server  LOG      ✓ Compiled in 98ms
+[03:43:15.390] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/doctor.jpg" "received" null
+[03:46:00.013] Server  LOG      ✓ Compiled in 129ms
+[03:46:05.925] Server  LOG      ✓ Compiled in 110ms
+[03:46:10.699] Server  LOG      ✓ Compiled in 154ms
+[03:46:16.686] Server  LOG      ✓ Compiled in 69ms
+[03:47:57.312] Server  LOG      ✓ Compiled in 180ms
+[03:48:01.398] Server  LOG      ✓ Compiled in 138ms
+[03:49:04.796] Server  LOG      ✓ Compiled in 150ms
+[03:49:11.635] Server  LOG      ✓ Compiled in 93ms
+[03:49:13.159] Server  LOG      ✓ Compiled in 180ms
+[03:49:16.139] Server  LOG      ✓ Compiled in 164ms
+[03:49:19.948] Server  LOG      ✓ Compiled in 100ms
+[03:49:31.220] Server  LOG      ✓ Compiled in 176ms
+[03:49:37.727] Server  LOG      ✓ Compiled in 117ms
+[03:49:40.184] Server  LOG      ✓ Compiled in 107ms
+[03:49:41.240] Server  LOG      ✓ Compiled in 106ms
+[03:49:47.481] Server  LOG      ✓ Compiled in 288ms
+[03:49:51.674] Server  LOG      ✓ Compiled in 115ms
+[03:50:03.347] Server  LOG      ✓ Compiled in 180ms
+[03:50:06.758] Server  LOG      ✓ Compiled in 107ms
+[03:50:11.411] Server  LOG      ✓ Compiled in 99ms
+[03:50:13.408] Server  LOG      ✓ Compiled in 140ms
+[03:50:47.506] Server  LOG      ✓ Compiled in 110ms
+[03:50:50.035] Server  LOG      ✓ Compiled in 118ms
+[03:50:53.444] Server  LOG      ✓ Compiled in 109ms
+[03:50:58.827] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:51:35.046] Server  LOG      ✓ Compiled in 85ms

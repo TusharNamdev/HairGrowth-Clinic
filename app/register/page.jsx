@@ -39,9 +39,10 @@ export default function Register() {
   return (
     <div className="min-h-screen bg-gray-50 py-12">
       <main className="max-w-3xl mx-auto p-6 bg-white rounded-2xl shadow">
-        <h2 className="text-2xl font-bold">Free Assessment</h2>
+        
+        <h2 className="text-2xl font-bold">Hair Health Assessment</h2>
         <p className="text-gray-600 mt-2">
-          Complete this quick form so we can personalise your plan.
+          Understand the root cause of your hair fall with this doctor-designed questionnaire.
         </p>
 
         <div className="mt-6">
@@ -61,13 +62,7 @@ export default function Register() {
                 </div>
                 <div>
                   <Label>Email</Label>
-                  <Input
-                    name="email"
-                    value={form.email}
-                    onChange={handleChange}
-                    type="email"
-                    required
-                  />
+                  <Input name="email" type="email" value={form.email} onChange={handleChange} required />
                 </div>
                 <div>
                   <Label>Phone</Label>
@@ -80,21 +75,11 @@ export default function Register() {
               <div className="space-y-4 mt-4">
                 <div>
                   <Label>Age</Label>
-                  <Input
-                    name="age"
-                    value={form.age}
-                    onChange={handleChange}
-                    type="number"
-                  />
+                  <Input name="age" type="number" value={form.age} onChange={handleChange} />
                 </div>
                 <div>
                   <Label>Gender</Label>
-                  <select
-                    name="gender"
-                    value={form.gender}
-                    onChange={handleChange}
-                    className="w-full mt-2 p-2 border rounded"
-                  >
+                  <select name="gender" className="w-full mt-2 p-2 border rounded" value={form.gender} onChange={handleChange}>
                     <option value="">Select</option>
                     <option value="male">Male</option>
                     <option value="female">Female</option>
@@ -103,11 +88,7 @@ export default function Register() {
                 </div>
                 <div>
                   <Label>Location</Label>
-                  <Input
-                    name="location"
-                    value={form.location}
-                    onChange={handleChange}
-                  />
+                  <Input name="location" value={form.location} onChange={handleChange} />
                 </div>
               </div>
             )}
@@ -124,24 +105,15 @@ export default function Register() {
                     rows={4}
                   />
                 </div>
-
                 <div className="text-sm text-gray-500">
-                  After submitting, you'll pick your hair-loss stage.
-                  We'll show plans relevant to that stage.
+                  Share symptoms like stress, dandruff, sleep issues, thinning, scalp itching or digestion concerns.
                 </div>
               </div>
             )}
 
-            {/* Navigation Buttons */}
             <div className="mt-6 flex items-center gap-3">
-              {step > 1 && (
-                <Button variant="ghost" onClick={prev}>
-                  Back
-                </Button>
-              )}
-              <Button onClick={next}>
-                {step === 3 ? "Proceed to Stage" : "Next"}
-              </Button>
+              {step > 1 && <Button variant="ghost" onClick={prev}>Back</Button>}
+              <Button onClick={next}>{step === 3 ? "Proceed to Stage" : "Next"}</Button>
             </div>
           </motion.div>
         </div>
