@@ -27,6 +27,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$ico
 function Navbar() {
     const [open, setOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     const [scrolled, setScrolled] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
+    const pathname = usePathname();
     // Detect scroll for navbar background
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         const handleScroll = ()=>{
@@ -35,6 +36,11 @@ function Navbar() {
         window.addEventListener("scroll", handleScroll);
         return ()=>window.removeEventListener("scroll", handleScroll);
     }, []);
+    const hideOn = [
+        "/register",
+        "/coach"
+    ];
+    if (hideOn.includes(pathname)) return null;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
@@ -52,7 +58,7 @@ function Navbar() {
                                         children: "MC"
                                     }, void 0, false, {
                                         fileName: "[project]/components/layout/Navbar.jsx",
-                                        lineNumber: 34,
+                                        lineNumber: 39,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -62,7 +68,7 @@ function Navbar() {
                                                 children: "Modern Clinic"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/layout/Navbar.jsx",
-                                                lineNumber: 39,
+                                                lineNumber: 44,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -70,19 +76,19 @@ function Navbar() {
                                                 children: "Doctor-Guided Hair Regrowth"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/layout/Navbar.jsx",
-                                                lineNumber: 40,
+                                                lineNumber: 45,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/layout/Navbar.jsx",
-                                        lineNumber: 38,
+                                        lineNumber: 43,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/layout/Navbar.jsx",
-                                lineNumber: 33,
+                                lineNumber: 38,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -94,7 +100,7 @@ function Navbar() {
                                         children: "About Dr."
                                     }, void 0, false, {
                                         fileName: "[project]/components/layout/Navbar.jsx",
-                                        lineNumber: 46,
+                                        lineNumber: 51,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -103,7 +109,7 @@ function Navbar() {
                                         children: "Book Assessment"
                                     }, void 0, false, {
                                         fileName: "[project]/components/layout/Navbar.jsx",
-                                        lineNumber: 47,
+                                        lineNumber: 52,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -112,7 +118,7 @@ function Navbar() {
                                         children: "Testimonials"
                                     }, void 0, false, {
                                         fileName: "[project]/components/layout/Navbar.jsx",
-                                        lineNumber: 48,
+                                        lineNumber: 53,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -121,13 +127,13 @@ function Navbar() {
                                         children: "FAQ"
                                     }, void 0, false, {
                                         fileName: "[project]/components/layout/Navbar.jsx",
-                                        lineNumber: 49,
+                                        lineNumber: 54,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/layout/Navbar.jsx",
-                                lineNumber: 45,
+                                lineNumber: 50,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -137,24 +143,24 @@ function Navbar() {
                                     size: 24
                                 }, void 0, false, {
                                     fileName: "[project]/components/layout/Navbar.jsx",
-                                    lineNumber: 57,
+                                    lineNumber: 62,
                                     columnNumber: 21
                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
                                     size: 24
                                 }, void 0, false, {
                                     fileName: "[project]/components/layout/Navbar.jsx",
-                                    lineNumber: 57,
+                                    lineNumber: 62,
                                     columnNumber: 39
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/layout/Navbar.jsx",
-                                lineNumber: 53,
+                                lineNumber: 58,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/layout/Navbar.jsx",
-                        lineNumber: 30,
+                        lineNumber: 35,
                         columnNumber: 9
                     }, this),
                     open && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -169,7 +175,7 @@ function Navbar() {
                                     children: "About Dr."
                                 }, void 0, false, {
                                     fileName: "[project]/components/layout/Navbar.jsx",
-                                    lineNumber: 65,
+                                    lineNumber: 70,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -179,7 +185,7 @@ function Navbar() {
                                     children: "Book Assessment"
                                 }, void 0, false, {
                                     fileName: "[project]/components/layout/Navbar.jsx",
-                                    lineNumber: 66,
+                                    lineNumber: 71,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -189,7 +195,7 @@ function Navbar() {
                                     children: "Testimonials"
                                 }, void 0, false, {
                                     fileName: "[project]/components/layout/Navbar.jsx",
-                                    lineNumber: 67,
+                                    lineNumber: 72,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -199,33 +205,33 @@ function Navbar() {
                                     children: "FAQ"
                                 }, void 0, false, {
                                     fileName: "[project]/components/layout/Navbar.jsx",
-                                    lineNumber: 68,
+                                    lineNumber: 73,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/layout/Navbar.jsx",
-                            lineNumber: 64,
+                            lineNumber: 69,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/layout/Navbar.jsx",
-                        lineNumber: 63,
+                        lineNumber: 68,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/layout/Navbar.jsx",
-                lineNumber: 24,
+                lineNumber: 29,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                 href: "/register",
-                className: "fixed bottom-6 left-1/2 -translate-x-1/2 z-50  bg-gradient-to-br from-indigo-600 to-emerald-500 text-white px-10 py-3 rounded-full shadow-xl  hover:shadow-2xl transition text-xl font-semibold",
+                className: " fixed bottom-6 left-1/2 -translate-x-1/2 z-50 bg-gradient-to-br from-indigo-600 to-emerald-500 text-white font-semibold shadow-xl hover:shadow-2xl transition px-6 py-2 text-sm md:px-10 md:py-3 md:text-xl rounded-full ",
                 children: "Book Consultation"
             }, void 0, false, {
                 fileName: "[project]/components/layout/Navbar.jsx",
-                lineNumber: 75,
+                lineNumber: 80,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -236,12 +242,12 @@ function Navbar() {
                     size: 26
                 }, void 0, false, {
                     fileName: "[project]/components/layout/Navbar.jsx",
-                    lineNumber: 93,
+                    lineNumber: 101,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/layout/Navbar.jsx",
-                lineNumber: 87,
+                lineNumber: 95,
                 columnNumber: 7
             }, this)
         ]

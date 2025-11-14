@@ -4,28 +4,32 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const pathname = usePathname();
 
-  // Detect scroll for navbar background
+  // Detect scroll for navbar styling
   useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 20);
-    };
+    const handleScroll = () => setScrolled(window.scrollY > 20);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  // Pages where floating buttons should be hidden
+  const hideFloating = ["/register", "/coach"];
 
   return (
     <>
       {/* NAVBAR */}
       <header
-        className={`sticky top-0 z-40 transition-all duration-300 ${scrolled
+        className={`sticky top-0 z-40 transition-all duration-300 ${
+          scrolled
             ? "bg-white/90 backdrop-blur shadow-sm border-b border-gray-200"
             : "bg-transparent backdrop-blur"
-          }`}
+        }`}
       >
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
 
@@ -49,7 +53,7 @@ export default function Navbar() {
             <Link href="/faq" className="hover:text-indigo-600 transition">FAQ</Link>
           </nav>
 
-          {/* Mobile Hamburger */}
+          {/* Hamburger */}
           <button
             className="md:hidden p-2 rounded-md hover:bg-gray-100 transition"
             onClick={() => setOpen(!open)}
@@ -71,27 +75,34 @@ export default function Navbar() {
         )}
       </header>
 
-      {/* FLOATING CTA BUTTON */}
-      <Link
-        href="/register"
-        className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 
-             bg-gradient-to-br from-indigo-600 to-emerald-500
-             text-white px-10 py-3 rounded-full shadow-xl 
-             hover:shadow-2xl transition text-xl font-semibold"
-      >
-        Book Consultation
-      </Link>
+      {/* FLOATING CTA BUTTON — hidden on register & coach */}
+      {!hideFloating.includes(pathname) && (
+        <Link
+          href="/register"
+          className="
+            fixed bottom-6 left-1/2 -translate-x-1/2 z-50
+            bg-gradient-to-br from-indigo-600 to-emerald-500
+            text-white font-semibold shadow-xl hover:shadow-2xl transition
+            px-6 py-2 text-sm md:px-10 md:py-3 md:text-xl rounded-full
+          "
+        >
+          Book Consultation
+        </Link>
+      )}
 
-
-      {/* FLOATING WHATSAPP BUTTON */}
-      <a
-        href="https://wa.me/91XXXXXXXXXX"
-        target="_blank"
-        className="fixed bottom-6 right-6 z-50 bg-green-500 text-white p-4 rounded-full shadow-xl 
-                   hover:shadow-2xl transition"
-      >
-        <FaWhatsapp size={26} />
-      </a>
+      {/* WHATSAPP BUTTON — hidden on register & coach */}
+      {!hideFloating.includes(pathname) && (
+        <a
+          href="https://wa.me/91XXXXXXXXXX"
+          target="_blank"
+          className="
+            fixed bottom-6 right-6 z-50 bg-green-500 text-white p-4 rounded-full 
+            shadow-xl hover:shadow-2xl transition
+          "
+        >
+          <FaWhatsapp size={26} />
+        </a>
+      )}
     </>
   );
 }
