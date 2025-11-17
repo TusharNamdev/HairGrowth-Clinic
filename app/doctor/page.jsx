@@ -4,6 +4,7 @@ import Image from "next/image";
 import { FaCheckCircle, FaGraduationCap, FaAward } from "react-icons/fa";
 import { MdOutlineMedicalServices, MdVideoLibrary, MdSelfImprovement  } from "react-icons/md";
 import { GiStethoscope } from "react-icons/gi";
+import VideoReels from "@/components/VideoReels";
 
 export default function DoctorProfile() {
   return (
@@ -16,7 +17,7 @@ export default function DoctorProfile() {
           {/* Doctor Image */}
           <div className="relative w-full h-[380px] rounded-3xl overflow-hidden shadow-2xl">
             <Image
-              src="/images/doctor.jpg"
+              src="/images/doctor.png"
               alt="Dr. Devendra Rathore"
               fill
               className="object-cover"
@@ -122,7 +123,7 @@ export default function DoctorProfile() {
         </section>
 
         {/* VIDEO SECTION */}
-        <section className="mt-20">
+        {/* <section className="mt-20">
           <h2 className="text-3xl font-bold mb-4">Doctor Videos</h2>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -142,7 +143,8 @@ export default function DoctorProfile() {
             ))}
 
           </div>
-        </section>
+        </section> */}
+        <VideoReels/>
 
         {/* SUCCESS STORIES */}
         <section className="mt-20 mb-20">

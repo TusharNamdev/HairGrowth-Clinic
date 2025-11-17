@@ -51,55 +51,55 @@ export default function Home() {
       </main>
 
       {/* HOW IT WORKS */}
-<section id="how" className="max-w-7xl mx-auto px-6 py-20">
-  <div className="text-center">
-    <h3 className="text-3xl font-bold">How Our Holistic Treatment Works</h3>
-    <p className="text-gray-600 mt-3 max-w-2xl mx-auto">
-      A 3-step medically guided process designed to fix your hair fall from the root.
-    </p>
-  </div>
-
-  <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
-    {[
-      {
-        title: "Homeopathic Treatment",
-        desc: "Corrects internal triggers such as stress, hormones, digestion & metabolism.",
-        icon: <GiMedicines size={28} className="text-white" />
-      },
-      {
-        title: "Nutrition Therapy",
-        desc: "Strengthens roots with nutrient support that boosts scalp circulation.",
-        icon: <GiFruitBowl size={28} className="text-white" />
-      },
-      {
-        title: "Lifestyle & Stress Healing",
-        desc: "Improves sleep, reduces stress levels, balances cortisol & restores hair growth cycle.",
-        icon: <MdSelfImprovement size={28} className="text-white" />
-      }
-    ].map((step, index) => (
-      <div
-        key={index}
-        className="group rounded-2xl p-6 bg-white/60 backdrop-blur-xl border border-gray-100 
-                   shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1"
-      >
-        {/* Gradient Icon Circle */}
-        <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-indigo-500 to-emerald-400 
-                        flex items-center justify-center shadow-md mx-auto mb-5">
-          {step.icon}
+      <section id="how" className="max-w-7xl mx-auto px-6 py-20">
+        <div className="text-center">
+          <h3 className="text-3xl font-bold">How Our Holistic Treatment Works</h3>
+          <p className="text-gray-600 mt-3 max-w-2xl mx-auto">
+            A 3-step medically guided process designed to fix your hair fall from the root.
+          </p>
         </div>
 
-        <h4 className="font-semibold text-lg text-center">{step.title}</h4>
-        <p className="text-gray-600 mt-2 text-sm text-center leading-relaxed">
-          {step.desc}
-        </p>
+        <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+          {[
+            {
+              title: "Homeopathic Treatment",
+              desc: "Corrects internal triggers such as stress, hormones, digestion & metabolism.",
+              icon: <GiMedicines size={28} className="text-white" />
+            },
+            {
+              title: "Nutrition Therapy",
+              desc: "Strengthens roots with nutrient support that boosts scalp circulation.",
+              icon: <GiFruitBowl size={28} className="text-white" />
+            },
+            {
+              title: "Lifestyle & Stress Healing",
+              desc: "Improves sleep, reduces stress levels, balances cortisol & restores hair growth cycle.",
+              icon: <MdSelfImprovement size={28} className="text-white" />
+            }
+          ].map((step, index) => (
+            <div
+              key={index}
+              className="group rounded-2xl p-6 bg-white/60 backdrop-blur-xl border border-gray-100 
+                   shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1"
+            >
+              {/* Gradient Icon Circle */}
+              <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-indigo-500 to-emerald-400 
+                        flex items-center justify-center shadow-md mx-auto mb-5">
+                {step.icon}
+              </div>
 
-        {/* Hover underline */}
-        <div className="w-0 group-hover:w-full h-0.5 bg-gradient-to-r from-indigo-500 to-emerald-400 
+              <h4 className="font-semibold text-lg text-center">{step.title}</h4>
+              <p className="text-gray-600 mt-2 text-sm text-center leading-relaxed">
+                {step.desc}
+              </p>
+
+              {/* Hover underline */}
+              <div className="w-0 group-hover:w-full h-0.5 bg-gradient-to-r from-indigo-500 to-emerald-400 
                         mx-auto mt-5 transition-all duration-500"></div>
-      </div>
-    ))}
-  </div>
-</section>
+            </div>
+          ))}
+        </div>
+      </section>
 
 
 

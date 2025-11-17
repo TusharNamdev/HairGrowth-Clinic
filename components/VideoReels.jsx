@@ -1,10 +1,11 @@
 "use client";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
+import { Navigation, FreeMode } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/navigation";
+import "swiper/css/free-mode";
 
 export default function VideoReels() {
   const videos = [
@@ -30,7 +31,6 @@ export default function VideoReels() {
 
       <div className="relative">
 
-
         {/* LEFT ARROW */}
         <div
           className="
@@ -39,22 +39,25 @@ export default function VideoReels() {
             !z-20 
             !w-12 !h-12
             !rounded-full 
-            !shadow-xl 
-            !text-black 
+            !shadow-xl
             !flex !items-center !justify-center
             after:!text-3xl
           "
         ></div>
 
-
         <Swiper
-          modules={[Navigation]}
+          modules={[Navigation, FreeMode]}
           navigation={{
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
           }}
+          freeMode={{
+            enabled: true,
+            momentum: true,
+          }}
           spaceBetween={14}
           slidesPerView={1.2}
+          grabCursor={true}
           breakpoints={{
             640: { slidesPerView: 2.2 },
             1024: { slidesPerView: 3.2 },
@@ -77,7 +80,6 @@ export default function VideoReels() {
           ))}
         </Swiper>
 
-
         {/* RIGHT ARROW */}
         <div
           className="
@@ -86,36 +88,13 @@ export default function VideoReels() {
             !z-20 
             !w-12 !h-12
             !rounded-full 
-            !shadow-xl 
-            !text-black 
+            !shadow-xl
             !flex !items-center !justify-center
             after:!text-3xl
           "
         ></div>
 
-
       </div>
     </section>
   );
 }
-
-
-
-
-
-
-
-
-
-// "https://www.youtube.com/embed/i68ljuyMjbk",
-//     "https://www.youtube.com/embed/8k-CD4lztEM",
-//     "https://www.youtube.com/embed/U1-4SOKMxJs",
-//     "https://www.youtube.com/embed/bdvpof0PtDA",
-//     "https://www.youtube.com/embed/AUBAwNpiB5Q",
-//     "https://www.youtube.com/embed/NVYv-fICFEY",
-//     "https://www.youtube.com/embed/5aIAQUhPS2M",
-//     "https://www.youtube.com/embed/P8LMW9FOIIU",
-//     "https://www.youtube.com/embed/J7MSFHKSiB4",
-//     "https://www.youtube.com/embed/dOktKNstcE4",
-//     "https://www.youtube.com/embed/K9HxeFSyk40",
-//     "https://www.youtube.com/embed/KMlQbpd6T2c",

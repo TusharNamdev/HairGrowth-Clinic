@@ -2,48 +2,6 @@
 "[project]/app/coach/coach-page.jsx [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-// "use client";
-// import { useSearchParams } from "next/navigation";
-// import Image from "next/image";
-// import { Button } from "@/components/ui/button";
-// export default function Coach() {
-//   const params = useSearchParams();
-//   const qs = Object.fromEntries(params.entries());
-//   const doctor = {
-//     name: "Dr. Devendra Rathore",
-//     bio: "Hair & Wellness Expert guiding root-cause based natural treatments.",
-//     img: "/images/doctor.jpg",
-//   };
-//   return (
-//     <div className="min-h-screen bg-gray-50 py-12">
-//       <main className="max-w-5xl mx-auto p-6 grid md:grid-cols-3 gap-6">
-//         <div className="md:col-span-1 bg-white rounded-2xl p-6 shadow">
-//           <div className="w-32 h-32 rounded-full overflow-hidden mx-auto relative">
-//             <Image src={doctor.img} alt="doctor" fill style={{ objectFit: "cover" }} />
-//           </div>
-//           <h3 className="text-center font-semibold mt-4">{doctor.name}</h3>
-//           <p className="text-sm text-gray-600 mt-2 text-center">{doctor.bio}</p>
-//           <div className="mt-6 text-center">
-//             <Button variant="ghost">Start Chat</Button>
-//           </div>
-//         </div>
-//         <div className="md:col-span-2 bg-white rounded-2xl p-6 shadow">
-//           <h3 className="font-semibold">Your Hair Growth Journey</h3>
-//           <p className="text-sm text-gray-600 mt-2">Your personalised timeline designed by the doctor.</p>
-//           <div className="mt-4 space-y-3">
-//             <div className="p-4 bg-emerald-50 rounded">Week 1–4: Fall reduction & internal healing</div>
-//             <div className="p-4 bg-emerald-50 rounded">Week 5–10: Visible new growth & scalp strengthening</div>
-//             <div className="p-4 bg-emerald-50 rounded">Week 10–16: Thickening & long-term root repair</div>
-//           </div>
-//           <div className="mt-6">
-//             <h4 className="font-semibold">Your submitted details</h4>
-//             <pre className="text-sm bg-gray-100 p-4 rounded mt-2">{JSON.stringify(qs, null, 2)}</pre>
-//           </div>
-//         </div>
-//       </main>
-//     </div>
-//   );
-// }
 __turbopack_context__.s([
     "default",
     ()=>Coach
@@ -71,7 +29,7 @@ function Coach() {
     const doctor = {
         name: "Dr. Devendra Rathore",
         bio: "Hair & Wellness Expert guiding root-cause based natural treatments.",
-        img: "/images/doctor.jpg"
+        img: "/images/doctor.png"
     };
     const detailBox = (label, value)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "bg-gray-50 p-4 rounded-xl border flex flex-col justify-center",
@@ -81,7 +39,7 @@ function Coach() {
                     children: label
                 }, void 0, false, {
                     fileName: "[project]/app/coach/coach-page.jsx",
-                    lineNumber: 84,
+                    lineNumber: 29,
                     columnNumber: 7
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -89,13 +47,13 @@ function Coach() {
                     children: value || "—"
                 }, void 0, false, {
                     fileName: "[project]/app/coach/coach-page.jsx",
-                    lineNumber: 85,
+                    lineNumber: 30,
                     columnNumber: 7
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/coach/coach-page.jsx",
-            lineNumber: 83,
+            lineNumber: 28,
             columnNumber: 5
         }, this);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -115,12 +73,12 @@ function Coach() {
                                 className: "object-cover"
                             }, void 0, false, {
                                 fileName: "[project]/app/coach/coach-page.jsx",
-                                lineNumber: 96,
+                                lineNumber: 41,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/coach/coach-page.jsx",
-                            lineNumber: 95,
+                            lineNumber: 40,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -128,7 +86,7 @@ function Coach() {
                             children: doctor.name
                         }, void 0, false, {
                             fileName: "[project]/app/coach/coach-page.jsx",
-                            lineNumber: 99,
+                            lineNumber: 44,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -136,7 +94,7 @@ function Coach() {
                             children: doctor.bio
                         }, void 0, false, {
                             fileName: "[project]/app/coach/coach-page.jsx",
-                            lineNumber: 100,
+                            lineNumber: 45,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -144,13 +102,13 @@ function Coach() {
                             children: "Start Chat"
                         }, void 0, false, {
                             fileName: "[project]/app/coach/coach-page.jsx",
-                            lineNumber: 102,
+                            lineNumber: 47,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/coach/coach-page.jsx",
-                    lineNumber: 94,
+                    lineNumber: 39,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -164,7 +122,7 @@ function Coach() {
                                     children: "Your Hair Growth Journey"
                                 }, void 0, false, {
                                     fileName: "[project]/app/coach/coach-page.jsx",
-                                    lineNumber: 112,
+                                    lineNumber: 57,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -172,7 +130,7 @@ function Coach() {
                                     children: "Your personalised timeline designed by the doctor."
                                 }, void 0, false, {
                                     fileName: "[project]/app/coach/coach-page.jsx",
-                                    lineNumber: 113,
+                                    lineNumber: 58,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -183,7 +141,7 @@ function Coach() {
                                             children: "Week 1–4: Fall reduction & internal healing"
                                         }, void 0, false, {
                                             fileName: "[project]/app/coach/coach-page.jsx",
-                                            lineNumber: 118,
+                                            lineNumber: 63,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -191,7 +149,7 @@ function Coach() {
                                             children: "Week 5–10: Visible new growth & scalp strengthening"
                                         }, void 0, false, {
                                             fileName: "[project]/app/coach/coach-page.jsx",
-                                            lineNumber: 121,
+                                            lineNumber: 66,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -199,19 +157,19 @@ function Coach() {
                                             children: "Week 10–16: Thickening & long-term root repair"
                                         }, void 0, false, {
                                             fileName: "[project]/app/coach/coach-page.jsx",
-                                            lineNumber: 124,
+                                            lineNumber: 69,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/coach/coach-page.jsx",
-                                    lineNumber: 117,
+                                    lineNumber: 62,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/coach/coach-page.jsx",
-                            lineNumber: 111,
+                            lineNumber: 56,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -222,7 +180,7 @@ function Coach() {
                                     children: "Your Assessment Summary"
                                 }, void 0, false, {
                                     fileName: "[project]/app/coach/coach-page.jsx",
-                                    lineNumber: 132,
+                                    lineNumber: 77,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -236,7 +194,7 @@ function Coach() {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/coach/coach-page.jsx",
-                                    lineNumber: 135,
+                                    lineNumber: 80,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -244,7 +202,7 @@ function Coach() {
                                     children: "Hair Health"
                                 }, void 0, false, {
                                     fileName: "[project]/app/coach/coach-page.jsx",
-                                    lineNumber: 145,
+                                    lineNumber: 90,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -253,12 +211,12 @@ function Coach() {
                                             children: detailBox(key.replace("hair_", "").replace(/_/g, " ").toUpperCase(), val)
                                         }, key, false, {
                                             fileName: "[project]/app/coach/coach-page.jsx",
-                                            lineNumber: 150,
+                                            lineNumber: 95,
                                             columnNumber: 19
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/app/coach/coach-page.jsx",
-                                    lineNumber: 146,
+                                    lineNumber: 91,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -266,7 +224,7 @@ function Coach() {
                                     children: "Internal Health"
                                 }, void 0, false, {
                                     fileName: "[project]/app/coach/coach-page.jsx",
-                                    lineNumber: 161,
+                                    lineNumber: 106,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -275,35 +233,35 @@ function Coach() {
                                             children: detailBox(key.replace("internal_", "").replace(/_/g, " ").toUpperCase(), val)
                                         }, key, false, {
                                             fileName: "[project]/app/coach/coach-page.jsx",
-                                            lineNumber: 166,
+                                            lineNumber: 111,
                                             columnNumber: 19
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/app/coach/coach-page.jsx",
-                                    lineNumber: 162,
+                                    lineNumber: 107,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/coach/coach-page.jsx",
-                            lineNumber: 131,
+                            lineNumber: 76,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/coach/coach-page.jsx",
-                    lineNumber: 108,
+                    lineNumber: 53,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/coach/coach-page.jsx",
-            lineNumber: 91,
+            lineNumber: 36,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/coach/coach-page.jsx",
-        lineNumber: 90,
+        lineNumber: 35,
         columnNumber: 5
     }, this);
 }

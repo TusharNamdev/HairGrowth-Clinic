@@ -22,7 +22,7 @@ export default function Footer() {
           </div>
 
           <p className="mt-4 text-gray-600 text-sm leading-relaxed">
-            A holistic doctor-led program combining Homeopathy, Nutrition & 
+            A holistic doctor-led program combining Homeopathy, Nutrition &
             Lifestyle healing to treat hair fall from its root cause.
           </p>
 
@@ -39,7 +39,7 @@ export default function Footer() {
             <li><Link href="/register" className="hover:text-indigo-600">Book Assessment</Link></li>
             <li><Link href="/testimonials" className="hover:text-indigo-600">Testimonials</Link></li>
             <li><Link href="/faq" className="hover:text-indigo-600">FAQ</Link></li>
-            <li><Link href="/doctor#videos" className="hover:text-indigo-600">Doctor Videos</Link></li>
+            {/* <li><Link href="/doctor#videos" className="hover:text-indigo-600">Doctor Videos</Link></li> */}
           </ul>
         </div>
 
@@ -48,10 +48,10 @@ export default function Footer() {
           <h3 className="text-sm font-semibold text-gray-700 mb-4">Our Centres</h3>
           <ul className="space-y-3 text-sm text-gray-600">
             <li>Mumbai</li>
-            <li>Pune</li>
-            <li>Bangalore</li>
+            <li>Indore</li>
+            <li>Nagpur</li>
             <li>Delhi NCR</li>
-            <li>Hyderabad</li>
+            <li>Ujjain</li>
             <li>Kolkata</li>
           </ul>
         </div>
@@ -60,21 +60,23 @@ export default function Footer() {
         <div>
           <h3 className="text-sm font-semibold text-gray-700 mb-4">Contact</h3>
           <ul className="space-y-3 text-sm text-gray-600">
-            <li>📞 +91 98765 43210</li>
-            <li>📧 info@modernclinic.com</li>
+            <li>📞 +91 9770799998</li>
+            <li>📧 mhomeo@yahoo.com</li>
             <li>🕒 Mon–Sat: 10 AM – 7 PM</li>
+            <li>📍 202 Bussiness Island, Nipania, Indore</li>
+            <li>📍 121 Orbit Mall, Nipania, Indore</li>
             <li>📍 India (Online Consultations)</li>
           </ul>
 
           {/* Social Icons */}
           <div className="flex items-center gap-4 mt-4">
-            <a href="https://wa.me/91XXXXXXXXXX" target="_blank">
+            <a href="https://wa.me/919770799998" target="_blank">
               <FaWhatsapp size={24} className="text-green-500 hover:scale-110 transition" />
             </a>
-            <a href="#" target="_blank">
+            <a href="https://www.instagram.com/askdrdevendra" target="_blank">
               <FaInstagram size={24} className="text-pink-500 hover:scale-110 transition" />
             </a>
-            <a href="#" target="_blank">
+            <a href="https://www.youtube.com/@ModernHealthNutrition" target="_blank">
               <FaYoutube size={26} className="text-red-600 hover:scale-110 transition" />
             </a>
           </div>

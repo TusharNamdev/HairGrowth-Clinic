@@ -9,45 +9,79 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$dom$2f$motion$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/dom/motion.mjs [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/navigation.js [app-ssr] (ecmascript)");
 "use client";
 ;
 ;
 ;
+;
 function Testimonials() {
+    const pathname = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["usePathname"])();
     const testimonials = [
         {
             name: "Ritika S.",
             role: "Hair Fall Recovery",
-            before: "/images/stages/female-1.svg",
-            after: "/images/stages/female-3.svg",
+            before: "/images/stages/female1-before.png",
+            after: "/images/stages/female1-after.png",
             quote: "After years of trying shampoos and serums, Modern Clinic helped me find the real cause of my hair fall. My confidence is back!"
         },
         {
             name: "Karan M.",
             role: "Regrowth Program",
-            before: "/images/stages/male-2.svg",
-            after: "/images/stages/male-3.svg",
+            before: "/images/stages/male4-before.png",
+            after: "/images/stages/male4-after.png",
             quote: "In just 3 months, I saw baby hair and major improvement. Dr. Devendra’s holistic approach truly works."
         },
         {
             name: "Simran K.",
             role: "Stress & Nutrition Therapy",
-            before: "/images/stages/female-1.svg",
-            after: "/images/stages/female-3.svg",
+            before: "/images/stages/female2-before.png",
+            after: "/images/stages/female2-after.png",
             quote: "Fixing my stress & sleep changed everything. My scalp feels healthier and shedding reduced drastically."
         }
     ];
+    const gallery = [
+        {
+            before: "/images/before-after/male3-before.png",
+            after: "/images/before-after/male3-after.png"
+        },
+        {
+            before: "/images/before-after/female1-before.png",
+            after: "/images/before-after/female1-after.png"
+        },
+        {
+            before: "/images/before-after/male1-before.png",
+            after: "/images/before-after/male1-after.png"
+        },
+        {
+            before: "/images/before-after/male2-before.png",
+            after: "/images/before-after/male2-after.png"
+        },
+        {
+            before: "/images/before-after/female2-before.png",
+            after: "/images/before-after/female2-after.png"
+        },
+        {
+            before: "/images/before-after/male4-before.png",
+            after: "/images/before-after/male4-after.png"
+        },
+        {
+            before: "/images/before-after/male5-before.png",
+            after: "/images/before-after/male5-after.png"
+        }
+    ];
+    const showGallery = pathname === "/testimonials";
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "min-h-screen bg-gray-50 py-12",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
-            className: "max-w-6xl mx-auto px-6",
+            className: "max-w-7xl mx-auto px-6",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                     className: "text-3xl font-bold text-center mb-2",
                     children: "Success Stories"
                 }, void 0, false, {
                     fileName: "[project]/components/Testimonials.jsx",
-                    lineNumber: 35,
+                    lineNumber: 74,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -55,7 +89,7 @@ function Testimonials() {
                     children: "Real transformations from people who healed their hair naturally with our program."
                 }, void 0, false, {
                     fileName: "[project]/components/Testimonials.jsx",
-                    lineNumber: 36,
+                    lineNumber: 75,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -75,7 +109,7 @@ function Testimonials() {
                             transition: {
                                 duration: 0.5
                             },
-                            className: "bg-white rounded-2xl shadow p-5",
+                            className: "bg-white rounded-2xl shadow p-5    hover:shadow-xl hover:-translate-y-1 transition-all",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "flex items-center justify-center gap-3 mb-3",
@@ -86,17 +120,15 @@ function Testimonials() {
                                                 src: t.before,
                                                 alt: "before",
                                                 fill: true,
-                                                style: {
-                                                    objectFit: "cover"
-                                                }
+                                                className: "object-cover"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Testimonials.jsx",
-                                                lineNumber: 52,
+                                                lineNumber: 92,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Testimonials.jsx",
-                                            lineNumber: 51,
+                                            lineNumber: 91,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -105,23 +137,21 @@ function Testimonials() {
                                                 src: t.after,
                                                 alt: "after",
                                                 fill: true,
-                                                style: {
-                                                    objectFit: "cover"
-                                                }
+                                                className: "object-cover"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Testimonials.jsx",
-                                                lineNumber: 55,
+                                                lineNumber: 95,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Testimonials.jsx",
-                                            lineNumber: 54,
+                                            lineNumber: 94,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Testimonials.jsx",
-                                    lineNumber: 50,
+                                    lineNumber: 90,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -133,7 +163,7 @@ function Testimonials() {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Testimonials.jsx",
-                                    lineNumber: 59,
+                                    lineNumber: 99,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -144,7 +174,7 @@ function Testimonials() {
                                             children: t.name
                                         }, void 0, false, {
                                             fileName: "[project]/components/Testimonials.jsx",
-                                            lineNumber: 62,
+                                            lineNumber: 102,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -152,35 +182,152 @@ function Testimonials() {
                                             children: t.role
                                         }, void 0, false, {
                                             fileName: "[project]/components/Testimonials.jsx",
-                                            lineNumber: 63,
+                                            lineNumber: 103,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Testimonials.jsx",
-                                    lineNumber: 61,
+                                    lineNumber: 101,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, idx, true, {
                             fileName: "[project]/components/Testimonials.jsx",
-                            lineNumber: 42,
+                            lineNumber: 81,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/components/Testimonials.jsx",
-                    lineNumber: 40,
+                    lineNumber: 79,
                     columnNumber: 9
-                }, this)
+                }, this),
+                showGallery && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                            className: "text-2xl font-bold text-center mt-16 mb-6",
+                            children: "Before & After Transformations"
+                        }, void 0, false, {
+                            fileName: "[project]/components/Testimonials.jsx",
+                            lineNumber: 112,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "grid grid-cols-1 md:grid-cols-3 gap-6",
+                            children: gallery.map((g, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$dom$2f$motion$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
+                                    className: "bg-white rounded-2xl shadow p-5 hover:shadow-xl hover:-translate-y-1 transition-all",
+                                    initial: {
+                                        opacity: 0,
+                                        y: 25
+                                    },
+                                    whileInView: {
+                                        opacity: 1,
+                                        y: 0
+                                    },
+                                    viewport: {
+                                        once: true
+                                    },
+                                    transition: {
+                                        duration: 0.5
+                                    },
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "flex items-center justify-center gap-4",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "flex flex-col items-center",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "text-xs text-gray-500 mb-1",
+                                                        children: "BEFORE"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/Testimonials.jsx",
+                                                        lineNumber: 130,
+                                                        columnNumber: 23
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "w-24 h-24 rounded-lg overflow-hidden relative shadow",
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                            src: g.before,
+                                                            alt: "before",
+                                                            fill: true,
+                                                            className: "object-cover"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/Testimonials.jsx",
+                                                            lineNumber: 132,
+                                                            columnNumber: 25
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/Testimonials.jsx",
+                                                        lineNumber: 131,
+                                                        columnNumber: 23
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/Testimonials.jsx",
+                                                lineNumber: 129,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "flex flex-col items-center",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "text-xs text-gray-500 mb-1",
+                                                        children: "AFTER"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/Testimonials.jsx",
+                                                        lineNumber: 138,
+                                                        columnNumber: 23
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "w-24 h-24 rounded-lg overflow-hidden relative shadow",
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                            src: g.after,
+                                                            alt: "after",
+                                                            fill: true,
+                                                            className: "object-cover"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/Testimonials.jsx",
+                                                            lineNumber: 140,
+                                                            columnNumber: 25
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/Testimonials.jsx",
+                                                        lineNumber: 139,
+                                                        columnNumber: 23
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/Testimonials.jsx",
+                                                lineNumber: 137,
+                                                columnNumber: 21
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/Testimonials.jsx",
+                                        lineNumber: 126,
+                                        columnNumber: 19
+                                    }, this)
+                                }, i, false, {
+                                    fileName: "[project]/components/Testimonials.jsx",
+                                    lineNumber: 118,
+                                    columnNumber: 17
+                                }, this))
+                        }, void 0, false, {
+                            fileName: "[project]/components/Testimonials.jsx",
+                            lineNumber: 116,
+                            columnNumber: 13
+                        }, this)
+                    ]
+                }, void 0, true)
             ]
         }, void 0, true, {
             fileName: "[project]/components/Testimonials.jsx",
-            lineNumber: 33,
+            lineNumber: 71,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/Testimonials.jsx",
-        lineNumber: 32,
+        lineNumber: 70,
         columnNumber: 5
     }, this);
 }

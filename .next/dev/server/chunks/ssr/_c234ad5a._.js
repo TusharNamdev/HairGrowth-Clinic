@@ -313,117 +313,6 @@ function PhotoUploader({ file, onChange }) {
 "[project]/app/register/page.jsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-// "use client";
-// import { useState } from "react";
-// import { useRouter } from "next/navigation";
-// import { Input } from "@/components/ui/input";
-// import { Button } from "@/components/ui/button";
-// import { Label } from "@/components/ui/label";
-// import { motion } from "framer-motion";
-// import ProgressBar from "@/components/shared/ProgressBar";
-// export default function Register() {
-//   const router = useRouter();
-//   const [step, setStep] = useState(1);
-//   const [form, setForm] = useState({
-//     name: "",
-//     email: "",
-//     phone: "",
-//     age: "",
-//     gender: "",
-//     location: "",
-//   });
-//   function handleChange(e) {
-//     const { name, value } = e.target;
-//     setForm((s) => ({ ...s, [name]: value }));
-//   }
-//   function next() {
-//     if (step === 3) {
-//       const qs = new URLSearchParams(form).toString();
-//       router.push(`/stage?${qs}`);
-//     } else setStep((s) => s + 1);
-//   }
-//   function prev() {
-//     setStep((s) => Math.max(1, s - 1));
-//   }
-//   return (
-//     <div className="min-h-screen bg-gray-50 py-12">
-//       <main className="max-w-3xl mx-auto p-6 bg-white rounded-2xl shadow">
-//         <h2 className="text-2xl font-bold">Hair Health Assessment</h2>
-//         <p className="text-gray-600 mt-2">
-//           Understand the root cause of your hair fall with this doctor-designed questionnaire.
-//         </p>
-//         <div className="mt-6">
-//           <ProgressBar step={step} />
-//           <motion.div
-//             key={step}
-//             initial={{ opacity: 0, x: 10 }}
-//             animate={{ opacity: 1, x: 0 }}
-//             transition={{ duration: 0.35 }}
-//           >
-//             {step === 1 && (
-//               <div className="space-y-4 mt-4">
-//                 <div>
-//                   <Label>Name</Label>
-//                   <Input name="name" value={form.name} onChange={handleChange} required />
-//                 </div>
-//                 <div>
-//                   <Label>Email</Label>
-//                   <Input name="email" type="email" value={form.email} onChange={handleChange} required />
-//                 </div>
-//                 <div>
-//                   <Label>Phone</Label>
-//                   <Input name="phone" value={form.phone} onChange={handleChange} required />
-//                 </div>
-//               </div>
-//             )}
-//             {step === 2 && (
-//               <div className="space-y-4 mt-4">
-//                 <div>
-//                   <Label>Age</Label>
-//                   <Input name="age" type="number" value={form.age} onChange={handleChange} />
-//                 </div>
-//                 <div>
-//                   <Label>Gender</Label>
-//                   <select name="gender" className="w-full mt-2 p-2 border rounded" value={form.gender} onChange={handleChange}>
-//                     <option value="">Select</option>
-//                     <option value="male">Male</option>
-//                     <option value="female">Female</option>
-//                     <option value="other">Other</option>
-//                   </select>
-//                 </div>
-//                 <div>
-//                   <Label>Location</Label>
-//                   <Input name="location" value={form.location} onChange={handleChange} />
-//                 </div>
-//               </div>
-//             )}
-//             {step === 3 && (
-//               <div className="space-y-4 mt-4">
-//                 <div>
-//                   <Label>Any hair/health concerns (optional)</Label>
-//                   <textarea
-//                     name="concerns"
-//                     value={form.concerns || ""}
-//                     onChange={handleChange}
-//                     className="w-full p-2 border rounded"
-//                     rows={4}
-//                   />
-//                 </div>
-//                 <div className="text-sm text-gray-500">
-//                   Share symptoms like stress, dandruff, sleep issues, thinning, scalp itching or digestion concerns.
-//                 </div>
-//               </div>
-//             )}
-//             <div className="mt-6 flex items-center gap-3">
-//               {step > 1 && <Button variant="ghost" onClick={prev}>Back</Button>}
-//               <Button onClick={next}>{step === 3 ? "Proceed to Stage" : "Next"}</Button>
-//             </div>
-//           </motion.div>
-//         </div>
-//       </main>
-//     </div>
-//   );
-// }
 __turbopack_context__.s([
     "default",
     ()=>RegisterFlow
@@ -479,9 +368,17 @@ function RegisterFlow() {
     function next() {
         if (!validateStep()) return;
         setStep((p)=>p + 1);
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
     }
     function prev() {
         setStep((p)=>Math.max(0, p - 1));
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
     }
     function updateField(field, value) {
         setForm((prev)=>({
@@ -607,51 +504,34 @@ function RegisterFlow() {
             {
                 id: 0,
                 label: "Stage 1 (Mild)",
-                img: "/images/stages/male-1.svg"
+                img: "/images/stages/male-stage1.png"
             },
             {
                 id: 1,
                 label: "Stage 2 (Moderate)",
-                img: "/images/stages/male-2.svg"
+                img: "/images/stages/male-stage2.png"
             },
             {
                 id: 2,
                 label: "Stage 3 (Severe)",
-                img: "/images/stages/male-3.svg"
+                img: "/images/stages/male-stage3.png"
             }
         ],
         female: [
             {
                 id: 0,
                 label: "Stage 1 (Mild)",
-                img: "/images/stages/female-1.svg"
+                img: "/images/stages/female-stage1.png"
             },
             {
                 id: 1,
                 label: "Stage 2 (Moderate)",
-                img: "/images/stages/female-2.svg"
+                img: "/images/stages/female-stage2.png"
             },
             {
                 id: 2,
                 label: "Stage 3 (Severe)",
-                img: "/images/stages/female-3.svg"
-            }
-        ],
-        other: [
-            {
-                id: 0,
-                label: "Stage 1",
-                img: "/images/stages/other-1.svg"
-            },
-            {
-                id: 1,
-                label: "Stage 2",
-                img: "/images/stages/other-2.svg"
-            },
-            {
-                id: 2,
-                label: "Stage 3",
-                img: "/images/stages/other-3.svg"
+                img: "/images/stages/female-stage3.png"
             }
         ]
     };
@@ -671,11 +551,11 @@ function RegisterFlow() {
                             children: "← Previous"
                         }, void 0, false, {
                             fileName: "[project]/app/register/page.jsx",
-                            lineNumber: 326,
+                            lineNumber: 208,
                             columnNumber: 23
                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {}, void 0, false, {
                             fileName: "[project]/app/register/page.jsx",
-                            lineNumber: 326,
+                            lineNumber: 208,
                             columnNumber: 68
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -683,20 +563,20 @@ function RegisterFlow() {
                             children: "Exit"
                         }, void 0, false, {
                             fileName: "[project]/app/register/page.jsx",
-                            lineNumber: 327,
+                            lineNumber: 209,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/register/page.jsx",
-                    lineNumber: 325,
+                    lineNumber: 207,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Register$2f$ProgressTabs$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                     step: step
                 }, void 0, false, {
                     fileName: "[project]/app/register/page.jsx",
-                    lineNumber: 330,
+                    lineNumber: 212,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -709,7 +589,7 @@ function RegisterFlow() {
                                     children: "Tell us about you"
                                 }, void 0, false, {
                                     fileName: "[project]/app/register/page.jsx",
-                                    lineNumber: 337,
+                                    lineNumber: 219,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -720,7 +600,7 @@ function RegisterFlow() {
                                             children: "Full Name"
                                         }, void 0, false, {
                                             fileName: "[project]/app/register/page.jsx",
-                                            lineNumber: 341,
+                                            lineNumber: 223,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -729,7 +609,7 @@ function RegisterFlow() {
                                             onChange: (e)=>updateField("name", e.target.value)
                                         }, void 0, false, {
                                             fileName: "[project]/app/register/page.jsx",
-                                            lineNumber: 342,
+                                            lineNumber: 224,
                                             columnNumber: 17
                                         }, this),
                                         errors.name && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -737,13 +617,13 @@ function RegisterFlow() {
                                             children: errors.name
                                         }, void 0, false, {
                                             fileName: "[project]/app/register/page.jsx",
-                                            lineNumber: 348,
+                                            lineNumber: 230,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/register/page.jsx",
-                                    lineNumber: 340,
+                                    lineNumber: 222,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -754,7 +634,7 @@ function RegisterFlow() {
                                             children: "Phone Number"
                                         }, void 0, false, {
                                             fileName: "[project]/app/register/page.jsx",
-                                            lineNumber: 354,
+                                            lineNumber: 236,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -763,7 +643,7 @@ function RegisterFlow() {
                                             onChange: (e)=>updateField("phone", e.target.value)
                                         }, void 0, false, {
                                             fileName: "[project]/app/register/page.jsx",
-                                            lineNumber: 355,
+                                            lineNumber: 237,
                                             columnNumber: 17
                                         }, this),
                                         errors.phone && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -771,13 +651,13 @@ function RegisterFlow() {
                                             children: errors.phone
                                         }, void 0, false, {
                                             fileName: "[project]/app/register/page.jsx",
-                                            lineNumber: 361,
+                                            lineNumber: 243,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/register/page.jsx",
-                                    lineNumber: 353,
+                                    lineNumber: 235,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -788,7 +668,7 @@ function RegisterFlow() {
                                             children: "Age"
                                         }, void 0, false, {
                                             fileName: "[project]/app/register/page.jsx",
-                                            lineNumber: 367,
+                                            lineNumber: 249,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -798,7 +678,7 @@ function RegisterFlow() {
                                             onChange: (e)=>updateField("age", e.target.value)
                                         }, void 0, false, {
                                             fileName: "[project]/app/register/page.jsx",
-                                            lineNumber: 368,
+                                            lineNumber: 250,
                                             columnNumber: 17
                                         }, this),
                                         errors.age && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -806,13 +686,13 @@ function RegisterFlow() {
                                             children: errors.age
                                         }, void 0, false, {
                                             fileName: "[project]/app/register/page.jsx",
-                                            lineNumber: 375,
+                                            lineNumber: 257,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/register/page.jsx",
-                                    lineNumber: 366,
+                                    lineNumber: 248,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -822,27 +702,26 @@ function RegisterFlow() {
                                             children: "Gender"
                                         }, void 0, false, {
                                             fileName: "[project]/app/register/page.jsx",
-                                            lineNumber: 381,
+                                            lineNumber: 263,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "flex gap-3 mt-2",
                                             children: [
                                                 "male",
-                                                "female",
-                                                "other"
+                                                "female"
                                             ].map((g)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                     onClick: ()=>updateField("gender", g),
                                                     className: `px-5 py-2 rounded ${form.gender === g ? "bg-emerald-400" : "bg-gray-100"}`,
                                                     children: g.toUpperCase()
                                                 }, g, false, {
                                                     fileName: "[project]/app/register/page.jsx",
-                                                    lineNumber: 384,
+                                                    lineNumber: 266,
                                                     columnNumber: 21
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/app/register/page.jsx",
-                                            lineNumber: 382,
+                                            lineNumber: 264,
                                             columnNumber: 17
                                         }, this),
                                         errors.gender && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -850,13 +729,13 @@ function RegisterFlow() {
                                             children: errors.gender
                                         }, void 0, false, {
                                             fileName: "[project]/app/register/page.jsx",
-                                            lineNumber: 396,
+                                            lineNumber: 277,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/register/page.jsx",
-                                    lineNumber: 380,
+                                    lineNumber: 262,
                                     columnNumber: 15
                                 }, this)
                             ]
@@ -868,7 +747,7 @@ function RegisterFlow() {
                                     children: "Hair Health"
                                 }, void 0, false, {
                                     fileName: "[project]/app/register/page.jsx",
-                                    lineNumber: 405,
+                                    lineNumber: 286,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -882,7 +761,7 @@ function RegisterFlow() {
                                                     className: "w-full mb-3"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/register/page.jsx",
-                                                    lineNumber: 419,
+                                                    lineNumber: 299,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -890,18 +769,18 @@ function RegisterFlow() {
                                                     children: s.label
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/register/page.jsx",
-                                                    lineNumber: 420,
+                                                    lineNumber: 300,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, s.id, true, {
                                             fileName: "[project]/app/register/page.jsx",
-                                            lineNumber: 410,
+                                            lineNumber: 291,
                                             columnNumber: 19
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/app/register/page.jsx",
-                                    lineNumber: 408,
+                                    lineNumber: 289,
                                     columnNumber: 15
                                 }, this),
                                 errors.stage && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -909,7 +788,7 @@ function RegisterFlow() {
                                     children: errors.stage
                                 }, void 0, false, {
                                     fileName: "[project]/app/register/page.jsx",
-                                    lineNumber: 426,
+                                    lineNumber: 306,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -921,12 +800,12 @@ function RegisterFlow() {
                                             onChange: (v)=>updateNested("hair", q.id, v)
                                         }, q.id, false, {
                                             fileName: "[project]/app/register/page.jsx",
-                                            lineNumber: 432,
+                                            lineNumber: 312,
                                             columnNumber: 19
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/app/register/page.jsx",
-                                    lineNumber: 430,
+                                    lineNumber: 310,
                                     columnNumber: 15
                                 }, this)
                             ]
@@ -938,7 +817,7 @@ function RegisterFlow() {
                                     children: "Internal Health"
                                 }, void 0, false, {
                                     fileName: "[project]/app/register/page.jsx",
-                                    lineNumber: 447,
+                                    lineNumber: 327,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -950,12 +829,12 @@ function RegisterFlow() {
                                             onChange: (v)=>updateNested("internal", q.id, v)
                                         }, q.id, false, {
                                             fileName: "[project]/app/register/page.jsx",
-                                            lineNumber: 451,
+                                            lineNumber: 331,
                                             columnNumber: 19
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/app/register/page.jsx",
-                                    lineNumber: 449,
+                                    lineNumber: 329,
                                     columnNumber: 15
                                 }, this)
                             ]
@@ -967,7 +846,7 @@ function RegisterFlow() {
                                     children: "Upload your scalp picture"
                                 }, void 0, false, {
                                     fileName: "[project]/app/register/page.jsx",
-                                    lineNumber: 466,
+                                    lineNumber: 346,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Register$2f$PhotoUploader$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -975,7 +854,7 @@ function RegisterFlow() {
                                     onChange: (file)=>updateField("scalpPhoto", file)
                                 }, void 0, false, {
                                     fileName: "[project]/app/register/page.jsx",
-                                    lineNumber: 470,
+                                    lineNumber: 350,
                                     columnNumber: 15
                                 }, this),
                                 errors.scalpPhoto && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -983,7 +862,7 @@ function RegisterFlow() {
                                     children: errors.scalpPhoto
                                 }, void 0, false, {
                                     fileName: "[project]/app/register/page.jsx",
-                                    lineNumber: 476,
+                                    lineNumber: 356,
                                     columnNumber: 17
                                 }, this)
                             ]
@@ -996,7 +875,7 @@ function RegisterFlow() {
                                 children: "Next →"
                             }, void 0, false, {
                                 fileName: "[project]/app/register/page.jsx",
-                                lineNumber: 484,
+                                lineNumber: 364,
                                 columnNumber: 15
                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                 onClick: submit,
@@ -1004,29 +883,29 @@ function RegisterFlow() {
                                 children: "Submit Assessment"
                             }, void 0, false, {
                                 fileName: "[project]/app/register/page.jsx",
-                                lineNumber: 491,
+                                lineNumber: 371,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/register/page.jsx",
-                            lineNumber: 482,
+                            lineNumber: 362,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/register/page.jsx",
-                    lineNumber: 332,
+                    lineNumber: 214,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/register/page.jsx",
-            lineNumber: 324,
+            lineNumber: 206,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/register/page.jsx",
-        lineNumber: 323,
+        lineNumber: 205,
         columnNumber: 5
     }, this);
 }

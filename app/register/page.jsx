@@ -1,130 +1,3 @@
-// "use client";
-
-// import { useState } from "react";
-// import { useRouter } from "next/navigation";
-// import { Input } from "@/components/ui/input";
-// import { Button } from "@/components/ui/button";
-// import { Label } from "@/components/ui/label";
-// import { motion } from "framer-motion";
-// import ProgressBar from "@/components/shared/ProgressBar";
-
-// export default function Register() {
-//   const router = useRouter();
-//   const [step, setStep] = useState(1);
-//   const [form, setForm] = useState({
-//     name: "",
-//     email: "",
-//     phone: "",
-//     age: "",
-//     gender: "",
-//     location: "",
-//   });
-
-//   function handleChange(e) {
-//     const { name, value } = e.target;
-//     setForm((s) => ({ ...s, [name]: value }));
-//   }
-
-//   function next() {
-//     if (step === 3) {
-//       const qs = new URLSearchParams(form).toString();
-//       router.push(`/stage?${qs}`);
-//     } else setStep((s) => s + 1);
-//   }
-
-//   function prev() {
-//     setStep((s) => Math.max(1, s - 1));
-//   }
-
-//   return (
-//     <div className="min-h-screen bg-gray-50 py-12">
-//       <main className="max-w-3xl mx-auto p-6 bg-white rounded-2xl shadow">
-
-//         <h2 className="text-2xl font-bold">Hair Health Assessment</h2>
-//         <p className="text-gray-600 mt-2">
-//           Understand the root cause of your hair fall with this doctor-designed questionnaire.
-//         </p>
-
-//         <div className="mt-6">
-//           <ProgressBar step={step} />
-
-//           <motion.div
-//             key={step}
-//             initial={{ opacity: 0, x: 10 }}
-//             animate={{ opacity: 1, x: 0 }}
-//             transition={{ duration: 0.35 }}
-//           >
-//             {step === 1 && (
-//               <div className="space-y-4 mt-4">
-//                 <div>
-//                   <Label>Name</Label>
-//                   <Input name="name" value={form.name} onChange={handleChange} required />
-//                 </div>
-//                 <div>
-//                   <Label>Email</Label>
-//                   <Input name="email" type="email" value={form.email} onChange={handleChange} required />
-//                 </div>
-//                 <div>
-//                   <Label>Phone</Label>
-//                   <Input name="phone" value={form.phone} onChange={handleChange} required />
-//                 </div>
-//               </div>
-//             )}
-
-//             {step === 2 && (
-//               <div className="space-y-4 mt-4">
-//                 <div>
-//                   <Label>Age</Label>
-//                   <Input name="age" type="number" value={form.age} onChange={handleChange} />
-//                 </div>
-//                 <div>
-//                   <Label>Gender</Label>
-//                   <select name="gender" className="w-full mt-2 p-2 border rounded" value={form.gender} onChange={handleChange}>
-//                     <option value="">Select</option>
-//                     <option value="male">Male</option>
-//                     <option value="female">Female</option>
-//                     <option value="other">Other</option>
-//                   </select>
-//                 </div>
-//                 <div>
-//                   <Label>Location</Label>
-//                   <Input name="location" value={form.location} onChange={handleChange} />
-//                 </div>
-//               </div>
-//             )}
-
-//             {step === 3 && (
-//               <div className="space-y-4 mt-4">
-//                 <div>
-//                   <Label>Any hair/health concerns (optional)</Label>
-//                   <textarea
-//                     name="concerns"
-//                     value={form.concerns || ""}
-//                     onChange={handleChange}
-//                     className="w-full p-2 border rounded"
-//                     rows={4}
-//                   />
-//                 </div>
-//                 <div className="text-sm text-gray-500">
-//                   Share symptoms like stress, dandruff, sleep issues, thinning, scalp itching or digestion concerns.
-//                 </div>
-//               </div>
-//             )}
-
-//             <div className="mt-6 flex items-center gap-3">
-//               {step > 1 && <Button variant="ghost" onClick={prev}>Back</Button>}
-//               <Button onClick={next}>{step === 3 ? "Proceed to Stage" : "Next"}</Button>
-//             </div>
-//           </motion.div>
-//         </div>
-//       </main>
-//     </div>
-//   );
-// }
-
-
-
-
 "use client";
 
 import { useState } from "react";
@@ -179,10 +52,12 @@ export default function RegisterFlow() {
   function next() {
     if (!validateStep()) return;
     setStep((p) => p + 1);
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
   function prev() {
     setStep((p) => Math.max(0, p - 1));
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
   function updateField(field, value) {
@@ -262,7 +137,12 @@ export default function RegisterFlow() {
     {
       id: "stress",
       q: "How Stressed are you?",
-      options: ["None", "Low", "Moderate(work, family etc )", "High (Loss of close one, separation, home, illness)"],
+      options: [
+        "None",
+        "Low",
+        "Moderate(work, family etc )",
+        "High (Loss of close one, separation, home, illness)"
+      ],
     },
     {
       id: "constipation",
@@ -277,7 +157,11 @@ export default function RegisterFlow() {
     {
       id: "gas",
       q: "Do you have Gas, Acidity or Bloating?",
-      options: ["No", "Sometimes (1-2 times a week or when I eat out)", "Often (3+ times a week)"],
+      options: [
+        "No",
+        "Sometimes (1-2 times a week or when I eat out)",
+        "Often (3+ times a week)"
+      ],
     },
     {
       id: "energy",
@@ -293,25 +177,23 @@ export default function RegisterFlow() {
     {
       id: "supplements",
       q: "Are you taking any supplements or vitamins for hair?",
-      options: ["Yes", "No"],
+      options: [
+        "Yes",
+        "No"
+      ],
     },
   ];
 
   const stageData = {
     male: [
-      { id: 0, label: "Stage 1 (Mild)", img: "/images/stages/male-1.svg" },
-      { id: 1, label: "Stage 2 (Moderate)", img: "/images/stages/male-2.svg" },
-      { id: 2, label: "Stage 3 (Severe)", img: "/images/stages/male-3.svg" },
+      { id: 0, label: "Stage 1 (Mild)", img: "/images/stages/male-stage1.png" },
+      { id: 1, label: "Stage 2 (Moderate)", img: "/images/stages/male-stage2.png" },
+      { id: 2, label: "Stage 3 (Severe)", img: "/images/stages/male-stage3.png" },
     ],
     female: [
-      { id: 0, label: "Stage 1 (Mild)", img: "/images/stages/female-1.svg" },
-      { id: 1, label: "Stage 2 (Moderate)", img: "/images/stages/female-2.svg" },
-      { id: 2, label: "Stage 3 (Severe)", img: "/images/stages/female-3.svg" },
-    ],
-    other: [
-      { id: 0, label: "Stage 1", img: "/images/stages/other-1.svg" },
-      { id: 1, label: "Stage 2", img: "/images/stages/other-2.svg" },
-      { id: 2, label: "Stage 3", img: "/images/stages/other-3.svg" },
+      { id: 0, label: "Stage 1 (Mild)", img: "/images/stages/female-stage1.png" },
+      { id: 1, label: "Stage 2 (Moderate)", img: "/images/stages/female-stage2.png" },
+      { id: 2, label: "Stage 3 (Severe)", img: "/images/stages/female-stage3.png" },
     ],
   };
 
@@ -380,13 +262,12 @@ export default function RegisterFlow() {
               <div>
                 <label className="font-medium">Gender</label>
                 <div className="flex gap-3 mt-2">
-                  {["male", "female", "other"].map((g) => (
+                  {["male", "female"].map((g) => (
                     <button
                       key={g}
                       onClick={() => updateField("gender", g)}
-                      className={`px-5 py-2 rounded ${
-                        form.gender === g ? "bg-emerald-400" : "bg-gray-100"
-                      }`}
+                      className={`px-5 py-2 rounded ${form.gender === g ? "bg-emerald-400" : "bg-gray-100"
+                        }`}
                     >
                       {g.toUpperCase()}
                     </button>
@@ -410,11 +291,10 @@ export default function RegisterFlow() {
                   <div
                     key={s.id}
                     onClick={() => updateField("stage", s.id)}
-                    className={`rounded-xl border p-4 cursor-pointer ${
-                      form.stage === s.id
+                    className={`rounded-xl border p-4 cursor-pointer ${form.stage === s.id
                         ? "ring-2 ring-emerald-400"
                         : "border-gray-200"
-                    }`}
+                      }`}
                   >
                     <img src={s.img} className="w-full mb-3" />
                     <p className="font-medium">{s.label}</p>
