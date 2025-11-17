@@ -789,3 +789,157 @@ Import traces:
 [03:44:51.872] Server  LOG      ✓ Compiled in 389ms
 [03:45:05.880] Browser WARN    Image with src "/images/doctor.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [03:46:44.468] Server  LOG      ✓ Compiled in 313ms
+[04:32:51.372] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:32:54.294] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/stages/female1-after.png" "received" null
+[04:32:54.299] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/stages/female1-before.png" "received" null
+[04:32:54.522] Server  ERROR   Error: The requested resource isn't a valid image.
+[04:32:54.564] Server  ERROR   Error: The requested resource isn't a valid image.
+[04:32:54.565] Browser WARN    Image with src "/images/stages/female1-before.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:32:54.565] Browser WARN    Image with src "/images/stages/female1-after.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:32:54.565] Browser WARN    Image with src "/images/stages/male4-before.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:32:54.565] Browser WARN    Image with src "/images/stages/male4-after.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:32:54.565] Browser WARN    Image with src "/images/stages/female2-before.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:32:54.565] Browser WARN    Image with src "/images/stages/female2-after.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:34:20.352] Server  LOG      ✓ Compiled in 3.6s
+[04:34:21.095] Browser WARN    Image with src "/images/before-after/female1-before.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:34:21.095] Browser WARN    Image with src "/images/before-after/female1-after.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:34:21.946] Server  LOG      ✓ Compiled in 266ms
+[04:34:23.088] Browser WARN    Image with src "/images/before-after/male4-before.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:34:24.008] Server  LOG      ✓ Compiled in 269ms
+[04:34:24.142] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/stagbefore-afteres/male4-after.png" "received" null
+[04:34:27.594] Server  LOG      ✓ Compiled in 359ms
+[04:34:28.092] Browser WARN    Image with src "/images/before-after/female2-before.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:34:29.008] Server  LOG      ✓ Compiled in 208ms
+[04:34:30.095] Browser WARN    Image with src "/images/before-after/female2-after.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:34:36.285] Server  LOG      ✓ Compiled in 193ms
+[04:34:36.497] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/before-afteres/male4-after.png" "received" null
+[04:34:41.524] Server  LOG      ✓ Compiled in 314ms
+[04:34:42.192] Browser WARN    Image with src "/images/before-after/male4-after.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:34:55.329] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:34:57.567] Browser WARN    Image with src "/images/before-after/female1-before.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:34:57.567] Browser WARN    Image with src "/images/before-after/female1-after.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:34:57.567] Browser WARN    Image with src "/images/before-after/male4-before.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:34:57.567] Browser WARN    Image with src "/images/before-after/male4-after.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:34:57.567] Browser WARN    Image with src "/images/before-after/female2-before.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:34:57.567] Browser WARN    Image with src "/images/before-after/female2-after.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:35:38.055] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:35:38.056] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:41:55.350] Server  LOG      ✓ Compiled in 1547ms
+[04:41:56.082] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/app_globals_71f961d1.css
+[04:41:56.082] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/app_globals_71f961d1.css
+[04:42:13.832] Server  LOG      ✓ Compiled in 387ms
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:14.080] Browser WARN    Warning: Failed to re-render. We will retry on the next Fast Refresh event.
+Error: Maximum update depth exceeded. This can happen when a component repeatedly calls setState inside componentWillUpdate or componentDidUpdate. React limits the number of nested updates to prevent infinite loops.
+[04:42:15.982] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:42:16.013] Server  LOG      ✓ Compiled in 247ms
+[04:42:18.385] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:42:52.618] Server  LOG      ✓ Compiled in 989ms
+[04:42:53.101] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/app_globals_71f961d1.css
+[04:42:53.101] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:42:53.101] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[04:44:05.656] Browser WARN    Image with src "/images/doctor.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:44:24.466] Browser WARN    Image with src "/images/before-after/female2-before.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:44:24.466] Browser WARN    Image with src "/images/before-after/female2-after.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:44:24.837] Browser WARN    Image with src "/images/before-after/male3-before.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:44:24.837] Browser WARN    Image with src "/images/before-after/female1-after.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:44:24.837] Browser WARN    Image with src "/images/before-after/male4-before.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:44:24.837] Browser WARN    Image with src "/images/before-after/female1-before.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:44:24.837] Browser WARN    Image with src "/images/before-after/male3-after.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:44:24.837] Browser WARN    Image with src "/images/before-after/male4-after.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:44:24.975] Browser WARN    Image with src "/images/before-after/male2-before.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:44:25.179] Browser WARN    Image with src "/images/before-after/male2-after.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:44:25.179] Browser WARN    Image with src "/images/before-after/male1-after.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:44:25.179] Browser WARN    Image with src "/images/before-after/male1-before.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:44:26.611] Browser WARN    Image with src "/images/before-after/male5-before.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:44:26.611] Browser WARN    Image with src "/images/before-after/male5-after.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:44:39.718] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:44:40.291] Browser WARN    Image with src "/images/before-after/female1-before.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:44:40.291] Browser WARN    Image with src "/images/before-after/female1-after.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:44:40.291] Browser WARN    Image with src "/images/before-after/male4-before.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:44:40.291] Browser WARN    Image with src "/images/before-after/male4-after.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:44:40.291] Browser WARN    Image with src "/images/before-after/female2-before.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:44:40.291] Browser WARN    Image with src "/images/before-after/female2-after.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:44:40.291] Browser WARN    Image with src "/images/before-after/male3-before.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:44:40.291] Browser WARN    Image with src "/images/before-after/male3-after.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:44:40.291] Browser WARN    Image with src "/images/before-after/male1-before.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:44:40.291] Browser WARN    Image with src "/images/before-after/male1-after.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:44:40.291] Browser WARN    Image with src "/images/before-after/male2-before.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:44:40.291] Browser WARN    Image with src "/images/before-after/male2-after.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:44:40.291] Browser WARN    Image with src "/images/before-after/male5-before.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:44:40.291] Browser WARN    Image with src "/images/before-after/male5-after.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:49:51.819] Server  LOG      ✓ Compiled in 2.1s
+[04:49:53.810] Server  LOG      ✓ Compiled in 1234ms
+[04:49:54.279] Server  LOG      ✓ Compiled in 598ms
+[04:51:08.063] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:51:11.853] Browser WARN    Image with src "/images/before-after/female1-before.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:51:11.854] Browser WARN    Image with src "/images/before-after/female1-after.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:51:11.854] Browser WARN    Image with src "/images/before-after/male4-before.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:51:11.854] Browser WARN    Image with src "/images/before-after/male4-after.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:51:11.854] Browser WARN    Image with src "/images/before-after/female2-before.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:51:11.854] Browser WARN    Image with src "/images/before-after/female2-after.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:51:49.304] Browser WARN    Image with src "/images/hero-hair.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[04:52:11.837] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:52:31.053] Server  LOG      ✓ Compiled in 448ms
+[04:52:32.967] Browser WARN    Image with src "/images/before-after/female1-before.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:52:32.967] Browser WARN    Image with src "/images/before-after/female1-after.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:52:32.968] Browser WARN    Image with src "/images/before-after/male4-before.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:52:32.968] Browser WARN    Image with src "/images/before-after/male4-after.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:52:32.968] Browser WARN    Image with src "/images/before-after/female2-after.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:52:32.968] Browser WARN    Image with src "/images/before-after/female2-before.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:52:43.446] Server  LOG      ✓ Compiled in 294ms
+[04:53:00.408] Server  LOG      ✓ Compiled in 392ms

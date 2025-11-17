@@ -1,11 +1,10 @@
 "use client";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, FreeMode } from "swiper/modules";
+import { Navigation } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/navigation";
-import "swiper/css/free-mode";
 
 export default function VideoReels() {
   const videos = [
@@ -35,65 +34,55 @@ export default function VideoReels() {
         <div
           className="
             swiper-button-prev 
-            !left-0 
-            !z-20 
-            !w-12 !h-12
-            !rounded-full 
-            !shadow-xl
+            !left-0 !z-20 !w-12 !h-12
+            !rounded-full !shadow-xl
             !flex !items-center !justify-center
             after:!text-3xl
           "
         ></div>
 
-        <Swiper
-          modules={[Navigation, FreeMode]}
-          navigation={{
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-          }}
-          freeMode={{
-            enabled: true,
-            momentum: true,
-          }}
-          spaceBetween={14}
-          slidesPerView={1.2}
-          grabCursor={true}
-          breakpoints={{
-            640: { slidesPerView: 2.2 },
-            1024: { slidesPerView: 3.2 },
-            1400: { slidesPerView: 4.2 },
-          }}
-          className="py-4"
-        >
-          {videos.map((src, i) => (
-            <SwiperSlide key={i}>
-              <div className="w-full max-w-[350px] h-[200px] rounded-xl overflow-hidden shadow-lg bg-black mx-auto">
-                <iframe
-                  className="w-full h-full"
-                  src={`${src}?rel=0`}
-                  title={`video-${i}`}
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
+        {/* Scrollable Wrapper */}
+        <div className="overflow-x-auto no-scrollbar py-2">
+          <Swiper
+            modules={[Navigation]}
+            navigation={{
+              prevEl: ".swiper-button-prev",
+              nextEl: ".swiper-button-next",
+            }}
+            spaceBetween={16}
+            slidesPerView={"auto"}
+            grabCursor={true}
+            className="!overflow-visible"
+          >
+            {videos.map((src, i) => (
+              <SwiperSlide
+                key={i}
+                className="!w-[260px] sm:!w-[300px] !mr-4"
+              >
+                <div className="w-full h-[200px] rounded-xl overflow-hidden shadow-lg bg-black">
+                  <iframe
+                    className="w-full h-full"
+                    src={`${src}?rel=0`}
+                    title={`video-${i}`}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
 
         {/* RIGHT ARROW */}
         <div
           className="
             swiper-button-next 
-            !right-0 
-            !z-20 
-            !w-12 !h-12
-            !rounded-full 
-            !shadow-xl
+            !right-0 !z-20 !w-12 !h-12
+            !rounded-full !shadow-xl
             !flex !items-center !justify-center
             after:!text-3xl
           "
         ></div>
-
       </div>
     </section>
   );

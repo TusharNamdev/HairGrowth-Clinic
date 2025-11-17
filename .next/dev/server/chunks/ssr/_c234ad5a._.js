@@ -20,50 +20,45 @@ function ProgressTabs({ step = 0 }) {
     ];
     const percent = Math.round(step / (tabs.length - 1) * 100);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "w-full",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex items-center gap-4",
+                className: "flex items-center gap-2",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex-1"
+                        className: "flex-1 hidden md:block"
                     }, void 0, false, {
                         fileName: "[project]/components/Register/ProgressTabs.jsx",
-                        lineNumber: 13,
+                        lineNumber: 14,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex gap-3",
+                        className: "   flex gap-3    overflow-x-auto    no-scrollbar    max-w-full    py-1   ",
                         children: tabs.map((t, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: `px-4 py-3 rounded-lg text-sm font-medium ${i <= step ? "bg-emerald-200 text-gray-800" : "bg-gray-100 text-gray-600"}`,
-                                style: {
-                                    minWidth: 140
-                                },
+                                className: `
+                px-4 py-2 rounded-lg text-sm font-medium whitespace-nowrap
+                ${i <= step ? "bg-emerald-200 text-gray-800" : "bg-gray-100 text-gray-600"}
+              `,
                                 children: t
                             }, t, false, {
                                 fileName: "[project]/components/Register/ProgressTabs.jsx",
-                                lineNumber: 17,
+                                lineNumber: 27,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/Register/ProgressTabs.jsx",
-                        lineNumber: 15,
+                        lineNumber: 17,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex-1 text-right text-sm text-gray-600",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            children: [
-                                percent,
-                                "%"
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/components/Register/ProgressTabs.jsx",
-                            lineNumber: 28,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
+                        className: "flex-1 text-right text-sm text-gray-600 hidden md:block",
+                        children: [
+                            percent,
+                            "%"
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/components/Register/ProgressTabs.jsx",
-                        lineNumber: 27,
+                        lineNumber: 42,
                         columnNumber: 9
                     }, this)
                 ]
@@ -73,27 +68,38 @@ function ProgressTabs({ step = 0 }) {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "mt-4",
+                className: "mt-4 w-full",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "h-2 bg-gray-200 rounded-full",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "h-2 bg-emerald-300 rounded-full",
+                        className: "h-2 bg-emerald-300 rounded-full transition-all",
                         style: {
                             width: `${percent}%`
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/Register/ProgressTabs.jsx",
-                        lineNumber: 35,
+                        lineNumber: 50,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/Register/ProgressTabs.jsx",
-                    lineNumber: 34,
+                    lineNumber: 49,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/Register/ProgressTabs.jsx",
-                lineNumber: 33,
+                lineNumber: 48,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "md:hidden text-right text-xs text-gray-500 mt-1",
+                children: [
+                    percent,
+                    "%"
+                ]
+            }, void 0, true, {
+                fileName: "[project]/components/Register/ProgressTabs.jsx",
+                lineNumber: 58,
                 columnNumber: 7
             }, this)
         ]

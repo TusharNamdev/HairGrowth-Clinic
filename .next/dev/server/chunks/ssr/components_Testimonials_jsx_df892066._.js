@@ -21,22 +21,22 @@ function Testimonials() {
         {
             name: "Ritika S.",
             role: "Hair Fall Recovery",
-            before: "/images/stages/female1-before.png",
-            after: "/images/stages/female1-after.png",
+            before: "/images/before-after/female1-before.png",
+            after: "/images/before-after/female1-after.png",
             quote: "After years of trying shampoos and serums, Modern Clinic helped me find the real cause of my hair fall. My confidence is back!"
         },
         {
             name: "Karan M.",
             role: "Regrowth Program",
-            before: "/images/stages/male4-before.png",
-            after: "/images/stages/male4-after.png",
+            before: "/images/before-after/male4-before.png",
+            after: "/images/before-after/male4-after.png",
             quote: "In just 3 months, I saw baby hair and major improvement. Dr. Devendra’s holistic approach truly works."
         },
         {
             name: "Simran K.",
             role: "Stress & Nutrition Therapy",
-            before: "/images/stages/female2-before.png",
-            after: "/images/stages/female2-after.png",
+            before: "/images/before-after/female2-before.png",
+            after: "/images/before-after/female2-after.png",
             quote: "Fixing my stress & sleep changed everything. My scalp feels healthier and shedding reduced drastically."
         }
     ];
