@@ -7,114 +7,55 @@ __turbopack_context__.s([
     ()=>BeforeAfterSlider
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-ssr] (ecmascript)");
+(()=>{
+    const e = new Error("Cannot find module '@/components/ui/comparison-slider'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module '@/components/ui/comparison-image'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 "use client";
 ;
 ;
 ;
 function BeforeAfterSlider({ before, after }) {
-    const containerRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
-    const [position, setPosition] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(50);
-    const [dragging, setDragging] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
-    const handleDrag = (clientX)=>{
-        const container = containerRef.current;
-        if (!container) return;
-        const { left, width } = container.getBoundingClientRect();
-        let x = clientX - left;
-        let percentage = Math.max(0, Math.min(100, x / width * 100));
-        setPosition(percentage);
-    };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        ref: containerRef,
-        className: "relative w-full h-80 md:h-96 rounded-3xl overflow-hidden bg-muted select-none",
-        onMouseMove: (e)=>dragging && handleDrag(e.clientX),
-        onTouchMove: (e)=>handleDrag(e.touches[0].clientX),
-        onMouseUp: ()=>setDragging(false),
-        onMouseLeave: ()=>setDragging(false),
-        onTouchEnd: ()=>setDragging(false),
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                src: after,
-                alt: "after",
-                fill: true,
-                className: "object-cover"
-            }, void 0, false, {
-                fileName: "[project]/components/BeforeAfterSlider.jsx",
-                lineNumber: 32,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute top-0 left-0 h-full overflow-hidden",
-                style: {
-                    width: `${position}%`
-                },
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+        className: "w-full h-80 md:h-96 rounded-3xl overflow-hidden bg-muted",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ComparisonSlider, {
+            className: "h-full",
+            defaultValue: 50,
+            thumbClassName: "   bg-card border border-border shadow    w-10 h-10 rounded-full   flex items-center justify-center text-foreground   ",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ComparisonImage, {
                     src: before,
-                    alt: "before",
-                    fill: true,
+                    alt: "Before",
                     className: "object-cover"
                 }, void 0, false, {
                     fileName: "[project]/components/BeforeAfterSlider.jsx",
-                    lineNumber: 39,
+                    lineNumber: 19,
                     columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/components/BeforeAfterSlider.jsx",
-                lineNumber: 35,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                className: "   absolute top-3 left-3    bg-primary/20 text-foreground    text-xs px-3 py-1 rounded-md z-20   ",
-                children: "Before"
-            }, void 0, false, {
-                fileName: "[project]/components/BeforeAfterSlider.jsx",
-                lineNumber: 43,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                className: "   absolute top-3 right-3    bg-accent/30 text-foreground    text-xs px-3 py-1 rounded-md z-20   ",
-                children: "After"
-            }, void 0, false, {
-                fileName: "[project]/components/BeforeAfterSlider.jsx",
-                lineNumber: 51,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute top-0 h-full w-[2px] bg-card z-30",
-                style: {
-                    left: `${position}%`
-                }
-            }, void 0, false, {
-                fileName: "[project]/components/BeforeAfterSlider.jsx",
-                lineNumber: 60,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute top-1/2 -translate-y-1/2 z-40",
-                style: {
-                    left: `${position}%`,
-                    transform: `translate(-50%, -50%)`
-                },
-                onMouseDown: ()=>setDragging(true),
-                onTouchStart: ()=>setDragging(true),
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "   w-10 h-10 bg-card    shadow-medium border border-border rounded-full    flex items-center justify-center    text-lg text-foreground    hover:scale-110 transition   ",
-                    children: "↔"
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ComparisonImage, {
+                    src: after,
+                    alt: "After",
+                    className: "object-cover"
                 }, void 0, false, {
                     fileName: "[project]/components/BeforeAfterSlider.jsx",
-                    lineNumber: 72,
+                    lineNumber: 26,
                     columnNumber: 9
                 }, this)
-            }, void 0, false, {
-                fileName: "[project]/components/BeforeAfterSlider.jsx",
-                lineNumber: 66,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
+            ]
+        }, void 0, true, {
+            fileName: "[project]/components/BeforeAfterSlider.jsx",
+            lineNumber: 9,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
         fileName: "[project]/components/BeforeAfterSlider.jsx",
-        lineNumber: 22,
+        lineNumber: 8,
         columnNumber: 5
     }, this);
 }
@@ -154,7 +95,7 @@ function BeforeAfterCard({ data }) {
                             after: t.after
                         }, void 0, false, {
                             fileName: "[project]/components/BeforeAfterCard.jsx",
-                            lineNumber: 21,
+                            lineNumber: 24,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -162,13 +103,13 @@ function BeforeAfterCard({ data }) {
                             children: "*Real patient images"
                         }, void 0, false, {
                             fileName: "[project]/components/BeforeAfterCard.jsx",
-                            lineNumber: 22,
+                            lineNumber: 25,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/BeforeAfterCard.jsx",
-                    lineNumber: 20,
+                    lineNumber: 23,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -178,11 +119,11 @@ function BeforeAfterCard({ data }) {
                             className: "absolute top-5 left-5 w-10 h-10 text-muted-foreground/20"
                         }, void 0, false, {
                             fileName: "[project]/components/BeforeAfterCard.jsx",
-                            lineNumber: 31,
+                            lineNumber: 33,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "space-y-3 mt-10 text-sm leading-relaxed text-foreground",
+                            className: "space-y-3 mt-10 text-sm text-foreground leading-relaxed",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     children: [
@@ -190,15 +131,14 @@ function BeforeAfterCard({ data }) {
                                             children: "Patient Name – "
                                         }, void 0, false, {
                                             fileName: "[project]/components/BeforeAfterCard.jsx",
-                                            lineNumber: 35,
-                                            columnNumber: 15
+                                            lineNumber: 36,
+                                            columnNumber: 16
                                         }, this),
-                                        " ",
                                         t.name
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/BeforeAfterCard.jsx",
-                                    lineNumber: 34,
+                                    lineNumber: 36,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -207,10 +147,9 @@ function BeforeAfterCard({ data }) {
                                             children: "Treatment Name – "
                                         }, void 0, false, {
                                             fileName: "[project]/components/BeforeAfterCard.jsx",
-                                            lineNumber: 38,
-                                            columnNumber: 15
+                                            lineNumber: 37,
+                                            columnNumber: 16
                                         }, this),
-                                        " ",
                                         t.treatment
                                     ]
                                 }, void 0, true, {
@@ -224,21 +163,21 @@ function BeforeAfterCard({ data }) {
                                             children: "Duration – "
                                         }, void 0, false, {
                                             fileName: "[project]/components/BeforeAfterCard.jsx",
-                                            lineNumber: 41,
-                                            columnNumber: 15
+                                            lineNumber: 38,
+                                            columnNumber: 16
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: "font-semibold",
                                             children: t.duration
                                         }, void 0, false, {
                                             fileName: "[project]/components/BeforeAfterCard.jsx",
-                                            lineNumber: 42,
-                                            columnNumber: 15
+                                            lineNumber: 38,
+                                            columnNumber: 44
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/BeforeAfterCard.jsx",
-                                    lineNumber: 40,
+                                    lineNumber: 38,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -247,19 +186,17 @@ function BeforeAfterCard({ data }) {
                                             children: "Clinic – "
                                         }, void 0, false, {
                                             fileName: "[project]/components/BeforeAfterCard.jsx",
-                                            lineNumber: 45,
-                                            columnNumber: 15
+                                            lineNumber: 39,
+                                            columnNumber: 16
                                         }, this),
-                                        " ",
                                         t.clinic
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/BeforeAfterCard.jsx",
-                                    lineNumber: 44,
+                                    lineNumber: 39,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-foreground",
                                     children: [
                                         t.feedback,
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -267,19 +204,19 @@ function BeforeAfterCard({ data }) {
                                             children: "...read more"
                                         }, void 0, false, {
                                             fileName: "[project]/components/BeforeAfterCard.jsx",
-                                            lineNumber: 50,
+                                            lineNumber: 43,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/BeforeAfterCard.jsx",
-                                    lineNumber: 48,
+                                    lineNumber: 41,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/BeforeAfterCard.jsx",
-                            lineNumber: 33,
+                            lineNumber: 35,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -287,55 +224,55 @@ function BeforeAfterCard({ data }) {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                     onClick: prevSlide,
-                                    className: "   w-10 h-10 rounded-full border border-primary text-primary    flex items-center justify-center    hover:bg-primary/10 transition   ",
+                                    className: "w-10 h-10 rounded-full border border-primary text-primary hover:bg-primary/10 flex items-center justify-center",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$left$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronLeft$3e$__["ChevronLeft"], {
                                         className: "w-5 h-5"
                                     }, void 0, false, {
                                         fileName: "[project]/components/BeforeAfterCard.jsx",
-                                        lineNumber: 64,
+                                        lineNumber: 53,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/components/BeforeAfterCard.jsx",
+                                    lineNumber: 49,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                    onClick: nextSlide,
+                                    className: "w-10 h-10 rounded-full border border-primary text-primary hover:bg-primary/10 flex items-center justify-center",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
+                                        className: "w-5 h-5"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/BeforeAfterCard.jsx",
+                                        lineNumber: 60,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/BeforeAfterCard.jsx",
                                     lineNumber: 56,
                                     columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                    onClick: nextSlide,
-                                    className: "   w-10 h-10 rounded-full border border-primary text-primary    flex items-center justify-center    hover:bg-primary/10 transition   ",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                        className: "w-5 h-5"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/BeforeAfterCard.jsx",
-                                        lineNumber: 75,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/components/BeforeAfterCard.jsx",
-                                    lineNumber: 67,
-                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/BeforeAfterCard.jsx",
-                            lineNumber: 55,
+                            lineNumber: 48,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/BeforeAfterCard.jsx",
-                    lineNumber: 28,
+                    lineNumber: 31,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/BeforeAfterCard.jsx",
-            lineNumber: 17,
+            lineNumber: 20,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/BeforeAfterCard.jsx",
-        lineNumber: 16,
+        lineNumber: 19,
         columnNumber: 5
     }, this);
 }

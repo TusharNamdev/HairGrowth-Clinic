@@ -87,7 +87,7 @@ export default function Navbar() {
           href="/register"
           className="
             fixed bottom-6 left-1/2 -translate-x-1/2 z-50
-            bg-gradient-to-br from-indigo-600 to-emerald-500
+            bg-gradient-to-br from-primary to-accent
             text-white font-semibold shadow-xl hover:shadow-2xl transition
             px-6 py-2 text-sm md:px-10 md:py-3 md:text-xl rounded-full
           "

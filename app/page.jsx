@@ -178,9 +178,9 @@ export default function Home() {
               className="group rounded-2xl p-6 bg-secondary/60 backdrop-blur-xl border border-border 
                    shadow-lg hover:shadow-medium transition-all duration-300 hover:-translate-y-1"
             >
-              <div className="w-20 h-20 rounded-xl flex items-center justify-center shadow-md 
+              <div className="w-20 h-20 rounded-2xl flex items-center justify-center shadow-md 
                         mx-auto mb-4">
-                <img src={item.icon} alt={item.title} className="w-15 h-15" />
+                <img src={item.icon} alt={item.title} className="w-20 h-20 rounded-2xl" />
               </div>
 
               <h4 className="font-semibold text-lg text-center text-foreground">{item.title}</h4>

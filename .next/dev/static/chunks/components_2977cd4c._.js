@@ -309,7 +309,7 @@ function Navbar() {
             }, this),
             !hideFloating.includes(pathname) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                 href: "/register",
-                className: " fixed bottom-6 left-1/2 -translate-x-1/2 z-50 bg-gradient-to-br from-indigo-600 to-emerald-500 text-white font-semibold shadow-xl hover:shadow-2xl transition px-6 py-2 text-sm md:px-10 md:py-3 md:text-xl rounded-full ",
+                className: " fixed bottom-6 left-1/2 -translate-x-1/2 z-50 bg-gradient-to-br from-primary to-accent text-white font-semibold shadow-xl hover:shadow-2xl transition px-6 py-2 text-sm md:px-10 md:py-3 md:text-xl rounded-full ",
                 children: "Book Consultation"
             }, void 0, false, {
                 fileName: "[project]/components/layout/Navbar.jsx",
