@@ -104,8 +104,8 @@ function Navbar() {
     }, []);
     // Pages where floating buttons should be hidden
     const hideFloating = [
-        "/register",
-        "/coach"
+        "/HairGrowth/register",
+        "/HairGrowth/coach"
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
@@ -161,7 +161,7 @@ function Navbar() {
                                 className: "hidden md:flex items-center gap-8 text-sm font-medium",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                        href: "/doctor",
+                                        href: "/HairGrowth/doctor",
                                         className: "hover:text-primary transition",
                                         children: "About Dr."
                                     }, void 0, false, {
@@ -170,27 +170,27 @@ function Navbar() {
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                        href: "/register",
+                                        href: "/HairGrowth",
                                         className: "hover:text-primary transition",
-                                        children: "Book Assessment"
+                                        children: "Hair Growth"
                                     }, void 0, false, {
                                         fileName: "[project]/components/layout/Navbar.jsx",
                                         lineNumber: 52,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                        href: "/testimonials",
+                                        href: "/SkinCare",
                                         className: "hover:text-primary transition",
-                                        children: "Testimonials"
+                                        children: "Skin Care"
                                     }, void 0, false, {
                                         fileName: "[project]/components/layout/Navbar.jsx",
                                         lineNumber: 53,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                        href: "/faq",
+                                        href: "/WeightLoss",
                                         className: "hover:text-primary transition",
-                                        children: "FAQ"
+                                        children: "Weight Loss"
                                     }, void 0, false, {
                                         fileName: "[project]/components/layout/Navbar.jsx",
                                         lineNumber: 54,
@@ -240,7 +240,7 @@ function Navbar() {
                             className: "flex flex-col px-6 py-4 space-y-4 text-sm font-medium text-foreground",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                    href: "/doctor",
+                                    href: "/HairGrowth/doctor",
                                     onClick: ()=>setOpen(false),
                                     className: "hover:text-primary",
                                     children: "About Dr."
@@ -250,30 +250,30 @@ function Navbar() {
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                    href: "/register",
+                                    href: "/HairGrowth",
                                     onClick: ()=>setOpen(false),
                                     className: "hover:text-primary",
-                                    children: "Book Assessment"
+                                    children: "Hair Growth"
                                 }, void 0, false, {
                                     fileName: "[project]/components/layout/Navbar.jsx",
                                     lineNumber: 72,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                    href: "/testimonials",
+                                    href: "/SkinCare",
                                     onClick: ()=>setOpen(false),
                                     className: "hover:text-primary",
-                                    children: "Testimonials"
+                                    children: "Skin Care"
                                 }, void 0, false, {
                                     fileName: "[project]/components/layout/Navbar.jsx",
                                     lineNumber: 73,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                    href: "/faq",
+                                    href: "/WeightLoss",
                                     onClick: ()=>setOpen(false),
                                     className: "hover:text-primary",
-                                    children: "FAQ"
+                                    children: "Weight Loss"
                                 }, void 0, false, {
                                     fileName: "[project]/components/layout/Navbar.jsx",
                                     lineNumber: 74,
@@ -309,7 +309,7 @@ function Navbar() {
                 columnNumber: 7
             }, this),
             !hideFloating.includes(pathname) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                href: "/register",
+                href: "/HairGrowth/register",
                 className: " fixed bottom-6 left-1/2 -translate-x-1/2 z-50 bg-gradient-to-br from-primary to-accent text-white font-semibold shadow-xl hover:shadow-2xl transition px-6 py-2 text-sm md:px-10 md:py-3 md:text-xl rounded-full ",
                 children: "Book Consultation"
             }, void 0, false, {
@@ -439,7 +439,7 @@ function Footer() {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                            href: "/about-doctor",
+                                            href: "/HairGrowth/doctor",
                                             className: "hover:text-primary",
                                             children: "About Dr."
                                         }, void 0, false, {
@@ -454,9 +454,9 @@ function Footer() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                            href: "/register",
+                                            href: "/HairGrowth",
                                             className: "hover:text-primary",
-                                            children: "Book Assessment"
+                                            children: "Hair Growth"
                                         }, void 0, false, {
                                             fileName: "[project]/components/layout/Footer.jsx",
                                             lineNumber: 45,
@@ -469,9 +469,9 @@ function Footer() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                            href: "/testimonials",
+                                            href: "/SkinCare",
                                             className: "hover:text-primary",
-                                            children: "Testimonials"
+                                            children: "Skin Care"
                                         }, void 0, false, {
                                             fileName: "[project]/components/layout/Footer.jsx",
                                             lineNumber: 50,
@@ -484,9 +484,9 @@ function Footer() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                            href: "/faq",
+                                            href: "/WeightLoss",
                                             className: "hover:text-primary",
-                                            children: "FAQ"
+                                            children: "Weight Loss"
                                         }, void 0, false, {
                                             fileName: "[project]/components/layout/Footer.jsx",
                                             lineNumber: 55,
@@ -495,6 +495,51 @@ function Footer() {
                                     }, void 0, false, {
                                         fileName: "[project]/components/layout/Footer.jsx",
                                         lineNumber: 54,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "/HairGrowth/register",
+                                            className: "hover:text-primary",
+                                            children: "Book Assessment"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/layout/Footer.jsx",
+                                            lineNumber: 60,
+                                            columnNumber: 15
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/layout/Footer.jsx",
+                                        lineNumber: 59,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "/HairGrowth/testimonials",
+                                            className: "hover:text-primary",
+                                            children: "Testimonials"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/layout/Footer.jsx",
+                                            lineNumber: 65,
+                                            columnNumber: 15
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/layout/Footer.jsx",
+                                        lineNumber: 64,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "/HairGrowth/faq",
+                                            className: "hover:text-primary",
+                                            children: "FAQ"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/layout/Footer.jsx",
+                                            lineNumber: 70,
+                                            columnNumber: 15
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/layout/Footer.jsx",
+                                        lineNumber: 69,
                                         columnNumber: 13
                                     }, this)
                                 ]
@@ -516,7 +561,7 @@ function Footer() {
                                 children: "Our Centres"
                             }, void 0, false, {
                                 fileName: "[project]/components/layout/Footer.jsx",
-                                lineNumber: 64,
+                                lineNumber: 79,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -526,54 +571,54 @@ function Footer() {
                                         children: "Mumbai"
                                     }, void 0, false, {
                                         fileName: "[project]/components/layout/Footer.jsx",
-                                        lineNumber: 66,
+                                        lineNumber: 81,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                         children: "Indore"
                                     }, void 0, false, {
                                         fileName: "[project]/components/layout/Footer.jsx",
-                                        lineNumber: 67,
+                                        lineNumber: 82,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                         children: "Nagpur"
                                     }, void 0, false, {
                                         fileName: "[project]/components/layout/Footer.jsx",
-                                        lineNumber: 68,
+                                        lineNumber: 83,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                         children: "Delhi NCR"
                                     }, void 0, false, {
                                         fileName: "[project]/components/layout/Footer.jsx",
-                                        lineNumber: 69,
+                                        lineNumber: 84,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                         children: "Ujjain"
                                     }, void 0, false, {
                                         fileName: "[project]/components/layout/Footer.jsx",
-                                        lineNumber: 70,
+                                        lineNumber: 85,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                         children: "Kolkata"
                                     }, void 0, false, {
                                         fileName: "[project]/components/layout/Footer.jsx",
-                                        lineNumber: 71,
+                                        lineNumber: 86,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/layout/Footer.jsx",
-                                lineNumber: 65,
+                                lineNumber: 80,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/layout/Footer.jsx",
-                        lineNumber: 63,
+                        lineNumber: 78,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -583,7 +628,7 @@ function Footer() {
                                 children: "Contact"
                             }, void 0, false, {
                                 fileName: "[project]/components/layout/Footer.jsx",
-                                lineNumber: 77,
+                                lineNumber: 92,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -593,48 +638,48 @@ function Footer() {
                                         children: "📞 +91 9770799998"
                                     }, void 0, false, {
                                         fileName: "[project]/components/layout/Footer.jsx",
-                                        lineNumber: 79,
+                                        lineNumber: 94,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                         children: "📧 mhomeo@yahoo.com"
                                     }, void 0, false, {
                                         fileName: "[project]/components/layout/Footer.jsx",
-                                        lineNumber: 80,
+                                        lineNumber: 95,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                         children: "🕒 Mon–Sat: 10 AM – 7 PM"
                                     }, void 0, false, {
                                         fileName: "[project]/components/layout/Footer.jsx",
-                                        lineNumber: 81,
+                                        lineNumber: 96,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                         children: "📍 202 Bussiness Island, Nipania, Indore"
                                     }, void 0, false, {
                                         fileName: "[project]/components/layout/Footer.jsx",
-                                        lineNumber: 82,
+                                        lineNumber: 97,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                         children: "📍 121 Orbit Mall, Nipania, Indore"
                                     }, void 0, false, {
                                         fileName: "[project]/components/layout/Footer.jsx",
-                                        lineNumber: 83,
+                                        lineNumber: 98,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                         children: "📍 India (Online Consultations)"
                                     }, void 0, false, {
                                         fileName: "[project]/components/layout/Footer.jsx",
-                                        lineNumber: 84,
+                                        lineNumber: 99,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/layout/Footer.jsx",
-                                lineNumber: 78,
+                                lineNumber: 93,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -648,12 +693,12 @@ function Footer() {
                                             className: "text-primary hover:scale-110 transition"
                                         }, void 0, false, {
                                             fileName: "[project]/components/layout/Footer.jsx",
-                                            lineNumber: 90,
+                                            lineNumber: 105,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/layout/Footer.jsx",
-                                        lineNumber: 89,
+                                        lineNumber: 104,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -664,12 +709,12 @@ function Footer() {
                                             className: "text-primary hover:scale-110 transition"
                                         }, void 0, false, {
                                             fileName: "[project]/components/layout/Footer.jsx",
-                                            lineNumber: 96,
+                                            lineNumber: 111,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/layout/Footer.jsx",
-                                        lineNumber: 95,
+                                        lineNumber: 110,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -680,24 +725,24 @@ function Footer() {
                                             className: "text-primary hover:scale-110 transition"
                                         }, void 0, false, {
                                             fileName: "[project]/components/layout/Footer.jsx",
-                                            lineNumber: 105,
+                                            lineNumber: 120,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/layout/Footer.jsx",
-                                        lineNumber: 101,
+                                        lineNumber: 116,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/layout/Footer.jsx",
-                                lineNumber: 88,
+                                lineNumber: 103,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/layout/Footer.jsx",
-                        lineNumber: 76,
+                        lineNumber: 91,
                         columnNumber: 9
                     }, this)
                 ]
@@ -715,7 +760,7 @@ function Footer() {
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/layout/Footer.jsx",
-                lineNumber: 115,
+                lineNumber: 130,
                 columnNumber: 7
             }, this)
         ]

@@ -20,7 +20,7 @@ export default function Navbar() {
   }, []);
 
   // Pages where floating buttons should be hidden
-  const hideFloating = ["/register", "/coach"];
+  const hideFloating = ["/HairGrowth/register", "/HairGrowth/coach"];
 
   return (
     <>
@@ -48,10 +48,10 @@ export default function Navbar() {
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-8 text-sm font-medium">
-            <Link href="/doctor" className="hover:text-primary transition">About Dr.</Link>
-            <Link href="/register" className="hover:text-primary transition">Book Assessment</Link>
-            <Link href="/testimonials" className="hover:text-primary transition">Testimonials</Link>
-            <Link href="/faq" className="hover:text-primary transition">FAQ</Link>
+            <Link href="/HairGrowth/doctor" className="hover:text-primary transition">About Dr.</Link>
+            <Link href="/HairGrowth" className="hover:text-primary transition">Hair Growth</Link>
+            <Link href="/SkinCare" className="hover:text-primary transition">Skin Care</Link>
+            <Link href="/WeightLoss" className="hover:text-primary transition">Weight Loss</Link>
             <ThemeToggle />
           </nav>
 
@@ -68,10 +68,10 @@ export default function Navbar() {
         {open && (
           <div className="md:hidden bg-card border-t border-border shadow-medium">
             <div className="flex flex-col px-6 py-4 space-y-4 text-sm font-medium text-foreground">
-              <Link href="/doctor" onClick={() => setOpen(false)} className="hover:text-primary">About Dr.</Link>
-              <Link href="/register" onClick={() => setOpen(false)} className="hover:text-primary">Book Assessment</Link>
-              <Link href="/testimonials" onClick={() => setOpen(false)} className="hover:text-primary">Testimonials</Link>
-              <Link href="/faq" onClick={() => setOpen(false)} className="hover:text-primary">FAQ</Link>
+              <Link href="/HairGrowth/doctor" onClick={() => setOpen(false)} className="hover:text-primary">About Dr.</Link>
+              <Link href="/HairGrowth" onClick={() => setOpen(false)} className="hover:text-primary">Hair Growth</Link>
+              <Link href="/SkinCare" onClick={() => setOpen(false)} className="hover:text-primary">Skin Care</Link>
+              <Link href="/WeightLoss" onClick={() => setOpen(false)} className="hover:text-primary">Weight Loss</Link>
               <div className="pt-4">
                 <ThemeToggle />
               </div>
@@ -84,7 +84,7 @@ export default function Navbar() {
       {/* FLOATING CTA BUTTON — hidden on register & coach */}
       {!hideFloating.includes(pathname) && (
         <Link
-          href="/register"
+          href="/HairGrowth/register"
           className="
             fixed bottom-6 left-1/2 -translate-x-1/2 z-50
             bg-gradient-to-br from-primary to-accent

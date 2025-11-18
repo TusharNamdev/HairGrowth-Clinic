@@ -91,7 +91,7 @@ export default function RegisterFlow() {
 
     params.set("scalpPhoto", form.scalpPhoto?.name || "");
 
-    router.push("/coach?" + params.toString());
+    router.push("/HairGrowth/coach?" + params.toString());
   }
 
   const hairQuestions = [

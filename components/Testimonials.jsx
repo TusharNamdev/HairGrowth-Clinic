@@ -109,7 +109,7 @@ export default function Testimonials() {
     },
   ];
 
-  const showGallery = pathname === "/testimonials";
+  const showGallery = pathname === "/HairGrowth/testimonials";
 
   return (
     <div className="bg-background py-12">
@@ -188,10 +188,10 @@ export default function Testimonials() {
 
 
         {/* Show More Button (Only on home page) */}
-        {pathname === "/" && (
+        {pathname === "/HairGrowth" && (
           <div className="flex justify-center mt-10">
             <Link
-              href="/testimonials"
+              href="/HairGrowth/testimonials"
               className="text-primary font-semibold hover:underline flex items-center gap-1"
             >
               Show More Testimonials
