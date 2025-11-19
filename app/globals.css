@@ -12,101 +12,100 @@ body {
 
 @layer base {
   :root {
-    /* 🌿 Holistic Wellness & Healing Theme */
+    /* 🌿 Calming Wellness – Updated Soft Medical Theme */
 
-    /* BACKGROUND / TEXT */
-    --background: 45 50% 93%;        /* Cream / Off-white (#F6F3E7) */
-    --foreground: 0 0% 18%;          /* Charcoal (#2F2F2F) */
+    /* BASE BACKGROUND / TEXT */
+    --background: 156 40% 96%;         /* Soft mint-white */
+    --foreground: 168 15% 20%;         /* Deep teal-gray text */
 
-    /* CARD / POPOVER */
+    /* SURFACES */
     --card: 0 0% 100%;
-    --card-foreground: 0 0% 18%;
+    --card-foreground: 168 15% 20%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 18%;
+    --popover-foreground: 168 15% 20%;
 
-    /* PRIMARY — Healing Teal (#2A9D8F) */
-    --primary: 174 54% 40%;
+    /* PRIMARY — Soft Medical Teal */
+    --primary: 171 47% 42%;            /* #1CA89B */
     --primary-foreground: 0 0% 98%;
 
-    /* SECONDARY — Soft Sage (#EAF4F2) */
-    --secondary: 160 30% 93%;
-    --secondary-foreground: 0 0% 18%;
+    /* SECONDARY — Light Sage */
+    --secondary: 158 32% 92%;          /* #E6F4F1 */
+    --secondary-foreground: 168 15% 20%;
 
-    /* ACCENT — Premium Gold (#C49A3A) */
-    --accent: 43 54% 50%;
+    /* ACCENT — Muted Gold (Premium) */
+    --accent: 43 55% 52%;
     --accent-foreground: 0 0% 98%;
 
-    /* MUTED */
-    --muted: 160 30% 95%;
-    --muted-foreground: 0 0% 40%;
+    /* MUTED / SUBTLE TEXT */
+    --muted: 160 28% 94%;              /* Very soft mint */
+    --muted-foreground: 168 10% 40%;    /* Gray-green text */
 
     /* DESTRUCTIVE */
-    --destructive: 0 84% 60%;
+    --destructive: 0 70% 55%;
     --destructive-foreground: 0 0% 98%;
 
-    /* BORDERS & UI */
-    --border: 0 0% 80%;
-    --input: 0 0% 75%;
-    --ring: 174 54% 40%;   /* primary teal */
+    /* UI BORDERS & INPUTS */
+    --border: 160 15% 82%;              /* Soft border mint-gray */
+    --input: 160 15% 78%;
+    --ring: 171 47% 42%;                /* teal ring */
 
     /* CHART COLORS */
-    --chart-1: 174 54% 40%;
-    --chart-2: 160 30% 50%;
-    --chart-3: 43 54% 60%;
-    --chart-4: 0 0% 35%;
-    --chart-5: 5 80% 60%;
+    --chart-1: 171 47% 42%;
+    --chart-2: 158 32% 52%;
+    --chart-3: 43 55% 60%;
+    --chart-4: 168 12% 35%;
+    --chart-5: 5 75% 57%;
 
     /* RADIUS */
     --radius: 0.5rem;
   }
 
-  /* 🌙 DARK MODE — Soft Medical Calm Theme */
+  /* 🌙 DARK MODE – Calming Deep Teal Theme */
   .dark {
-    --background: 0 0% 10%;
-    --foreground: 0 0% 98%;
+    --background: 168 40% 8%;           /* Deep teal-black */
+    --foreground: 158 45% 94%;
 
-    --card: 0 0% 12%;
-    --card-foreground: 0 0% 98%;
+    --card: 168 35% 10%;
+    --card-foreground: 158 45% 95%;
 
-    --popover: 0 0% 12%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 168 35% 10%;
+    --popover-foreground: 158 45% 95%;
 
-    /* PRIMARY — Softened teal in dark */
-    --primary: 174 40% 55%;
-    --primary-foreground: 0 0% 10%;
+    /* PRIMARY – brighter teal for dark mode */
+    --primary: 171 60% 55%;
+    --primary-foreground: 168 40% 8%;
 
-    /* SECONDARY */
-    --secondary: 0 0% 20%;
-    --secondary-foreground: 0 0% 98%;
+    /* SECONDARY – soft dark sage */
+    --secondary: 168 25% 18%;
+    --secondary-foreground: 158 45% 95%;
 
-    /* ACCENT — Muted Gold */
-    --accent: 43 40% 50%;
-    --accent-foreground: 0 0% 98%;
+    /* ACCENT – warm soft gold */
+    --accent: 43 50% 55%;
+    --accent-foreground: 168 40% 8%;
 
-    /* MUTED */
-    --muted: 0 0% 20%;
-    --muted-foreground: 0 0% 70%;
+    --muted: 168 25% 18%;
+    --muted-foreground: 158 20% 70%;
 
-    /* DESTRUCTIVE */
-    --destructive: 0 62% 40%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive: 0 65% 45%;
+    --destructive-foreground: 158 45% 95%;
 
-    /* BORDER / INPUT */
-    --border: 0 0% 25%;
-    --input: 0 0% 25%;
-    --ring: 174 40% 55%;
+    --border: 168 20% 28%;
+    --input: 168 20% 28%;
+    --ring: 171 60% 55%;
 
-    --chart-1: 174 40% 55%;
-    --chart-2: 160 30% 55%;
-    --chart-3: 43 50% 55%;
-    --chart-4: 0 0% 50%;
+    /* CHART COLORS */
+    --chart-1: 171 60% 55%;
+    --chart-2: 158 40% 55%;
+    --chart-3: 43 55% 55%;
+    --chart-4: 168 15% 55%;
     --chart-5: 5 80% 55%;
   }
 }
 
+
 @layer base {
-  * {
+  .border {
     @apply border-border;
   }
   body {
@@ -114,27 +113,19 @@ body {
   }
 }
 
-/* Card Flip CSS */
-.perspective {
-  perspective: 1000px;
-}
 
-.preserve-3d {
+
+
+.flip-container {
   transform-style: preserve-3d;
 }
-
 .backface-hidden {
   backface-visibility: hidden;
 }
-
-.rotateY-180 {
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+.group:hover .flip-container {
   transform: rotateY(180deg);
 }
 
-
-/* Enable perspective for flip cards */
-.perspective {
-  perspective: 1000px;
-}
-
-/* Just for reference, but not required with bracket syntax */

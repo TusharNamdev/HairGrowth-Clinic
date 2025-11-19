@@ -32,7 +32,7 @@ function Slider({ slides = [], autoPlay = true, duration = 4000, height = "h-scr
         current
     ]);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: `relative w-full ${height} overflow-hidden bg-background`,
+        className: `relative w-full ${height} bg-background`,
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute inset-0 w-full h-full",
@@ -206,475 +206,125 @@ __turbopack_context__.s([
     ()=>FlipCard
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$lu$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/lu/index.mjs [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
 "use client";
 ;
 ;
-function FlipCard({ front, back, bg }) {
+function FlipCard({ front, back, bg, Icon }) {
+    const [flipped, setFlipped] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "w-full h-48 md:h-52 [perspective:1200px]",
+        className: "   relative w-full h-56 md:h-64    cursor-pointer    transition-all duration-500    ",
+        style: {
+            borderRadius: "1.5rem"
+        },
+        onMouseEnter: ()=>setFlipped(true),
+        onMouseLeave: ()=>setFlipped(false),
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "   relative w-full h-full rounded-2xl shadow-lg border border-border   [transform-style:preserve-3d]   transition-transform duration-700   hover:[transform:rotateY(180deg)]   ",
+            className: `
+          absolute inset-0 rounded-3xl border border-border p-6 
+          transition-all duration-500 ease-out
+          bg-card
+          ${flipped ? "shadow-[0_8px_30px_rgba(0,0,0,0.08)] scale-[1.03]" : "shadow-[0_4px_15px_rgba(0,0,0,0.04)] scale-[1.00]"}
+        `,
             style: {
-                backgroundColor: bg
+                backgroundColor: bg,
+                transform: flipped ? "rotateY(12deg) rotateX(4deg)" : "rotateY(0deg) rotateX(0deg)",
+                transformOrigin: "center"
             },
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "   absolute inset-0 p-6 flex flex-col justify-between   [backface-visibility:hidden]   ",
+                    className: `
+            absolute inset-0 flex flex-col items-center justify-center gap-4
+            transition-all duration-500
+            ${flipped ? "opacity-0 rotate-y-12 translate-y-2" : "opacity-100 rotate-y-0"}
+          `,
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex justify-end text-foreground/70 text-sm pointer-events-none",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-sm mr-1 pt-0.5",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$lu$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["LuRefreshCw"], {}, void 0, false, {
-                                        fileName: "[project]/components/ui/FlipCard.jsx",
-                                        lineNumber: 25,
-                                        columnNumber: 49
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/components/ui/FlipCard.jsx",
-                                    lineNumber: 25,
-                                    columnNumber: 11
-                                }, this),
-                                "Flip"
-                            ]
-                        }, void 0, true, {
+                            className: `
+              p-4 rounded-xl bg-primary/15 text-primary 
+              transition-all duration-500
+              ${flipped ? "translate-y-2 opacity-0" : "translate-y-0 opacity-100"}
+            `,
+                            children: Icon && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Icon, {
+                                size: 36
+                            }, void 0, false, {
+                                fileName: "[project]/components/ui/FlipCard.jsx",
+                                lineNumber: 52,
+                                columnNumber: 22
+                            }, this)
+                        }, void 0, false, {
                             fileName: "[project]/components/ui/FlipCard.jsx",
-                            lineNumber: 24,
+                            lineNumber: 45,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "pointer-events-none",
+                            className: "text-center",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "text-3xl font-bold text-foreground",
                                     children: front.number
                                 }, void 0, false, {
                                     fileName: "[project]/components/ui/FlipCard.jsx",
-                                    lineNumber: 30,
+                                    lineNumber: 56,
                                     columnNumber: 13
                                 }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-foreground/80 text-sm mt-1",
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "text-sm text-muted-foreground",
                                     children: front.label
                                 }, void 0, false, {
                                     fileName: "[project]/components/ui/FlipCard.jsx",
-                                    lineNumber: 31,
+                                    lineNumber: 57,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/ui/FlipCard.jsx",
-                            lineNumber: 29,
+                            lineNumber: 55,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/ui/FlipCard.jsx",
-                    lineNumber: 18,
+                    lineNumber: 38,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "   absolute inset-0 p-6 flex flex-col justify-center   [transform:rotateY(180deg)]   [backface-visibility:hidden]   pointer-events-none   ",
+                    className: `
+            absolute inset-0 flex items-center justify-center text-center px-4
+            transition-all duration-500
+            ${flipped ? "opacity-100 rotate-y-0 translate-y-0" : "opacity-0 -rotate-y-12 -translate-y-2"}
+          `,
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-sm text-foreground/80 leading-relaxed",
+                        className: "text-sm leading-relaxed text-foreground/85",
                         children: back.desc
                     }, void 0, false, {
                         fileName: "[project]/components/ui/FlipCard.jsx",
-                        lineNumber: 44,
+                        lineNumber: 69,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/ui/FlipCard.jsx",
-                    lineNumber: 36,
+                    lineNumber: 62,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/ui/FlipCard.jsx",
-            lineNumber: 8,
+            lineNumber: 20,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/ui/FlipCard.jsx",
-        lineNumber: 7,
+        lineNumber: 9,
         columnNumber: 5
     }, this);
 }
 }),
-"[project]/app/page.jsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
-"use strict";
+"[project]/app/page.jsx [app-ssr] (ecmascript)", ((__turbopack_context__, module, exports) => {
 
-__turbopack_context__.s([
-    "default",
-    ()=>HomePage
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/fa/index.mjs [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$md$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/md/index.mjs [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$Slider$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/ui/Slider.jsx [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$FlipCard$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/ui/FlipCard.jsx [app-ssr] (ecmascript)");
-"use client";
-;
-;
-;
-;
-;
-;
-;
-;
-function HomePage() {
-    const [mounted, setMounted] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
-        setMounted(true);
-    }, []);
-    if (!mounted) return null;
-    const heroSlides = [
-        {
-            img: "/images/hero/slide1.jpg",
-            title: "Expert Hair, Skin & Wellness Care",
-            subtitle: "Personalized holistic treatments backed by medical science."
-        },
-        {
-            img: "/images/hero/slide2.jpg",
-            title: "Hair Growth Treatments That Work",
-            subtitle: "Root-cause healing for long-term results."
-        },
-        {
-            img: "/images/hero/slide3.jpg",
-            title: "Achieve Healthy, Glowing Skin",
-            subtitle: "Revitalize your skin naturally and safely."
-        }
-    ];
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "bg-background text-foreground",
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$Slider$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                slides: heroSlides,
-                height: "h-screen"
-            }, void 0, false, {
-                fileName: "[project]/app/page.jsx",
-                lineNumber: 47,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "py-20 px-6 md:px-16 lg:px-24",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "grid md:grid-cols-2 gap-12",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "text-5xl font-bold mb-8",
-                                    children: "Why Modern Clinic?"
-                                }, void 0, false, {
-                                    fileName: "[project]/app/page.jsx",
-                                    lineNumber: 57,
-                                    columnNumber: 25
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-muted-foreground leading-relaxed mb-4",
-                                    children: "Our clinic combines medical expertise with holistic healing science. We focus on treating the root cause and creating truly personalized wellness programs."
-                                }, void 0, false, {
-                                    fileName: "[project]/app/page.jsx",
-                                    lineNumber: 59,
-                                    columnNumber: 25
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-muted-foreground leading-relaxed",
-                                    children: "With certified specialists, modern diagnostic tools, and thousands of successful treatments — we ensure safe, natural, and long-lasting results for hair, skin, and overall wellness."
-                                }, void 0, false, {
-                                    fileName: "[project]/app/page.jsx",
-                                    lineNumber: 65,
-                                    columnNumber: 25
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/app/page.jsx",
-                            lineNumber: 56,
-                            columnNumber: 21
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "grid grid-cols-2 gap-6",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$FlipCard$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                    bg: "hsl(var(--secondary))",
-                                    front: {
-                                        number: "10,000+",
-                                        label: "happy patients"
-                                    },
-                                    back: {
-                                        desc: "Our clinic has helped thousands restore their confidence through holistic treatments tailored to their needs."
-                                    }
-                                }, void 0, false, {
-                                    fileName: "[project]/app/page.jsx",
-                                    lineNumber: 74,
-                                    columnNumber: 25
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$FlipCard$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                    bg: "hsl(var(--muted))",
-                                    front: {
-                                        number: "15+",
-                                        label: "medical specialists"
-                                    },
-                                    back: {
-                                        desc: "Experienced doctors, certified therapists and wellness experts working together for your transformation."
-                                    }
-                                }, void 0, false, {
-                                    fileName: "[project]/app/page.jsx",
-                                    lineNumber: 85,
-                                    columnNumber: 25
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$FlipCard$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                    bg: "hsl(var(--accent) / 0.6)",
-                                    front: {
-                                        number: "7+",
-                                        label: "years of excellence"
-                                    },
-                                    back: {
-                                        desc: "We combine scientific approaches with holistic healing for long-lasting, natural wellness solutions."
-                                    }
-                                }, void 0, false, {
-                                    fileName: "[project]/app/page.jsx",
-                                    lineNumber: 96,
-                                    columnNumber: 25
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$FlipCard$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                    bg: "hsl(var(--primary) / 0.25)",
-                                    front: {
-                                        number: "92%",
-                                        label: "success rate"
-                                    },
-                                    back: {
-                                        desc: "Consistent results backed by detailed assessments, progress tracking and personalized treatment planning."
-                                    }
-                                }, void 0, false, {
-                                    fileName: "[project]/app/page.jsx",
-                                    lineNumber: 107,
-                                    columnNumber: 25
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/app/page.jsx",
-                            lineNumber: 73,
-                            columnNumber: 21
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/app/page.jsx",
-                    lineNumber: 53,
-                    columnNumber: 17
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/app/page.jsx",
-                lineNumber: 52,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "py-20 px-6 md:px-16 lg:px-24",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        className: "text-3xl font-semibold text-center mb-12",
-                        children: "Why Choose Our Clinic"
-                    }, void 0, false, {
-                        fileName: "[project]/app/page.jsx",
-                        lineNumber: 126,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "grid md:grid-cols-4 gap-10",
-                        children: [
-                            {
-                                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaUserMd"], {
-                                    size: 26,
-                                    className: "text-background"
-                                }, void 0, false, {
-                                    fileName: "[project]/app/page.jsx",
-                                    lineNumber: 132,
-                                    columnNumber: 33
-                                }, this),
-                                title: "Certified Specialists"
-                            },
-                            {
-                                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$md$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["MdOutlineScience"], {
-                                    size: 26,
-                                    className: "text-background"
-                                }, void 0, false, {
-                                    fileName: "[project]/app/page.jsx",
-                                    lineNumber: 133,
-                                    columnNumber: 33
-                                }, this),
-                                title: "Science + Holistic Approach"
-                            },
-                            {
-                                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaLeaf"], {
-                                    size: 26,
-                                    className: "text-background"
-                                }, void 0, false, {
-                                    fileName: "[project]/app/page.jsx",
-                                    lineNumber: 134,
-                                    columnNumber: 33
-                                }, this),
-                                title: "Root-Cause Healing"
-                            },
-                            {
-                                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$md$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["MdHealthAndSafety"], {
-                                    size: 26,
-                                    className: "text-background"
-                                }, void 0, false, {
-                                    fileName: "[project]/app/page.jsx",
-                                    lineNumber: 135,
-                                    columnNumber: 33
-                                }, this),
-                                title: "Safe & Personalized"
-                            }
-                        ].map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "   group p-6 rounded-2xl bg-secondary/60 backdrop-blur-xl    shadow-lg hover:shadow-medium border border-border   transition-all hover:-translate-y-1   ",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "w-14 h-14 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center shadow-md mb-5",
-                                        children: item.icon
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/page.jsx",
-                                        lineNumber: 145,
-                                        columnNumber: 29
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                        className: "font-semibold text-lg text-foreground text-center",
-                                        children: item.title
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/page.jsx",
-                                        lineNumber: 149,
-                                        columnNumber: 29
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "w-0 group-hover:w-full h-0.5 bg-gradient-to-r from-primary to-accent mx-auto mt-4 transition-all duration-500"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/page.jsx",
-                                        lineNumber: 151,
-                                        columnNumber: 29
-                                    }, this)
-                                ]
-                            }, index, true, {
-                                fileName: "[project]/app/page.jsx",
-                                lineNumber: 137,
-                                columnNumber: 25
-                            }, this))
-                    }, void 0, false, {
-                        fileName: "[project]/app/page.jsx",
-                        lineNumber: 130,
-                        columnNumber: 17
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/app/page.jsx",
-                lineNumber: 125,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "py-20 px-6 md:px-16 lg:px-24",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        className: "text-3xl font-semibold text-center mb-12",
-                        children: "Our Specialized Treatments"
-                    }, void 0, false, {
-                        fileName: "[project]/app/page.jsx",
-                        lineNumber: 159,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "grid md:grid-cols-3 gap-10",
-                        children: [
-                            {
-                                title: "Hair Growth Treatments",
-                                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaLeaf"], {
-                                    size: 24,
-                                    className: "text-background"
-                                }, void 0, false, {
-                                    fileName: "[project]/app/page.jsx",
-                                    lineNumber: 167,
-                                    columnNumber: 35
-                                }, this),
-                                link: "/HairGrowth"
-                            },
-                            {
-                                title: "Skin Care & Glow Treatments",
-                                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaRegSmileBeam"], {
-                                    size: 24,
-                                    className: "text-background"
-                                }, void 0, false, {
-                                    fileName: "[project]/app/page.jsx",
-                                    lineNumber: 172,
-                                    columnNumber: 35
-                                }, this),
-                                link: "/SkinCare"
-                            },
-                            {
-                                title: "Weight Loss & Metabolism Programs",
-                                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaWeight"], {
-                                    size: 24,
-                                    className: "text-background"
-                                }, void 0, false, {
-                                    fileName: "[project]/app/page.jsx",
-                                    lineNumber: 177,
-                                    columnNumber: 35
-                                }, this),
-                                link: "/WeightLoss"
-                            }
-                        ].map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                href: item.link,
-                                className: "   group p-6 rounded-2xl bg-secondary/60 backdrop-blur-xl    border border-border shadow-lg hover:shadow-medium   transition-all hover:-translate-y-1 block   ",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "w-14 h-14 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center shadow-md mb-5",
-                                        children: item.icon
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/page.jsx",
-                                        lineNumber: 190,
-                                        columnNumber: 29
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                        className: "font-semibold text-xl text-foreground",
-                                        children: item.title
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/page.jsx",
-                                        lineNumber: 194,
-                                        columnNumber: 29
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "w-0 group-hover:w-full h-0.5 bg-gradient-to-r from-primary to-accent mx-auto mt-5 transition-all duration-500"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/page.jsx",
-                                        lineNumber: 196,
-                                        columnNumber: 29
-                                    }, this)
-                                ]
-                            }, index, true, {
-                                fileName: "[project]/app/page.jsx",
-                                lineNumber: 181,
-                                columnNumber: 25
-                            }, this))
-                    }, void 0, false, {
-                        fileName: "[project]/app/page.jsx",
-                        lineNumber: 163,
-                        columnNumber: 17
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/app/page.jsx",
-                lineNumber: 158,
-                columnNumber: 13
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "[project]/app/page.jsx",
-        lineNumber: 44,
-        columnNumber: 9
-    }, this);
-}
+const e = new Error("Could not parse module '[project]/app/page.jsx'\n\nExpected 'from', got 'export'");
+e.code = 'MODULE_UNPARSABLE';
+throw e;
 }),
 ];
 

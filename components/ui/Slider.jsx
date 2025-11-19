@@ -28,7 +28,7 @@ export default function Slider({
   }, [current]);
 
   return (
-    <section className={`relative w-full ${height} overflow-hidden bg-background`}>
+    <section className={`relative w-full ${height} bg-background`}>
       {/* STACKED SLIDES — perfect crossfade */}
       <div className="absolute inset-0 w-full h-full">
         {slides.map((slide, index) => {
