@@ -196,7 +196,7 @@ export default function Home() {
       </section>
 
       <Testimonials />
-      <FAQ />
+      <FAQ limit={4} />
     </div>
   );
 }

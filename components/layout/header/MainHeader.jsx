@@ -19,7 +19,7 @@ export default function Navbar() {
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
 
-    const hideFloating = ["/HairGrowth/register", "/HairGrowth/coach"];
+    const hideFloating = ["/HairGrowth/register", "/HairGrowth/coach", "#not-found"];
 
     return (
         <>
@@ -205,7 +205,7 @@ export default function Navbar() {
                             >
                                 <Link href="/HairGrowth/register" className="block px-3 py-2 hover:bg-card">Book Appointment</Link>
                                 <Link href="#" className="block px-3 py-2 hover:bg-card">Clinic Locator</Link>
-                                <Link href="#" className="block px-3 py-2 hover:bg-card">Emergency Call</Link>
+                                <Link href="tel:+919770799998" className="block px-3 py-2 hover:bg-card">Emergency Call</Link>
                                 <Link href="https://wa.me/919770799998" target="_blank" className="block px-3 py-2 hover:bg-card">WhatsApp Chat</Link>
                             </div>
                         </div>
@@ -356,7 +356,7 @@ export default function Navbar() {
                                 <div className="ml-4 mt-2 space-y-2 text-muted-foreground">
                                     <Link href="/HairGrowth/register" className="block" >Book Appointment</Link>
                                     <Link href="#" className="block" >Clinic Locator</Link>
-                                    <Link href="#" className="block" >Emergency Call</Link>
+                                    <Link href="tel:+919770799998" className="block" >Emergency Call</Link>
                                     <Link href="https://wa.me/919770799998" target="_blank" className="block" >WhatsApp Chat</Link>
                                 </div>
                             </details>

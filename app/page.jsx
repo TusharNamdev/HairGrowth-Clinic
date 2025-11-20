@@ -11,6 +11,7 @@ import { FaUsers, FaRegStar, FaChartLine } from "react-icons/fa";
 import CompactHeroSlider from "@/components/shared/CompactHeroSlider";
 import WhatWeTreat from "@/components/WhatWeTreat";
 import Testimonials from "@/components/Testimonials";
+import FAQ from "@/components/FAQ";
 
 
 export default function HomePage() {
@@ -129,9 +130,9 @@ export default function HomePage() {
 
             <Testimonials />
 
-            
+
             <div className="w-full h-12 shadow-[0_-20px_40px_-15px_rgba(0,0,0,0.08)]" />
-            
+
 
             {/* WHY CHOOSE US (4 CARDS) */}
             <section className="py-20 px-6 md:px-16 lg:px-24">
@@ -169,6 +170,8 @@ export default function HomePage() {
             <div className="w-full h-12 shadow-[0_-20px_40px_-15px_rgba(0,0,0,0.08)]" />
 
 
+
+
             {/* OUR TREATMENTS (3 MAIN SERVICES) */}
             <section className="py-20 px-6 md:px-16 lg:px-24">
                 <h2 className="text-3xl font-semibold text-center mb-12">
@@ -197,10 +200,10 @@ export default function HomePage() {
                             href={item.link}
                             key={index}
                             className="
-                group p-6 rounded-2xl bg-secondary/60 backdrop-blur-xl 
-                border border-border shadow-lg hover:shadow-medium
-                transition-all hover:-translate-y-1 block
-              "
+                        group p-6 rounded-2xl bg-secondary/60 backdrop-blur-xl 
+                        border border-border shadow-lg hover:shadow-medium
+                        transition-all hover:-translate-y-1 block
+                        "
                         >
                             <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center shadow-md mb-5">
                                 {item.icon}
@@ -214,6 +217,11 @@ export default function HomePage() {
                 </div>
             </section>
 
+            <div className="w-full h-12 shadow-[0_-20px_40px_-15px_rgba(0,0,0,0.08)]" />
+
+            {/* FAQ SECTION */}
+            <FAQ limit={4} />
+            
         </div>
     );
 }
