@@ -94,6 +94,11 @@ export default function CustomProgramsPage() {
         </div>
       </header>
 
+
+      {/* Shadow Divider */}
+      <div className="w-full h-12 shadow-[0_-20px_40px_-15px_rgba(0,0,0,0.08)]" />
+
+
       {/* PROGRAM CARDS */}
       <section id="programs" className="max-w-7xl mx-auto px-6 py-14">
         <div className="text-center mb-10">
@@ -147,6 +152,11 @@ export default function CustomProgramsPage() {
           ))}
         </div>
       </section>
+
+
+      {/* Shadow Divider */}
+      <div className="w-full h-12 shadow-[0_-20px_40px_-15px_rgba(0,0,0,0.08)]" />
+
 
       {/* CUSTOMIZATION FLOW */}
       <section className="max-w-7xl mx-auto px-6 py-14">
@@ -216,6 +226,11 @@ export default function CustomProgramsPage() {
         </div>
       </section>
 
+
+      {/* Shadow Divider */}
+      <div className="w-full h-12 shadow-[0_-20px_40px_-15px_rgba(0,0,0,0.08)]" />
+
+
       {/* PRICING / TIERS */}
       <section className="max-w-7xl mx-auto px-6 py-14">
         <div className="text-center mb-8">
@@ -271,7 +286,7 @@ export default function CustomProgramsPage() {
         </div>
       </section>
 
-      <div style={{ height: 120 }} />
+      {/* <div style={{ height: 120 }} /> */}
     </div>
   );
 }

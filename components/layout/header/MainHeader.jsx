@@ -164,8 +164,8 @@ export default function Navbar() {
                 "
                             >
                                 <Link href="/testimonials" className="block px-3 py-2 hover:bg-card">Before / After</Link>
-                                <Link href="#" className="block px-3 py-2 hover:bg-card">Case Studies</Link>
-                                <Link href="#" className="block px-3 py-2 hover:bg-card">Google Reviews</Link>
+                                <Link href="/case-studies" className="block px-3 py-2 hover:bg-card">Case Studies</Link>
+                                <Link href="/google-reviews" className="block px-3 py-2 hover:bg-card">Google Reviews</Link>
                                 <Link href="#" className="block px-3 py-2 hover:bg-card">Video Testimonials</Link>
                             </div>
                         </div>
@@ -329,8 +329,8 @@ export default function Navbar() {
                                 </summary>
                                 <div className="ml-4 mt-2 space-y-2 text-muted-foreground">
                                     <Link href="/testimonials" className="block">Before / After</Link>
-                                    <Link href="#" className="block">Case Studies</Link>
-                                    <Link href="#" className="block">Google Reviews</Link>
+                                    <Link href="/case-studies" className="block">Case Studies</Link>
+                                    <Link href="/google-reviews" className="block">Google Reviews</Link>
                                     <Link href="#" className="block">Video Testimonials</Link>
                                 </div>
                             </details>

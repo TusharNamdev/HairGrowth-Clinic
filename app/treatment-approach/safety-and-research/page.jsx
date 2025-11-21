@@ -98,6 +98,11 @@ export default function SafetyAndResearch() {
         </motion.div>
       </header>
 
+
+      {/* Shadow Divider */}
+      <div className="w-full h-12 shadow-[0_-20px_40px_-15px_rgba(0,0,0,0.08)]" />
+
+
       {/* RESEARCH GRID */}
       <section id="research" className="max-w-7xl mx-auto px-6 py-12">
         <div className="text-center mb-8">
@@ -134,7 +139,7 @@ export default function SafetyAndResearch() {
                 </Link>
 
                 <a
-                  href={heroImage} 
+                  href={heroImage}
                   download
                   className="text-sm rounded-lg px-3 py-2 bg-primary text-primary-foreground flex items-center gap-2"
                 >
@@ -145,6 +150,11 @@ export default function SafetyAndResearch() {
           ))}
         </div>
       </section>
+
+
+      {/* Shadow Divider */}
+      <div className="w-full h-12 shadow-[0_-20px_40px_-15px_rgba(0,0,0,0.08)]" />
+
 
       {/* TIMELINE & SAFETY */}
       <section className="max-w-7xl mx-auto px-6 py-12">
@@ -197,6 +207,10 @@ export default function SafetyAndResearch() {
       </section>
 
 
+      {/* Shadow Divider */}
+      <div className="w-full h-12 shadow-[0_-20px_40px_-15px_rgba(0,0,0,0.08)]" />
+
+
       {/* CTA */}
       <section className="py-16 text-center">
         <div className="max-w-2xl mx-auto">
@@ -212,7 +226,7 @@ export default function SafetyAndResearch() {
         </div>
       </section>
 
-      <div style={{ height: 120 }} />
+      {/* <div style={{ height: 120 }} /> */}
     </div>
   );
 }

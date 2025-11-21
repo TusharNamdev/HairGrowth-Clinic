@@ -235,6 +235,13 @@ function HomeVsClinicCare() {
                 lineNumber: 37,
                 columnNumber: 7
             }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "w-full h-12 shadow-[0_-20px_40px_-15px_rgba(0,0,0,0.08)]"
+            }, void 0, false, {
+                fileName: "[project]/app/treatment-approach/home-vs-clinic-care/page.jsx",
+                lineNumber: 100,
+                columnNumber: 7
+            }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 className: "max-w-6xl mx-auto px-6 pb-20",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$dom$2f$motion$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -249,7 +256,7 @@ function HomeVsClinicCare() {
                             children: "Which One Should You Choose?"
                         }, void 0, false, {
                             fileName: "[project]/app/treatment-approach/home-vs-clinic-care/page.jsx",
-                            lineNumber: 108,
+                            lineNumber: 113,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -257,7 +264,7 @@ function HomeVsClinicCare() {
                             children: "Your doctor will guide you based on the intensity of your symptoms, lifestyle, treatment goals, and comfort level. Most patients begin with home-based care and transition to clinic visits if needed."
                         }, void 0, false, {
                             fileName: "[project]/app/treatment-approach/home-vs-clinic-care/page.jsx",
-                            lineNumber: 112,
+                            lineNumber: 117,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -295,7 +302,7 @@ function HomeVsClinicCare() {
                                             children: block.title
                                         }, void 0, false, {
                                             fileName: "[project]/app/treatment-approach/home-vs-clinic-care/page.jsx",
-                                            lineNumber: 146,
+                                            lineNumber: 151,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -308,7 +315,7 @@ function HomeVsClinicCare() {
                                                             className: "text-primary mt-0.5"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/treatment-approach/home-vs-clinic-care/page.jsx",
-                                                            lineNumber: 150,
+                                                            lineNumber: 155,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -316,40 +323,47 @@ function HomeVsClinicCare() {
                                                             children: p
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/treatment-approach/home-vs-clinic-care/page.jsx",
-                                                            lineNumber: 151,
+                                                            lineNumber: 156,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, idx, true, {
                                                     fileName: "[project]/app/treatment-approach/home-vs-clinic-care/page.jsx",
-                                                    lineNumber: 149,
+                                                    lineNumber: 154,
                                                     columnNumber: 21
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/app/treatment-approach/home-vs-clinic-care/page.jsx",
-                                            lineNumber: 147,
+                                            lineNumber: 152,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, i, true, {
                                     fileName: "[project]/app/treatment-approach/home-vs-clinic-care/page.jsx",
-                                    lineNumber: 145,
+                                    lineNumber: 150,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/treatment-approach/home-vs-clinic-care/page.jsx",
-                            lineNumber: 118,
+                            lineNumber: 123,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/treatment-approach/home-vs-clinic-care/page.jsx",
-                    lineNumber: 100,
+                    lineNumber: 105,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/treatment-approach/home-vs-clinic-care/page.jsx",
-                lineNumber: 99,
+                lineNumber: 104,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "w-full h-12 shadow-[0_-20px_40px_-15px_rgba(0,0,0,0.08)]"
+            }, void 0, false, {
+                fileName: "[project]/app/treatment-approach/home-vs-clinic-care/page.jsx",
+                lineNumber: 168,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -366,7 +380,7 @@ function HomeVsClinicCare() {
                             children: "Need help choosing the right approach?"
                         }, void 0, false, {
                             fileName: "[project]/app/treatment-approach/home-vs-clinic-care/page.jsx",
-                            lineNumber: 168,
+                            lineNumber: 178,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -374,7 +388,7 @@ function HomeVsClinicCare() {
                             children: "Our doctors can help you decide which plan is best for your health condition."
                         }, void 0, false, {
                             fileName: "[project]/app/treatment-approach/home-vs-clinic-care/page.jsx",
-                            lineNumber: 172,
+                            lineNumber: 182,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -387,29 +401,29 @@ function HomeVsClinicCare() {
                                         size: 18
                                     }, void 0, false, {
                                         fileName: "[project]/app/treatment-approach/home-vs-clinic-care/page.jsx",
-                                        lineNumber: 178,
+                                        lineNumber: 188,
                                         columnNumber: 33
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/treatment-approach/home-vs-clinic-care/page.jsx",
-                                lineNumber: 177,
+                                lineNumber: 187,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/treatment-approach/home-vs-clinic-care/page.jsx",
-                            lineNumber: 176,
+                            lineNumber: 186,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/treatment-approach/home-vs-clinic-care/page.jsx",
-                    lineNumber: 163,
+                    lineNumber: 173,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/treatment-approach/home-vs-clinic-care/page.jsx",
-                lineNumber: 162,
+                lineNumber: 172,
                 columnNumber: 7
             }, this)
         ]

@@ -1019,6 +1019,13 @@ function CustomProgramsPage() {
                 lineNumber: 48,
                 columnNumber: 7
             }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "w-full h-12 shadow-[0_-20px_40px_-15px_rgba(0,0,0,0.08)]"
+            }, void 0, false, {
+                fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
+                lineNumber: 99,
+                columnNumber: 7
+            }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 id: "programs",
                 className: "max-w-7xl mx-auto px-6 py-14",
@@ -1031,7 +1038,7 @@ function CustomProgramsPage() {
                                 children: "Choose a program that fits you"
                             }, void 0, false, {
                                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                lineNumber: 100,
+                                lineNumber: 105,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1039,13 +1046,13 @@ function CustomProgramsPage() {
                                 children: "Start with a focused plan or pick a comprehensive program for long-term results."
                             }, void 0, false, {
                                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                lineNumber: 101,
+                                lineNumber: 106,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                        lineNumber: 99,
+                        lineNumber: 104,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1072,7 +1079,7 @@ function CustomProgramsPage() {
                                         className: "absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary to-accent opacity-60 rounded-t-2xl"
                                     }, void 0, false, {
                                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                        lineNumber: 116,
+                                        lineNumber: 121,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1083,7 +1090,7 @@ function CustomProgramsPage() {
                                                 children: p.title
                                             }, void 0, false, {
                                                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                lineNumber: 119,
+                                                lineNumber: 124,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1091,13 +1098,13 @@ function CustomProgramsPage() {
                                                 children: p.price
                                             }, void 0, false, {
                                                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                lineNumber: 120,
+                                                lineNumber: 125,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                        lineNumber: 118,
+                                        lineNumber: 123,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1105,7 +1112,7 @@ function CustomProgramsPage() {
                                         children: p.desc
                                     }, void 0, false, {
                                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                        lineNumber: 123,
+                                        lineNumber: 128,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1119,20 +1126,20 @@ function CustomProgramsPage() {
                                                         className: "text-primary mt-1"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                        lineNumber: 127,
+                                                        lineNumber: 132,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         children: "Initial doctor consultation"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                        lineNumber: 128,
+                                                        lineNumber: 133,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                lineNumber: 126,
+                                                lineNumber: 131,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1143,26 +1150,26 @@ function CustomProgramsPage() {
                                                         className: "text-primary mt-1"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                        lineNumber: 131,
+                                                        lineNumber: 136,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         children: "Personalized medicine plan"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                        lineNumber: 132,
+                                                        lineNumber: 137,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                lineNumber: 130,
+                                                lineNumber: 135,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                        lineNumber: 125,
+                                        lineNumber: 130,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1175,12 +1182,12 @@ function CustomProgramsPage() {
                                                     children: "Select"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                    lineNumber: 138,
+                                                    lineNumber: 143,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                lineNumber: 137,
+                                                lineNumber: 142,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1191,36 +1198,43 @@ function CustomProgramsPage() {
                                                         size: 14
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                        lineNumber: 143,
+                                                        lineNumber: 148,
                                                         columnNumber: 30
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                lineNumber: 142,
+                                                lineNumber: 147,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                        lineNumber: 136,
+                                        lineNumber: 141,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, p.title, true, {
                                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                lineNumber: 108,
+                                lineNumber: 113,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                        lineNumber: 106,
+                        lineNumber: 111,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                lineNumber: 98,
+                lineNumber: 103,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "w-full h-12 shadow-[0_-20px_40px_-15px_rgba(0,0,0,0.08)]"
+            }, void 0, false, {
+                fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
+                lineNumber: 158,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1246,7 +1260,7 @@ function CustomProgramsPage() {
                                     children: "How we customise your plan"
                                 }, void 0, false, {
                                     fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                    lineNumber: 155,
+                                    lineNumber: 165,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1254,7 +1268,7 @@ function CustomProgramsPage() {
                                     children: "Our customization process is simple, transparent and evidence-based. We combine clinical assessment with lifestyle analysis and patient goals to build a plan you'll follow happily."
                                 }, void 0, false, {
                                     fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                    lineNumber: 156,
+                                    lineNumber: 166,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1269,12 +1283,12 @@ function CustomProgramsPage() {
                                                         children: idx + 1
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                        lineNumber: 165,
+                                                        lineNumber: 175,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                    lineNumber: 164,
+                                                    lineNumber: 174,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1284,7 +1298,7 @@ function CustomProgramsPage() {
                                                             children: st.title
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                            lineNumber: 168,
+                                                            lineNumber: 178,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1292,30 +1306,30 @@ function CustomProgramsPage() {
                                                             children: st.desc
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                            lineNumber: 169,
+                                                            lineNumber: 179,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                    lineNumber: 167,
+                                                    lineNumber: 177,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, st.title, true, {
                                             fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                            lineNumber: 163,
+                                            lineNumber: 173,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                    lineNumber: 161,
+                                    lineNumber: 171,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                            lineNumber: 154,
+                            lineNumber: 164,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$dom$2f$motion$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1338,7 +1352,7 @@ function CustomProgramsPage() {
                                         children: "Quick Customizer"
                                     }, void 0, false, {
                                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                        lineNumber: 178,
+                                        lineNumber: 188,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -1351,7 +1365,7 @@ function CustomProgramsPage() {
                                                         children: "Primary Concern"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                        lineNumber: 182,
+                                                        lineNumber: 192,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -1361,33 +1375,33 @@ function CustomProgramsPage() {
                                                                 children: "Hair fall"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                                lineNumber: 184,
+                                                                lineNumber: 194,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                                 children: "Acne"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                                lineNumber: 185,
+                                                                lineNumber: 195,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                                 children: "Sleep issues"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                                lineNumber: 186,
+                                                                lineNumber: 196,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                        lineNumber: 183,
+                                                        lineNumber: 193,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                lineNumber: 181,
+                                                lineNumber: 191,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1397,7 +1411,7 @@ function CustomProgramsPage() {
                                                         children: "Goal"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                        lineNumber: 191,
+                                                        lineNumber: 201,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -1407,33 +1421,33 @@ function CustomProgramsPage() {
                                                                 children: "Regrowth"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                                lineNumber: 193,
+                                                                lineNumber: 203,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                                 children: "Reduced episodes"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                                lineNumber: 194,
+                                                                lineNumber: 204,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                                 children: "Improve sleep"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                                lineNumber: 195,
+                                                                lineNumber: 205,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                        lineNumber: 192,
+                                                        lineNumber: 202,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                lineNumber: 190,
+                                                lineNumber: 200,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1443,7 +1457,7 @@ function CustomProgramsPage() {
                                                         children: "Timeline"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                        lineNumber: 200,
+                                                        lineNumber: 210,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -1453,33 +1467,33 @@ function CustomProgramsPage() {
                                                                 children: "1 month"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                                lineNumber: 202,
+                                                                lineNumber: 212,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                                 children: "3 months"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                                lineNumber: 203,
+                                                                lineNumber: 213,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                                 children: "6 months"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                                lineNumber: 204,
+                                                                lineNumber: 214,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                        lineNumber: 201,
+                                                        lineNumber: 211,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                lineNumber: 199,
+                                                lineNumber: 209,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1490,40 +1504,47 @@ function CustomProgramsPage() {
                                                     children: "Get Suggested Plan"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                    lineNumber: 209,
+                                                    lineNumber: 219,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                lineNumber: 208,
+                                                lineNumber: 218,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                        lineNumber: 180,
+                                        lineNumber: 190,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                lineNumber: 177,
+                                lineNumber: 187,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                            lineNumber: 176,
+                            lineNumber: 186,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                    lineNumber: 153,
+                    lineNumber: 163,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                lineNumber: 152,
+                lineNumber: 162,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "w-full h-12 shadow-[0_-20px_40px_-15px_rgba(0,0,0,0.08)]"
+            }, void 0, false, {
+                fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
+                lineNumber: 231,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1537,7 +1558,7 @@ function CustomProgramsPage() {
                                 children: "Pricing & Packages"
                             }, void 0, false, {
                                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                lineNumber: 222,
+                                lineNumber: 237,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1545,13 +1566,13 @@ function CustomProgramsPage() {
                                 children: "Transparent pricing for every need — no hidden charges."
                             }, void 0, false, {
                                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                lineNumber: 223,
+                                lineNumber: 238,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                        lineNumber: 221,
+                        lineNumber: 236,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1565,7 +1586,7 @@ function CustomProgramsPage() {
                                         children: "Basic"
                                     }, void 0, false, {
                                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                        lineNumber: 228,
+                                        lineNumber: 243,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1573,7 +1594,7 @@ function CustomProgramsPage() {
                                         children: "₹1,499"
                                     }, void 0, false, {
                                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                        lineNumber: 229,
+                                        lineNumber: 244,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1587,14 +1608,14 @@ function CustomProgramsPage() {
                                                         className: "text-primary mt-1"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                        lineNumber: 231,
+                                                        lineNumber: 246,
                                                         columnNumber: 54
                                                     }, this),
                                                     " 1 consultation"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                lineNumber: 231,
+                                                lineNumber: 246,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1605,26 +1626,26 @@ function CustomProgramsPage() {
                                                         className: "text-primary mt-1"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                        lineNumber: 232,
+                                                        lineNumber: 247,
                                                         columnNumber: 54
                                                     }, this),
                                                     " 4-week plan"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                lineNumber: 232,
+                                                lineNumber: 247,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                        lineNumber: 230,
+                                        lineNumber: 245,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                lineNumber: 227,
+                                lineNumber: 242,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1635,7 +1656,7 @@ function CustomProgramsPage() {
                                         children: "Popular"
                                     }, void 0, false, {
                                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                        lineNumber: 237,
+                                        lineNumber: 252,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1643,7 +1664,7 @@ function CustomProgramsPage() {
                                         children: "₹4,999"
                                     }, void 0, false, {
                                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                        lineNumber: 238,
+                                        lineNumber: 253,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1657,14 +1678,14 @@ function CustomProgramsPage() {
                                                         className: "text-primary mt-1"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                        lineNumber: 240,
+                                                        lineNumber: 255,
                                                         columnNumber: 54
                                                     }, this),
                                                     " Detailed assessment"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                lineNumber: 240,
+                                                lineNumber: 255,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1675,26 +1696,26 @@ function CustomProgramsPage() {
                                                         className: "text-primary mt-1"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                        lineNumber: 241,
+                                                        lineNumber: 256,
                                                         columnNumber: 54
                                                     }, this),
                                                     " 3-month support"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                lineNumber: 241,
+                                                lineNumber: 256,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                        lineNumber: 239,
+                                        lineNumber: 254,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                lineNumber: 236,
+                                lineNumber: 251,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1705,7 +1726,7 @@ function CustomProgramsPage() {
                                         children: "Comprehensive"
                                     }, void 0, false, {
                                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                        lineNumber: 246,
+                                        lineNumber: 261,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1713,7 +1734,7 @@ function CustomProgramsPage() {
                                         children: "₹12,999"
                                     }, void 0, false, {
                                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                        lineNumber: 247,
+                                        lineNumber: 262,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1727,14 +1748,14 @@ function CustomProgramsPage() {
                                                         className: "text-primary mt-1"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                        lineNumber: 249,
+                                                        lineNumber: 264,
                                                         columnNumber: 54
                                                     }, this),
                                                     " Clinic diagnostics"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                lineNumber: 249,
+                                                lineNumber: 264,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1745,38 +1766,38 @@ function CustomProgramsPage() {
                                                         className: "text-primary mt-1"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                        lineNumber: 250,
+                                                        lineNumber: 265,
                                                         columnNumber: 54
                                                     }, this),
                                                     " 6-month support"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                                lineNumber: 250,
+                                                lineNumber: 265,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                        lineNumber: 248,
+                                        lineNumber: 263,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                lineNumber: 245,
+                                lineNumber: 260,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                        lineNumber: 226,
+                        lineNumber: 241,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                lineNumber: 220,
+                lineNumber: 235,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1789,7 +1810,7 @@ function CustomProgramsPage() {
                             children: "Ready to begin your custom program?"
                         }, void 0, false, {
                             fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                            lineNumber: 264,
+                            lineNumber: 279,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1797,7 +1818,7 @@ function CustomProgramsPage() {
                             children: "Book a consultation and we’ll design a plan that fits your life."
                         }, void 0, false, {
                             fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                            lineNumber: 265,
+                            lineNumber: 280,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1810,38 +1831,29 @@ function CustomProgramsPage() {
                                         size: 16
                                     }, void 0, false, {
                                         fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                        lineNumber: 268,
+                                        lineNumber: 283,
                                         columnNumber: 33
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                                lineNumber: 267,
+                                lineNumber: 282,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                            lineNumber: 266,
+                            lineNumber: 281,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                    lineNumber: 263,
+                    lineNumber: 278,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                lineNumber: 262,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                style: {
-                    height: 120
-                }
-            }, void 0, false, {
-                fileName: "[project]/app/treatment-approach/custom-programs/page.jsx",
-                lineNumber: 274,
+                lineNumber: 277,
                 columnNumber: 7
             }, this)
         ]

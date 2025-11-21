@@ -266,6 +266,13 @@ function DigitalDiagnosisMethod() {
                 lineNumber: 90,
                 columnNumber: 7
             }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "w-full h-12 shadow-[0_-20px_40px_-15px_rgba(0,0,0,0.08)]"
+            }, void 0, false, {
+                fileName: "[project]/app/treatment-approach/digital-diagnosis-method/page.jsx",
+                lineNumber: 129,
+                columnNumber: 7
+            }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 id: "flow",
                 className: "max-w-7xl mx-auto px-6 py-14",
@@ -275,7 +282,7 @@ function DigitalDiagnosisMethod() {
                         children: "How Our Digital Diagnosis Works"
                     }, void 0, false, {
                         fileName: "[project]/app/treatment-approach/digital-diagnosis-method/page.jsx",
-                        lineNumber: 129,
+                        lineNumber: 134,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -303,7 +310,7 @@ function DigitalDiagnosisMethod() {
                                         children: s.icon
                                     }, void 0, false, {
                                         fileName: "[project]/app/treatment-approach/digital-diagnosis-method/page.jsx",
-                                        lineNumber: 143,
+                                        lineNumber: 148,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -311,7 +318,7 @@ function DigitalDiagnosisMethod() {
                                         children: s.title
                                     }, void 0, false, {
                                         fileName: "[project]/app/treatment-approach/digital-diagnosis-method/page.jsx",
-                                        lineNumber: 146,
+                                        lineNumber: 151,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -319,24 +326,31 @@ function DigitalDiagnosisMethod() {
                                         children: s.desc
                                     }, void 0, false, {
                                         fileName: "[project]/app/treatment-approach/digital-diagnosis-method/page.jsx",
-                                        lineNumber: 147,
+                                        lineNumber: 152,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, s.title, true, {
                                 fileName: "[project]/app/treatment-approach/digital-diagnosis-method/page.jsx",
-                                lineNumber: 135,
+                                lineNumber: 140,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/app/treatment-approach/digital-diagnosis-method/page.jsx",
-                        lineNumber: 133,
+                        lineNumber: 138,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/treatment-approach/digital-diagnosis-method/page.jsx",
-                lineNumber: 128,
+                lineNumber: 133,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "w-full h-12 shadow-[0_-20px_40px_-15px_rgba(0,0,0,0.08)]"
+            }, void 0, false, {
+                fileName: "[project]/app/treatment-approach/digital-diagnosis-method/page.jsx",
+                lineNumber: 160,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -347,7 +361,7 @@ function DigitalDiagnosisMethod() {
                         children: "Tools We Use for Diagnosis"
                     }, void 0, false, {
                         fileName: "[project]/app/treatment-approach/digital-diagnosis-method/page.jsx",
-                        lineNumber: 155,
+                        lineNumber: 165,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -375,7 +389,7 @@ function DigitalDiagnosisMethod() {
                                         children: t.icon
                                     }, void 0, false, {
                                         fileName: "[project]/app/treatment-approach/digital-diagnosis-method/page.jsx",
-                                        lineNumber: 169,
+                                        lineNumber: 179,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -383,7 +397,7 @@ function DigitalDiagnosisMethod() {
                                         children: t.title
                                     }, void 0, false, {
                                         fileName: "[project]/app/treatment-approach/digital-diagnosis-method/page.jsx",
-                                        lineNumber: 170,
+                                        lineNumber: 180,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -391,24 +405,31 @@ function DigitalDiagnosisMethod() {
                                         children: t.desc
                                     }, void 0, false, {
                                         fileName: "[project]/app/treatment-approach/digital-diagnosis-method/page.jsx",
-                                        lineNumber: 171,
+                                        lineNumber: 181,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, t.title, true, {
                                 fileName: "[project]/app/treatment-approach/digital-diagnosis-method/page.jsx",
-                                lineNumber: 161,
+                                lineNumber: 171,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/app/treatment-approach/digital-diagnosis-method/page.jsx",
-                        lineNumber: 159,
+                        lineNumber: 169,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/treatment-approach/digital-diagnosis-method/page.jsx",
-                lineNumber: 154,
+                lineNumber: 164,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "w-full h-12 shadow-[0_-20px_40px_-15px_rgba(0,0,0,0.08)]"
+            }, void 0, false, {
+                fileName: "[project]/app/treatment-approach/digital-diagnosis-method/page.jsx",
+                lineNumber: 189,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -419,7 +440,7 @@ function DigitalDiagnosisMethod() {
                         children: "Remote vs In-Clinic Diagnosis"
                     }, void 0, false, {
                         fileName: "[project]/app/treatment-approach/digital-diagnosis-method/page.jsx",
-                        lineNumber: 179,
+                        lineNumber: 194,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -450,7 +471,7 @@ function DigitalDiagnosisMethod() {
                                                 children: c.icon
                                             }, void 0, false, {
                                                 fileName: "[project]/app/treatment-approach/digital-diagnosis-method/page.jsx",
-                                                lineNumber: 194,
+                                                lineNumber: 209,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -458,13 +479,13 @@ function DigitalDiagnosisMethod() {
                                                 children: c.type
                                             }, void 0, false, {
                                                 fileName: "[project]/app/treatment-approach/digital-diagnosis-method/page.jsx",
-                                                lineNumber: 197,
+                                                lineNumber: 212,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/treatment-approach/digital-diagnosis-method/page.jsx",
-                                        lineNumber: 193,
+                                        lineNumber: 208,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -477,7 +498,7 @@ function DigitalDiagnosisMethod() {
                                                         className: "text-primary mt-1"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/treatment-approach/digital-diagnosis-method/page.jsx",
-                                                        lineNumber: 203,
+                                                        lineNumber: 218,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -485,35 +506,35 @@ function DigitalDiagnosisMethod() {
                                                         children: p
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/treatment-approach/digital-diagnosis-method/page.jsx",
-                                                        lineNumber: 204,
+                                                        lineNumber: 219,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, idx, true, {
                                                 fileName: "[project]/app/treatment-approach/digital-diagnosis-method/page.jsx",
-                                                lineNumber: 202,
+                                                lineNumber: 217,
                                                 columnNumber: 19
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/app/treatment-approach/digital-diagnosis-method/page.jsx",
-                                        lineNumber: 200,
+                                        lineNumber: 215,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, c.type, true, {
                                 fileName: "[project]/app/treatment-approach/digital-diagnosis-method/page.jsx",
-                                lineNumber: 185,
+                                lineNumber: 200,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/app/treatment-approach/digital-diagnosis-method/page.jsx",
-                        lineNumber: 183,
+                        lineNumber: 198,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/treatment-approach/digital-diagnosis-method/page.jsx",
-                lineNumber: 178,
+                lineNumber: 193,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -526,7 +547,7 @@ function DigitalDiagnosisMethod() {
                             children: "Start Your Digital Diagnosis Today"
                         }, void 0, false, {
                             fileName: "[project]/app/treatment-approach/digital-diagnosis-method/page.jsx",
-                            lineNumber: 216,
+                            lineNumber: 231,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -534,7 +555,7 @@ function DigitalDiagnosisMethod() {
                             children: "Upload photos & get your doctor-reviewed report within 24 hours."
                         }, void 0, false, {
                             fileName: "[project]/app/treatment-approach/digital-diagnosis-method/page.jsx",
-                            lineNumber: 219,
+                            lineNumber: 234,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -547,38 +568,29 @@ function DigitalDiagnosisMethod() {
                                         size: 16
                                     }, void 0, false, {
                                         fileName: "[project]/app/treatment-approach/digital-diagnosis-method/page.jsx",
-                                        lineNumber: 225,
+                                        lineNumber: 240,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/treatment-approach/digital-diagnosis-method/page.jsx",
-                                lineNumber: 224,
+                                lineNumber: 239,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/treatment-approach/digital-diagnosis-method/page.jsx",
-                            lineNumber: 223,
+                            lineNumber: 238,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/treatment-approach/digital-diagnosis-method/page.jsx",
-                    lineNumber: 215,
+                    lineNumber: 230,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/treatment-approach/digital-diagnosis-method/page.jsx",
-                lineNumber: 214,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                style: {
-                    height: 120
-                }
-            }, void 0, false, {
-                fileName: "[project]/app/treatment-approach/digital-diagnosis-method/page.jsx",
-                lineNumber: 231,
+                lineNumber: 229,
                 columnNumber: 7
             }, this)
         ]

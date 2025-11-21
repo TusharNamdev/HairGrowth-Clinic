@@ -85,7 +85,7 @@ export default function DigitalDiagnosisMethod() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-background via-background-soft to-background-muted">
-      
+
       {/* HERO */}
       <header className="max-w-7xl mx-auto px-6 pt-20 pb-12 grid lg:grid-cols-2 gap-10 items-center">
         <motion.div {...fadeUp} transition={{ duration: 0.6 }}>
@@ -124,6 +124,11 @@ export default function DigitalDiagnosisMethod() {
         </motion.div>
       </header>
 
+
+      {/* Shadow Divider */}
+      <div className="w-full h-12 shadow-[0_-20px_40px_-15px_rgba(0,0,0,0.08)]" />
+
+
       {/* DIAGNOSTIC FLOW */}
       <section id="flow" className="max-w-7xl mx-auto px-6 py-14">
         <h2 className="text-3xl font-bold text-foreground text-center mb-10">
@@ -150,6 +155,11 @@ export default function DigitalDiagnosisMethod() {
         </div>
       </section>
 
+
+      {/* Shadow Divider */}
+      <div className="w-full h-12 shadow-[0_-20px_40px_-15px_rgba(0,0,0,0.08)]" />
+
+
       {/* TOOLS USED */}
       <section className="max-w-7xl mx-auto px-6 py-14">
         <h2 className="text-3xl font-bold text-foreground text-center mb-10">
@@ -173,6 +183,11 @@ export default function DigitalDiagnosisMethod() {
           ))}
         </div>
       </section>
+
+
+      {/* Shadow Divider */}
+      <div className="w-full h-12 shadow-[0_-20px_40px_-15px_rgba(0,0,0,0.08)]" />
+
 
       {/* REMOTE VS CLINIC */}
       <section className="max-w-7xl mx-auto px-6 py-14">
@@ -228,7 +243,7 @@ export default function DigitalDiagnosisMethod() {
         </div>
       </section>
 
-      <div style={{ height: 120 }} />
+      {/* <div style={{ height: 120 }} /> */}
     </div>
   );
 }

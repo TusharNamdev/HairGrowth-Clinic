@@ -1121,6 +1121,13 @@ function SafetyAndResearch() {
                 lineNumber: 53,
                 columnNumber: 7
             }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "w-full h-12 shadow-[0_-20px_40px_-15px_rgba(0,0,0,0.08)]"
+            }, void 0, false, {
+                fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
+                lineNumber: 103,
+                columnNumber: 7
+            }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 id: "research",
                 className: "max-w-7xl mx-auto px-6 py-12",
@@ -1133,7 +1140,7 @@ function SafetyAndResearch() {
                                 children: "Selected Research Highlights"
                             }, void 0, false, {
                                 fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                                lineNumber: 104,
+                                lineNumber: 109,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1141,13 +1148,13 @@ function SafetyAndResearch() {
                                 children: "Curated summaries from clinical studies, validation trials and safety reviews."
                             }, void 0, false, {
                                 fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                                lineNumber: 105,
+                                lineNumber: 110,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                        lineNumber: 103,
+                        lineNumber: 108,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1175,7 +1182,7 @@ function SafetyAndResearch() {
                                                 children: r.icon
                                             }, void 0, false, {
                                                 fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                                                lineNumber: 120,
+                                                lineNumber: 125,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1185,7 +1192,7 @@ function SafetyAndResearch() {
                                                         children: r.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                                                        lineNumber: 124,
+                                                        lineNumber: 129,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1193,19 +1200,19 @@ function SafetyAndResearch() {
                                                         children: r.tag
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                                                        lineNumber: 125,
+                                                        lineNumber: 130,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                                                lineNumber: 123,
+                                                lineNumber: 128,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                                        lineNumber: 119,
+                                        lineNumber: 124,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1213,7 +1220,7 @@ function SafetyAndResearch() {
                                         children: r.desc
                                     }, void 0, false, {
                                         fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                                        lineNumber: 129,
+                                        lineNumber: 134,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1228,13 +1235,13 @@ function SafetyAndResearch() {
                                                         size: 14
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                                                        lineNumber: 133,
+                                                        lineNumber: 138,
                                                         columnNumber: 32
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                                                lineNumber: 132,
+                                                lineNumber: 137,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1247,36 +1254,43 @@ function SafetyAndResearch() {
                                                         size: 14
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                                                        lineNumber: 141,
+                                                        lineNumber: 146,
                                                         columnNumber: 35
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                                                lineNumber: 136,
+                                                lineNumber: 141,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                                        lineNumber: 131,
+                                        lineNumber: 136,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, r.title, true, {
                                 fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                                lineNumber: 112,
+                                lineNumber: 117,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                        lineNumber: 110,
+                        lineNumber: 115,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                lineNumber: 102,
+                lineNumber: 107,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "w-full h-12 shadow-[0_-20px_40px_-15px_rgba(0,0,0,0.08)]"
+            }, void 0, false, {
+                fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
+                lineNumber: 156,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1302,7 +1316,7 @@ function SafetyAndResearch() {
                                     children: "Research Timeline"
                                 }, void 0, false, {
                                     fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                                    lineNumber: 153,
+                                    lineNumber: 163,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1317,12 +1331,12 @@ function SafetyAndResearch() {
                                                         children: t.year
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                                                        lineNumber: 158,
+                                                        lineNumber: 168,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                                                    lineNumber: 157,
+                                                    lineNumber: 167,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1332,7 +1346,7 @@ function SafetyAndResearch() {
                                                             children: t.title
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                                                            lineNumber: 163,
+                                                            lineNumber: 173,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1340,30 +1354,30 @@ function SafetyAndResearch() {
                                                             children: t.note
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                                                            lineNumber: 164,
+                                                            lineNumber: 174,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                                                    lineNumber: 162,
+                                                    lineNumber: 172,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, i, true, {
                                             fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                                            lineNumber: 156,
+                                            lineNumber: 166,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                                    lineNumber: 154,
+                                    lineNumber: 164,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                            lineNumber: 152,
+                            lineNumber: 162,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$dom$2f$motion$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1384,7 +1398,7 @@ function SafetyAndResearch() {
                                     children: "Safety Protocols"
                                 }, void 0, false, {
                                     fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                                    lineNumber: 172,
+                                    lineNumber: 182,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1401,12 +1415,12 @@ function SafetyAndResearch() {
                                                                 size: 16
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                                                                lineNumber: 179,
+                                                                lineNumber: 189,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                                                            lineNumber: 178,
+                                                            lineNumber: 188,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1415,23 +1429,23 @@ function SafetyAndResearch() {
                                                                 children: p
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                                                                lineNumber: 182,
+                                                                lineNumber: 192,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                                                            lineNumber: 181,
+                                                            lineNumber: 191,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, i, true, {
                                                     fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                                                    lineNumber: 177,
+                                                    lineNumber: 187,
                                                     columnNumber: 19
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                                            lineNumber: 175,
+                                            lineNumber: 185,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1444,7 +1458,7 @@ function SafetyAndResearch() {
                                                     children: "Download Safety Report"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                                                    lineNumber: 189,
+                                                    lineNumber: 199,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1454,41 +1468,48 @@ function SafetyAndResearch() {
                                                         children: "Contact Research Team"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                                                        lineNumber: 191,
+                                                        lineNumber: 201,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                                                    lineNumber: 190,
+                                                    lineNumber: 200,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                                            lineNumber: 188,
+                                            lineNumber: 198,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                                    lineNumber: 174,
+                                    lineNumber: 184,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                            lineNumber: 171,
+                            lineNumber: 181,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                    lineNumber: 151,
+                    lineNumber: 161,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                lineNumber: 150,
+                lineNumber: 160,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "w-full h-12 shadow-[0_-20px_40px_-15px_rgba(0,0,0,0.08)]"
+            }, void 0, false, {
+                fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
+                lineNumber: 211,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1501,7 +1522,7 @@ function SafetyAndResearch() {
                             children: "Want to read the full papers?"
                         }, void 0, false, {
                             fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                            lineNumber: 203,
+                            lineNumber: 217,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1509,7 +1530,7 @@ function SafetyAndResearch() {
                             children: "We maintain a curated resource library for clinicians and patients."
                         }, void 0, false, {
                             fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                            lineNumber: 204,
+                            lineNumber: 218,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1522,7 +1543,7 @@ function SafetyAndResearch() {
                                     children: "Download Research Pack"
                                 }, void 0, false, {
                                     fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                                    lineNumber: 207,
+                                    lineNumber: 221,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1532,35 +1553,26 @@ function SafetyAndResearch() {
                                         children: "Book a Research Consultation"
                                     }, void 0, false, {
                                         fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                                        lineNumber: 209,
+                                        lineNumber: 223,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                                    lineNumber: 208,
+                                    lineNumber: 222,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                            lineNumber: 206,
+                            lineNumber: 220,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                    lineNumber: 202,
+                    lineNumber: 216,
                     columnNumber: 9
                 }, this)
-            }, void 0, false, {
-                fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
-                lineNumber: 201,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                style: {
-                    height: 120
-                }
             }, void 0, false, {
                 fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
                 lineNumber: 215,

@@ -2718,3 +2718,186 @@ It can also happen if the client has a browser extension installed which messes 
 [06:19:48.963] Server  LOG      ✓ Compiled in 1253ms
 [06:19:52.634] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mnt/data/447e7718-610e-4b26-8bb9-86240b66eb93.png" "received" null
 [06:20:41.661] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mnt/data/447e7718-610e-4b26-8bb9-86240b66eb93.png" "received" null
+[06:24:06.984] Browser WARN    Image with src "/images/slider/weight.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[06:24:06.984] Browser WARN    Image with src "/images/slider/hair.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[06:24:06.984] Browser WARN    Image with src "/images/slider/skin.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[06:24:06.984] Browser WARN    Image with src "/images/conditions/hair.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[06:24:06.984] Browser WARN    Image with src "/images/conditions/respiratory.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[06:24:06.984] Browser WARN    Image with src "/images/conditions/child.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[06:24:06.984] Browser WARN    Image with src "/images/conditions/skin.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[06:27:38.654] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[06:27:39.745] Browser WARN    Image with src "/images/slider/hair.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[06:27:39.745] Browser WARN    Image with src "/images/slider/skin.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[06:27:39.745] Browser WARN    Image with src "/images/slider/weight.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[06:27:39.745] Browser WARN    Image with src "/images/conditions/hair.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[06:27:39.745] Browser WARN    Image with src "/images/conditions/skin.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[06:27:39.745] Browser WARN    Image with src "/images/conditions/respiratory.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[06:27:39.745] Browser WARN    Image with src "/images/conditions/child.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[06:27:39.745] Browser WARN    Image with src "/images/slider/hair.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[06:29:47.370] Browser WARN    Image with src "/images/conditions/weight.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[06:29:47.370] Browser WARN    Image with src "/images/conditions/mental.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[06:29:47.370] Browser WARN    Image with src "/images/conditions/diabetes.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[06:29:47.370] Browser WARN    Image with src "/images/conditions/women.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[06:29:48.440] Browser WARN    Image with src "/images/before-after/male3-before.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[06:29:48.440] Browser WARN    Image with src "/images/before-after/male3-after.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[06:37:08.614] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[06:37:08.779] Browser WARN    Image with src "/images/hair-hero.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[06:37:53.665] Server  LOG      ✓ Compiled in 369ms
+[06:37:56.510] Server  LOG      ✓ Compiled in 1475ms
+[06:38:00.904] Server  LOG      ✓ Compiled in 267ms
+[06:38:05.612] Server  LOG      ✓ Compiled in 497ms
+[06:38:12.005] Server  LOG      ✓ Compiled in 297ms
+[06:38:18.861] Server  LOG      ✓ Compiled in 620ms
+[06:38:39.180] Server  LOG      ✓ Compiled in 330ms
+[06:38:51.661] Server  LOG      ✓ Compiled in 1093ms
+[06:38:55.227] Server  LOG      ✓ Compiled in 519ms
+[06:39:36.790] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mnt/data/447e7718-610e-4b26-8bb9-86240b66eb93.png" "received" null
+[06:40:50.041] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mnt/data/447e7718-610e-4b26-8bb9-86240b66eb93.png" "received" null
+[06:41:07.938] Server  LOG      ✓ Compiled in 818ms
+[06:41:09.236] Server  LOG      ✓ Compiled in 463ms
+[06:41:19.416] Server  LOG      ✓ Compiled in 415ms
+[06:41:20.425] Server  LOG      ✓ Compiled in 298ms
+[06:41:22.173] Server  LOG      ✓ Compiled in 737ms
+[06:41:23.453] Server  LOG      ✓ Compiled in 360ms
+[06:41:50.439] Server  LOG      ✓ Compiled in 688ms
+[06:42:19.581] Server  LOG      ✓ Compiled in 947ms
+[06:42:26.904] Server  LOG      ✓ Compiled in 1052ms
+[06:42:28.621] Server  LOG      ✓ Compiled in 1099ms
+[06:42:36.152] Server  LOG      ✓ Compiled in 1805ms
+[06:42:41.732] Server  LOG      ✓ Compiled in 882ms
+[06:42:50.185] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mnt/data/447e7718-610e-4b26-8bb9-86240b66eb93.png" "received" null
+[06:43:45.999] Server  LOG      ✓ Compiled in 3s
+[06:43:52.616] Server  LOG      ✓ Compiled in 1341ms
+[06:43:59.098] Server  LOG      ✓ Compiled in 1723ms
+[06:44:13.115] Server  LOG      ✓ Compiled in 606ms
+[06:45:38.134] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mnt/data/447e7718-610e-4b26-8bb9-86240b66eb93.png" "received" null
+[06:45:51.712] Server  LOG      ✓ Compiled in 970ms
+[06:48:42.074] Server  LOG      ○ Compiling /videos ...
+[06:49:55.526] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mnt/data/447e7718-610e-4b26-8bb9-86240b66eb93.png" "received" null
+[06:57:05.638] Server  LOG      ✓ Compiled in 2.7s
+[07:07:30.688] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:07:31.772] Browser WARN    Image with src "/images/slider/skin.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:07:31.772] Browser WARN    Image with src "/images/slider/weight.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:07:31.772] Browser WARN    Image with src "/images/conditions/hair.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:07:31.772] Browser WARN    Image with src "/images/slider/hair.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:07:31.772] Browser WARN    Image with src "/images/conditions/respiratory.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:07:31.772] Browser WARN    Image with src "/images/conditions/skin.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:07:31.772] Browser WARN    Image with src "/images/conditions/child.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:07:31.772] Browser WARN    Image with src "/images/slider/hair.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[07:07:39.959] Browser WARN    Image with src "/images/conditions/weight.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:07:39.959] Browser WARN    Image with src "/images/conditions/diabetes.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:07:39.959] Browser WARN    Image with src "/images/conditions/mental.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:07:39.959] Browser WARN    Image with src "/images/conditions/women.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:08:56.176] Server  LOG      ✓ Compiled in 1927ms
+[07:09:48.753] Server  LOG      ✓ Compiled in 321ms
+[07:13:39.144] Server  LOG      ✓ Compiled in 873ms
+[07:13:49.314] Server  LOG      ✓ Compiled in 369ms
+[07:14:18.705] Server  LOG      ✓ Compiled in 402ms
+[07:14:31.259] Server  LOG      ✓ Compiled in 710ms
+[07:14:41.865] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:14:42.791] Browser WARN    Image with src "/images/slider/hair.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:14:42.791] Browser WARN    Image with src "/images/slider/skin.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:14:42.791] Browser WARN    Image with src "/images/slider/weight.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:14:42.791] Browser WARN    Image with src "/images/conditions/hair.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:14:42.791] Browser WARN    Image with src "/images/conditions/respiratory.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:14:42.791] Browser WARN    Image with src "/images/conditions/skin.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:14:42.791] Browser WARN    Image with src "/images/conditions/child.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:14:42.791] Browser WARN    Image with src "/images/slider/hair.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[07:15:54.415] Server  LOG      ○ Compiling /case-studies ...
+[07:15:57.305] Browser ERROR   uncaughtError: Error: Invalid <Link> with <a> child. Please remove <a> or use <Link legacyBehavior>.
+Learn more: https://nextjs.org/docs/messages/invalid-new-link-with-extra-anchor
+[07:19:30.016] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[07:19:30.097] Server  LOG      ✓ Compiled in 658ms
+[07:19:31.044] Server  ERROR    ⨯ Error: Invalid <Link> with <a> child. Please remove <a> or use <Link legacyBehavior>.
+Learn more: https://nextjs.org/docs/messages/invalid-new-link-with-extra-anchor
+[07:19:34.625] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:19:38.890] Browser ERROR   uncaughtError: Error: Invalid <Link> with <a> child. Please remove <a> or use <Link legacyBehavior>.
+Learn more: https://nextjs.org/docs/messages/invalid-new-link-with-extra-anchor
+[07:19:39.272] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mnt/data/756ea43d-185d-4e74-895a-1003a4b460fc.png" "received" null
+[07:19:39.279] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mnt/data/924498da-20ab-4ed6-9788-e7d6499fabde.png" "received" null
+[07:19:39.284] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mnt/data/447e7718-610e-4b26-8bb9-86240b66eb93.png" "received" null
+[07:19:58.879] Server  LOG      ✓ Compiled in 432ms
+[07:19:59.133] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[07:20:00.760] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:20:01.897] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mnt/data/447e7718-610e-4b26-8bb9-86240b66eb93.png" "received" null
+[07:20:01.931] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mnt/data/756ea43d-185d-4e74-895a-1003a4b460fc.png" "received" null
+[07:20:01.985] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mnt/data/924498da-20ab-4ed6-9788-e7d6499fabde.png" "received" null
+[07:20:02.434] Browser WARN    Image with src "/mnt/data/447e7718-610e-4b26-8bb9-86240b66eb93.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:20:02.434] Browser WARN    Image with src "/mnt/data/924498da-20ab-4ed6-9788-e7d6499fabde.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:20:02.434] Browser WARN    Image with src "/mnt/data/756ea43d-185d-4e74-895a-1003a4b460fc.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:20:04.595] Server  LOG      ✓ Compiled in 649ms
+[07:21:56.223] Browser WARN    Image with src "/images/slider/skin.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:21:56.223] Browser WARN    Image with src "/images/conditions/skin.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:21:56.223] Browser WARN    Image with src "/images/slider/weight.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:21:56.223] Browser WARN    Image with src "/images/slider/hair.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:21:56.224] Browser WARN    Image with src "/images/conditions/respiratory.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:21:56.224] Browser WARN    Image with src "/images/conditions/hair.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:21:56.224] Browser WARN    Image with src "/images/conditions/child.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:21:59.917] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[07:22:00.081] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mnt/data/924498da-20ab-4ed6-9788-e7d6499fabde.png" "received" null
+[07:22:00.087] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mnt/data/447e7718-610e-4b26-8bb9-86240b66eb93.png" "received" null
+[07:22:00.116] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mnt/data/756ea43d-185d-4e74-895a-1003a4b460fc.png" "received" null
+[07:22:19.900] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[07:22:19.900] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[07:22:19.900] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[07:22:19.900] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[07:22:19.900] Browser ERROR   uncaughtError: Error: Invalid <Link> with <a> child. Please remove <a> or use <Link legacyBehavior>.
+Learn more: https://nextjs.org/docs/messages/invalid-new-link-with-extra-anchor
+[07:22:41.507] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:22:42.497] Browser WARN    Image with src "/images/slider/hair.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:22:42.497] Browser WARN    Image with src "/images/slider/skin.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:22:42.497] Browser WARN    Image with src "/images/slider/weight.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:22:42.497] Browser WARN    Image with src "/images/slider/hair.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[07:22:42.497] Browser WARN    Image with src "/images/conditions/hair.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:22:42.497] Browser WARN    Image with src "/images/conditions/skin.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:22:42.497] Browser WARN    Image with src "/images/conditions/respiratory.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:22:42.497] Browser WARN    Image with src "/images/conditions/child.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:22:49.223] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[07:23:10.911] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mnt/data/447e7718-610e-4b26-8bb9-86240b66eb93.png" "received" null
+[07:23:10.919] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mnt/data/756ea43d-185d-4e74-895a-1003a4b460fc.png" "received" null
+[07:23:10.926] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mnt/data/924498da-20ab-4ed6-9788-e7d6499fabde.png" "received" null
+[07:23:18.450] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:23:22.111] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:23:22.566] Browser WARN    Image with src "/mnt/data/447e7718-610e-4b26-8bb9-86240b66eb93.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:23:22.567] Browser WARN    Image with src "/mnt/data/924498da-20ab-4ed6-9788-e7d6499fabde.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:23:22.567] Browser WARN    Image with src "/mnt/data/756ea43d-185d-4e74-895a-1003a4b460fc.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:23:26.449] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[07:23:26.449] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[07:23:26.449] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[07:23:26.449] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[07:23:26.449] Browser ERROR   uncaughtError: Error: Invalid <Link> with <a> child. Please remove <a> or use <Link legacyBehavior>.
+Learn more: https://nextjs.org/docs/messages/invalid-new-link-with-extra-anchor
+[07:24:49.322] Server  LOG      ✓ Compiled in 1646ms
+[07:24:49.959] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:24:51.166] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mnt/data/756ea43d-185d-4e74-895a-1003a4b460fc.png" "received" null
+[07:24:51.182] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mnt/data/447e7718-610e-4b26-8bb9-86240b66eb93.png" "received" null
+[07:24:51.462] Browser WARN    Image with src "/mnt/data/756ea43d-185d-4e74-895a-1003a4b460fc.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:24:51.462] Browser WARN    Image with src "/mnt/data/447e7718-610e-4b26-8bb9-86240b66eb93.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:25:15.684] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[07:25:18.626] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mnt/data/756ea43d-185d-4e74-895a-1003a4b460fc.png" "received" null
+[07:25:18.639] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mnt/data/447e7718-610e-4b26-8bb9-86240b66eb93.png" "received" null
+[07:25:22.915] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mnt/data/447e7718-610e-4b26-8bb9-86240b66eb93.png" "received" null
+[07:25:22.921] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mnt/data/924498da-20ab-4ed6-9788-e7d6499fabde.png" "received" null
+[07:25:22.938] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mnt/data/756ea43d-185d-4e74-895a-1003a4b460fc.png" "received" null
+[07:25:31.983] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mnt/data/924498da-20ab-4ed6-9788-e7d6499fabde.png" "received" null
+[07:25:31.991] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mnt/data/447e7718-610e-4b26-8bb9-86240b66eb93.png" "received" null
+[07:25:45.259] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mnt/data/924498da-20ab-4ed6-9788-e7d6499fabde.png" "received" null
+[07:25:45.288] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mnt/data/447e7718-610e-4b26-8bb9-86240b66eb93.png" "received" null
+[07:25:45.304] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mnt/data/756ea43d-185d-4e74-895a-1003a4b460fc.png" "received" null
+[07:25:55.560] Browser WARN    Image with src "/images/slider/hair.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:25:55.560] Browser WARN    Image with src "/images/conditions/skin.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:25:55.561] Browser WARN    Image with src "/images/slider/weight.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:25:55.561] Browser WARN    Image with src "/images/conditions/hair.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:25:55.561] Browser WARN    Image with src "/images/slider/skin.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:25:55.561] Browser WARN    Image with src "/images/conditions/respiratory.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:25:55.561] Browser WARN    Image with src "/images/conditions/child.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:28:26.722] Server  LOG      ✓ Compiled in 2.5s
+[07:28:28.183] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mnt/data/447e7718-610e-4b26-8bb9-86240b66eb93.png" "received" null
+[07:28:28.190] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mnt/data/756ea43d-185d-4e74-895a-1003a4b460fc.png" "received" null
+[07:28:28.194] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mnt/data/924498da-20ab-4ed6-9788-e7d6499fabde.png" "received" null
+[07:28:31.593] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mnt/data/924498da-20ab-4ed6-9788-e7d6499fabde.png" "received" null
+[07:28:31.604] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mnt/data/447e7718-610e-4b26-8bb9-86240b66eb93.png" "received" null

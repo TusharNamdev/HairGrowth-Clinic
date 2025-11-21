@@ -12,7 +12,7 @@ export default function HomeVsClinicCare() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-background via-background-soft to-background">
-      
+
       {/* HERO SECTION */}
       <section className="max-w-6xl mx-auto px-6 pt-20 pb-12 text-center">
         <motion.h1
@@ -95,6 +95,11 @@ export default function HomeVsClinicCare() {
         </div>
       </section>
 
+
+      {/* Shadow Divider */}
+      <div className="w-full h-12 shadow-[0_-20px_40px_-15px_rgba(0,0,0,0.08)]" />
+
+
       {/* DETAILED SEPARATOR CARD */}
       <section className="max-w-6xl mx-auto px-6 pb-20">
         <motion.div
@@ -157,6 +162,11 @@ export default function HomeVsClinicCare() {
           </div>
         </motion.div>
       </section>
+
+
+      {/* Shadow Divider */}
+      <div className="w-full h-12 shadow-[0_-20px_40px_-15px_rgba(0,0,0,0.08)]" />
+
 
       {/* CTA SECTION */}
       <section className="py-16 text-center">
