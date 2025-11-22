@@ -60,7 +60,7 @@ export default function HomePage() {
 
             {/* WHY MODERN CLINIC */}
 
-            <section className="py-20 px-6 md:px-16 lg:px-24">
+            <section className="py-6 px-6 md:px-16 lg:px-24">
 
                 {/* TOP — TEXT */}
                 <div className="max-w-3xl mx-auto text-center mb-16">
@@ -82,14 +82,14 @@ export default function HomePage() {
                 {/* BOTTOM — FLIPCARDS */}
                 <div
                     className="
-      grid 
-      grid-cols-1 
-      sm:grid-cols-2 
-      lg:grid-cols-4 
-      gap-8 
-      max-w-6xl 
-      mx-auto
-    "
+                    grid 
+                    grid-cols-1 
+                    sm:grid-cols-2 
+                    lg:grid-cols-4 
+                    gap-8 
+                    max-w-6xl 
+                    mx-auto
+                    "
                 >
                     <FlipCard
                         bg="hsl(var(--secondary) / 0.55)"
@@ -143,7 +143,7 @@ export default function HomePage() {
 
 
             {/* WHY CHOOSE US (4 CARDS) */}
-            <section className="py-20 px-6 md:px-16 lg:px-24">
+            <section className="py-6 px-6 md:px-16 lg:px-24">
                 <h2 className="text-3xl font-semibold text-center mb-12">
                     Why Choose <span className="text-primary"> Our Clinic</span>
                 </h2>
@@ -158,12 +158,12 @@ export default function HomePage() {
                         <div
                             key={index}
                             className="
-                group p-6 rounded-2xl bg-secondary/60 backdrop-blur-xl 
-                shadow-lg hover:shadow-medium border border-border
-                transition-all hover:-translate-y-1
-              "
+                            group p-6 rounded-2xl bg-secondary/60 backdrop-blur-xl 
+                            shadow-lg hover:shadow-medium border border-border
+                            transition-all hover:-translate-y-1
+                            "
                         >
-                            <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center shadow-md mb-5">
+                            <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-primary to-accent flex      items-center justify-center shadow-md mb-5">
                                 {item.icon}
                             </div>
 
@@ -185,7 +185,7 @@ export default function HomePage() {
 
 
             {/* OUR TREATMENTS (3 MAIN SERVICES) */}
-            <section className="py-20 px-6 md:px-16 lg:px-24">
+            <section className="py-16 px-6 md:px-16 lg:px-24">
                 <h2 className="text-3xl font-semibold text-center mb-12">
                     Our <span className="text-primary">Specialized</span> Treatments
                 </h2>
@@ -212,10 +212,10 @@ export default function HomePage() {
                             href={item.link}
                             key={index}
                             className="
-                        group p-6 rounded-2xl bg-secondary/60 backdrop-blur-xl 
-                        border border-border shadow-lg hover:shadow-medium
-                        transition-all hover:-translate-y-1 block
-                        "
+                            group p-6 rounded-2xl bg-secondary/60 backdrop-blur-xl 
+                            border border-border shadow-lg hover:shadow-medium
+                            transition-all hover:-translate-y-1 block
+                            "
                         >
                             <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center shadow-md mb-5">
                                 {item.icon}

@@ -57,7 +57,7 @@ const conditions = [
 
 export default function WhatWeTreat() {
     return (
-        <section className="py-20 px-6 md:px-16 lg:px-24 bg-background">
+        <section className="py-6 px-6 md:px-16 lg:px-24 bg-background">
 
             {/* Section Heading */}
             <div className="text-center max-w-3xl mx-auto mb-14">

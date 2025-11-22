@@ -101,7 +101,7 @@ export default function Footer() {
   );
 }
 
-/* ------------ REUSABLE COMPONENTS ------------ */
+/* REUSABLE COMPONENTS */
 
 function FooterLink({ href, title }) {
   return (

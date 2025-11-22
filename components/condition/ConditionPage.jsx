@@ -28,7 +28,6 @@ export default function ConditionPage(props) {
   const {
     title = "Condition",
     subtitle = "Doctor-Guided Program",
-    // default hero uses the uploaded file path provided in the chat history
     heroImage = "/mnt/data/924498da-20ab-4ed6-9788-e7d6499fabde.png",
     highlights = [],
     treatmentSteps = [],
@@ -174,16 +173,16 @@ export default function ConditionPage(props) {
                 transition={{ duration: 0.4, delay: i * 0.05 }}
                 viewport={{ once: true }}
                 className="
-            group relative p-5 rounded-2xl bg-card/60 backdrop-blur-xl 
-            border border-border shadow-sm hover:shadow-md 
-            transition-all duration-300 hover:-translate-y-1
-          "
-              >
+                group relative p-5 rounded-2xl bg-card/60 backdrop-blur-xl 
+                border border-border shadow-sm hover:shadow-md 
+                transition-all duration-300 hover:-translate-y-1
+                "
+                >
                 {/* The animated gradient dot */}
                 <div className="
-            w-3 h-3 rounded-full bg-gradient-to-br from-primary to-accent 
-            mb-3 transition-all duration-500 group-hover:scale-110
-          "></div>
+                w-3 h-3 rounded-full bg-gradient-to-br from-primary to-accent 
+                mb-3 transition-all duration-500 group-hover:scale-110
+                "></div>
 
                 {/* The symptom text */}
                 <h4 className="text-base font-medium text-foreground leading-relaxed">
@@ -224,21 +223,21 @@ export default function ConditionPage(props) {
                 transition={{ duration: 0.4, delay: i * 0.05 }}
                 viewport={{ once: true }}
                 className="
-            group relative p-6 rounded-2xl overflow-hidden 
-            bg-card/60 backdrop-blur-xl border border-border 
-            shadow-sm hover:shadow-md transition-all duration-300 
-            hover:-translate-y-1
-          "
+                group relative p-6 rounded-2xl overflow-hidden 
+                bg-card/60 backdrop-blur-xl border border-border 
+                shadow-sm hover:shadow-md transition-all duration-300 
+                hover:-translate-y-1
+                "
               >
                 {/* Gradient Accent Top Border */}
                 <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary to-accent opacity-70"></div>
 
                 {/* Soft Icon Placeholder */}
                 <div className="
-            w-12 h-12 mb-4 flex items-center justify-center 
-            rounded-xl bg-primary/10 text-primary
-            group-hover:bg-primary/20 transition
-          ">
+                w-12 h-12 mb-4 flex items-center justify-center 
+                rounded-xl bg-primary/10 text-primary
+                group-hover:bg-primary/20 transition
+                ">
                   <svg width="22" height="22" fill="none" stroke="currentColor" strokeWidth="1.8">
                     <circle cx="11" cy="11" r="9" />
                     <path d="M7 12l2 2 5-5" />

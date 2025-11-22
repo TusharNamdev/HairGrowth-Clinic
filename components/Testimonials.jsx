@@ -112,12 +112,12 @@ export default function Testimonials() {
   const showGallery = pathname === "/testimonials";
 
   return (
-    <div className="bg-background py-12">
+    <div className="bg-background py-10">
       <main className="max-w-7xl mx-auto px-6">
 
         {/* Before & After Detailed Slider Section */}
         <>
-          <h2 className="text-4xl font-bold text-center mb-6 text-foreground">
+          <h2 className="text-4xl font-bold text-center mb-10 text-foreground">
             <span className="text-primary">Before & After</span> Transformations
           </h2>
 
