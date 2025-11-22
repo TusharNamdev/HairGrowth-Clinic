@@ -66,8 +66,8 @@ export const topics = [
   },
 
   {
-  question: "Scientific Homeopathy",
-  answer: `
+    question: "Scientific Homeopathy",
+    answer: `
     **Scientific Understanding Today**  
     Modern research shows homeopathic remedies contain **nanoparticles** of the original source material even at high dilutions (IIT-Bombay studies).
 
@@ -85,12 +85,12 @@ export const topics = [
     Scientific homeopathy combines classical principles with modern analytical techniques, making it a credible holistic therapy.
 
   `,
-  reference: "Source: IIT-Bombay Nanomedicine Research"
-},
+    reference: "Source: IIT-Bombay Nanomedicine Research"
+  },
 
-{
-  question: "Homeopathy Research",
-  answer: `
+  {
+    question: "Homeopathy Research",
+    answer: `
     **Global Research Highlights** 
     Homeopathy is officially recognized and researched in over 80 countries.  
     Research includes clinical trials, observational studies, laboratory experiments, and patient outcome studies.
@@ -113,12 +113,12 @@ export const topics = [
     Research helps bridge traditional homeopathic wisdom with modern scientific validation.
 
   `,
-  reference: "Source: British Homeopathic Association & European Committee for Homeopathy"
-},
+    reference: "Source: British Homeopathic Association & European Committee for Homeopathy"
+  },
 
-{
-  question: "What Doctors Should Know About Homeopathy?",
-  answer: `
+  {
+    question: "What Doctors Should Know About Homeopathy?",
+    answer: `
     **Overview**  
     Homeopathy is a structured medical system with defined pharmacology, preparation standards, and clinical protocols. Modern practitioners integrate symptom study, mind-body assessment, and constitutional evaluation to personalize treatment.
 
@@ -135,12 +135,12 @@ export const topics = [
     • Useful in patients sensitive to strong allopathic medications
 
   `,
-  reference: "Source: Indian Journal of Research in Homeopathy"
-},
+    reference: "Source: Indian Journal of Research in Homeopathy"
+  },
 
-{
-  question: "What Your Doctor Won’t Tell You About Homeopathy?",
-  answer: `
+  {
+    question: "What Your Doctor Won’t Tell You About Homeopathy?",
+    answer: `
     **Introduction**  
     Many conventional doctors are not trained in homeopathy, which leads to misconceptions. However, modern evidence shows homeopathy influences cellular and immunological pathways.
 
@@ -156,12 +156,12 @@ export const topics = [
     • Helps restore emotional balance alongside physical health.
 
   `,
-  reference: "Source: European Committee for Homeopathy"
-},
+    reference: "Source: European Committee for Homeopathy"
+  },
 
-{
-  question: "How to Find a Good Homeopath?",
-  answer: `
+  {
+    question: "How to Find a Good Homeopath?",
+    answer: `
     **Introduction**  
     Finding the right homeopath ensures accurate case analysis, better remedy selection, and faster results.
 
@@ -179,12 +179,12 @@ export const topics = [
     • Ensure they maintain case records and follow systematic follow-ups
 
   `,
-  reference: "Source: Central Council for Research in Homeopathy (CCRH)"
-},
+    reference: "Source: Central Council for Research in Homeopathy (CCRH)"
+  },
 
-{
-  question: "FAQ on Various Diseases",
-  answer: `
+  {
+    question: "FAQ on Various Diseases",
+    answer: `
     **Overview**  
     Homeopathy is frequently used to manage chronic and lifestyle-linked conditions.  
     Below are common questions patients ask:
@@ -206,12 +206,12 @@ export const topics = [
       Yes, by correcting underlying emotional, immune, and genetic predispositions.
 
   `,
-  reference: "Source: AskDrShah Clinical FAQs"
-},
+    reference: "Source: AskDrShah Clinical FAQs"
+  },
 
-{
-  question: "Homeopathic Clinics",
-  answer: `
+  {
+    question: "Homeopathic Clinics",
+    answer: `
     **Introduction**  
     Modern homeopathic clinics integrate diagnostics, lifestyle counseling, and individualized remedy protocols.
 
@@ -229,12 +229,12 @@ export const topics = [
     • Multi-disciplinary team (homeopaths, nutritionists, counselors)
 
   `,
-  reference: "Source: Modern Integrative Homeopathy Review"
-},
+    reference: "Source: Modern Integrative Homeopathy Review"
+  },
 
-{
-  question: "Homeopathic Doctors",
-  answer: `
+  {
+    question: "Homeopathic Doctors",
+    answer: `
     **Overview**  
     Homeopathic doctors (BHMS / MD) are trained in integrative medical science.  
     They study anatomy, physiology, pathology, diagnostics, pharmacology, and homeopathic therapeutics for 5.5 years.
@@ -258,12 +258,12 @@ export const topics = [
     • Focused on long-term wellness and relapse prevention  
 
   `,
-  reference: "Source: National Institute of Homeopathy (NIH), India"
-},
+    reference: "Source: National Institute of Homeopathy (NIH), India"
+  },
 
-{
-  question: "Benefits of Homeopathy",
-  answer: `
+  {
+    question: "Benefits of Homeopathy",
+    answer: `
     **Introduction**  
     Homeopathy focuses on stimulating the body's natural healing response rather than suppressing symptoms.
 
@@ -286,12 +286,12 @@ export const topics = [
     • Personalized to each individual's constitution  
 
   `,
-  reference: "Source: Homeopathy Research Institute (HRI)"
-},
+    reference: "Source: Homeopathy Research Institute (HRI)"
+  },
 
-{
-  question: "Integration of Homeopathy with Conventional Medicine",
-  answer: `
+  {
+    question: "Integration of Homeopathy with Conventional Medicine",
+    answer: `
     **Overview**  
     Integrative homeopathy blends modern diagnostics and conventional care with personalized homeopathic remedies.
 
@@ -315,12 +315,12 @@ export const topics = [
     • Strengthens body’s adaptive capacity
 
   `,
-  reference: "Source: Journal of Integrative and Complementary Medicine"
-},
+    reference: "Source: Journal of Integrative and Complementary Medicine"
+  },
 
-{
-  question: "Sources of Homeopathic Medicines",
-  answer: `
+  {
+    question: "Sources of Homeopathic Medicines",
+    answer: `
     **Introduction**  
     Homeopathic medicines are derived from natural sources and then potentized to enhance safety and effectiveness.
 
@@ -342,12 +342,12 @@ export const topics = [
     • Allows medicines to act energetically rather than chemically  
 
   `,
-  reference: "Source: Homeopathic Pharmacopoeia of India (HPI)"
-},
+    reference: "Source: Homeopathic Pharmacopoeia of India (HPI)"
+  },
 
-{
-  question: "Homeopathic Medicines",
-  answer: `
+  {
+    question: "Homeopathic Medicines",
+    answer: `
     **Overview**  
     Homeopathic medicines work by stimulating the body's natural healing forces.  
     They are prepared using precise scientific procedures defined in international pharmacopeias.
@@ -370,12 +370,12 @@ export const topics = [
     • Helps tailor treatment to patient sensitivity and disease stage  
 
   `,
-  reference: "Source: Boericke Materia Medica & Kent Repertory"
-},
+    reference: "Source: Boericke Materia Medica & Kent Repertory"
+  },
 
-{
-  question: "Homeopathic Remedies (Advanced Types)",
-  answer: `
+  {
+    question: "Homeopathic Remedies (Advanced Types)",
+    answer: `
     **Overview**  
     Homeopathic remedies go beyond simple plant or mineral extracts.  
     They are prepared in specialized forms to address different layers of disease—physical, emotional, and genetic.
@@ -393,12 +393,12 @@ export const topics = [
     • Improve vitality and long-term stability  
 
   `,
-  reference: "Source: Kent’s Repertory, Boericke Materia Medica"
-},
+    reference: "Source: Kent’s Repertory, Boericke Materia Medica"
+  },
 
-{
-  question: "Key Concepts of Homeopathy (Vital Force, Miasms, Constitution)",
-  answer: `
+  {
+    question: "Key Concepts of Homeopathy (Vital Force, Miasms, Constitution)",
+    answer: `
     **Vital Force**  
     • The core energy that maintains balance in the body.  
     • Disease appears when the vital force is disturbed.  
@@ -421,12 +421,12 @@ export const topics = [
     • Ensure long-lasting recovery rather than temporary relief  
 
   `,
-  reference: "Source: Hahnemann’s Organon of Medicine (Modern Interpretation)"
-},
+    reference: "Source: Hahnemann’s Organon of Medicine (Modern Interpretation)"
+  },
 
-{
-  question: "Safety and Side Effects of Homeopathy",
-  answer: `
+  {
+    question: "Safety and Side Effects of Homeopathy",
+    answer: `
     **Safety Profile**  
     Homeopathy is considered one of the safest medical systems due to ultra-dilute, non-toxic remedies.
 
@@ -450,12 +450,12 @@ export const topics = [
     When used correctly, homeopathy offers long-term healing with minimal risks.  
 
   `,
-  reference: "Source: WHO Traditional Medicine Safety Guidelines"
-},
+    reference: "Source: WHO Traditional Medicine Safety Guidelines"
+  },
 
-{
-  question: "Limitations of Homeopathy",
-  answer: `
+  {
+    question: "Limitations of Homeopathy",
+    answer: `
     **Introduction**  
     Homeopathy is powerful for chronic and functional disorders, but it has boundaries.
 
@@ -478,12 +478,12 @@ export const topics = [
     • Helps set realistic expectations  
 
   `,
-  reference: "Source: Journal of Evidence-Based Integrative Medicine"
-},
+    reference: "Source: Journal of Evidence-Based Integrative Medicine"
+  },
 
-{
-  question: "What Homeopathy Treats Best",
-  answer: `
+  {
+    question: "What Homeopathy Treats Best",
+    answer: `
     **Overview**  
     Homeopathy excels in chronic, recurring, and lifestyle-linked disorders by improving immunity, emotional stability, and long-term health.
 
@@ -505,12 +505,12 @@ export const topics = [
     Homeopathy creates sustainable health improvement rather than quick, temporary suppression of symptoms.
 
   `,
-  reference: "Source: AskDrShah Clinical Specialties"
-},
+    reference: "Source: AskDrShah Clinical Specialties"
+  },
 
-{
-  question: "Why Homeopathy Fails Sometimes?",
-  answer: `
+  {
+    question: "Why Homeopathy Fails Sometimes?",
+    answer: `
     **Introduction**  
     Homeopathy is highly effective in chronic and functional conditions, but certain factors can limit results.
 
@@ -533,12 +533,12 @@ export const topics = [
     • Address emotional triggers and stress factors
 
   `,
-  reference: "Source: Modern Classical Homeopathy Review"
-},
+    reference: "Source: Modern Classical Homeopathy Review"
+  },
 
-{
-  question: "Why Homeopathy Fails Sometimes?",
-  answer: `
+  {
+    question: "Why Homeopathy Fails Sometimes?",
+    answer: `
     **Introduction**  
     Homeopathy is highly effective in chronic and functional conditions, but certain factors can limit results.
 
@@ -561,12 +561,12 @@ export const topics = [
     • Address emotional triggers and stress factors
 
   `,
-  reference: "Source: Modern Classical Homeopathy Review"
-},
+    reference: "Source: Modern Classical Homeopathy Review"
+  },
 
-{
-  question: "Role of Emotions in Homeopathy",
-  answer: `
+  {
+    question: "Role of Emotions in Homeopathy",
+    answer: `
     **Overview**  
     Emotions play a crucial role in homeopathic diagnosis.  
     Many physical diseases have emotional triggers—stress, fear, grief, insecurity, anger, or suppressed feelings.
@@ -588,12 +588,12 @@ export const topics = [
     • Reduces stress-driven relapses
 
   `,
-  reference: "Source: Psychosomatic Medicine & Homeopathy Research"
-},
+    reference: "Source: Psychosomatic Medicine & Homeopathy Research"
+  },
 
-{
-  question: "Homeopathy vs Ayurveda vs Allopathy",
-  answer: `
+  {
+    question: "Homeopathy vs Ayurveda vs Allopathy",
+    answer: `
     **Introduction**  
     Each medical system has strengths. Understanding the differences helps patients choose the right treatment at the right time.
 
@@ -619,12 +619,12 @@ export const topics = [
     • Allopathy for emergencies; Homeopathy for long-term healing
 
   `,
-  reference: "Source: Ministry of AYUSH, India"
-},
+    reference: "Source: Ministry of AYUSH, India"
+  },
 
-{
-  question: "Your First Homeopathic Visit — What to Expect?",
-  answer: `
+  {
+    question: "Your First Homeopathic Visit — What to Expect?",
+    answer: `
     **Introduction**  
     A homeopathic consultation is more detailed than a regular doctor visit because it aims to understand the whole individual.
 
@@ -653,8 +653,8 @@ export const topics = [
     • Builds mutual trust between patient and doctor
 
   `,
-  reference: "Source: Clinical Homeopathy Practice Guidelines"
-},
+    reference: "Source: Clinical Homeopathy Practice Guidelines"
+  },
 
 
 ];

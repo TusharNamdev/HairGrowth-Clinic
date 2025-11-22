@@ -8,7 +8,7 @@ import VideoReels from "@/components/VideoReels";
 
 export default function DoctorProfile() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-background via-background-soft to-background-muted py-16">
+    <div className="min-h-screen bg-gradient-to-b from-background via-background-soft to-background-muted py-10">
       <main className="max-w-7xl mx-auto px-6">
 
         {/* HEADER SECTION */}
@@ -236,7 +236,7 @@ export default function DoctorProfile() {
         <VideoReels />
 
         {/* SUCCESS STORIES */}
-        <section className="mt-20 mb-20">
+        <section className="mt-10 mb-10">
           <h2 className="text-3xl font-bold mb-6 text-foreground">Patient Success Stories</h2>
 
           <div className="grid md:grid-cols-3 gap-10 mt-10">

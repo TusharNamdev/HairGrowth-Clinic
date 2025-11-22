@@ -16,7 +16,7 @@ export default function OnlineConsultation() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-background via-background-soft to-background-muted">
+    <div className=" bg-gradient-to-b from-background via-background-soft to-background-muted">
       {/* HERO */}
       <header className="max-w-7xl mx-auto px-6 pt-20 pb-12 grid lg:grid-cols-2 gap-10 items-center">
         <motion.div initial={{ opacity: 0, x: -16 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.6 }}>
@@ -105,7 +105,7 @@ export default function OnlineConsultation() {
         </div>
       </section>
 
-      <div style={{ height: 120 }} />
+      {/* <div style={{ height: 120 }} /> */}
     </div>
   );
 }

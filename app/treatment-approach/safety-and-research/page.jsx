@@ -212,7 +212,7 @@ export default function SafetyAndResearch() {
 
 
       {/* CTA */}
-      <section className="py-16 text-center">
+      <section className="py-10 text-center">
         <div className="max-w-2xl mx-auto">
           <h3 className="text-2xl md:text-3xl font-bold text-foreground">Want to read the full papers?</h3>
           <p className="text-muted-foreground mt-4">We maintain a curated resource library for clinicians and patients.</p>

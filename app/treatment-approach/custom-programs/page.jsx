@@ -274,7 +274,7 @@ export default function CustomProgramsPage() {
       </section> */}
 
       {/* CTA */}
-      <section className="py-16 text-center">
+      <section className="py-10 text-center">
         <div className="max-w-3xl mx-auto">
           <h3 className="text-2xl font-bold text-foreground">Ready to begin your custom program?</h3>
           <p className="text-muted-foreground mt-3">Book a consultation and we’ll design a plan that fits your life.</p>

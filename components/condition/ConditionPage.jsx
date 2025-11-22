@@ -177,7 +177,7 @@ export default function ConditionPage(props) {
                 border border-border shadow-sm hover:shadow-md 
                 transition-all duration-300 hover:-translate-y-1
                 "
-                >
+              >
                 {/* The animated gradient dot */}
                 <div className="
                 w-3 h-3 rounded-full bg-gradient-to-br from-primary to-accent 
@@ -285,7 +285,7 @@ export default function ConditionPage(props) {
 
 
       {/* FAQ (global short) */}
-      <section className="max-w-7xl mx-auto px-6 py-10">
+      <section className="max-w-7xl mx-auto px-6">
         <FAQ limit={4} />
       </section>
 

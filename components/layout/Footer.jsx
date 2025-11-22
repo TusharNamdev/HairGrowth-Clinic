@@ -39,7 +39,7 @@ export default function Footer() {
 
         {/* QUICK LINKS  */}
         <div>
-          <h3 className="text-sm font-semibold text-foreground mb-4">Quick Links</h3>
+          <h3 className="text-md font-semibold text-foreground mb-4">Quick Links</h3>
           <ul className="space-y-3 text-sm">
             <FooterLink href="/doctor" title="About Dr." />
             <FooterLink href="/HairGrowth/register" title="Book Assessment" />
@@ -53,7 +53,7 @@ export default function Footer() {
 
         {/* CENTRES */}
         <div>
-          <h3 className="text-sm font-semibold text-foreground mb-4">Our Centres</h3>
+          <h3 className="text-md font-semibold text-foreground mb-4">Our Centres</h3>
           <ul className="space-y-3 text-sm text-muted-foreground">
             {["Mumbai", "Indore", "Nagpur", "Delhi NCR", "Ujjain", "Kolkata"].map((city) => (
               <li key={city} className="hover:text-primary transition">
@@ -65,7 +65,7 @@ export default function Footer() {
 
         {/* CONTACT */}
         <div>
-          <h3 className="text-sm font-semibold text-foreground mb-4">Contact</h3>
+          <h3 className="text-md font-semibold text-foreground mb-4">Contact</h3>
           <ul className="space-y-3 text-sm text-muted-foreground">
             <li>📞 +91 9770799998</li>
             <li>📧 mhomeo@yahoo.com</li>

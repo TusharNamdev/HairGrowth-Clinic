@@ -11,13 +11,13 @@ const heroImage = "/images/hero.png";
 export default function ClinicConsultation() {
   const offerings = [
     { title: "Initial Clinic Visit", price: "₹999", features: ["Face-to-face exam", "Scalp/skin physical check", "Immediate diagnostics"] },
-    { title: "Clinic + Diagnostics", price: "₹2,499", features: ["Tricho/derm analysis", "Blood test review", "Extended follow-up"] , highlight: true},
+    { title: "Clinic + Diagnostics", price: "₹2,499", features: ["Tricho/derm analysis", "Blood test review", "Extended follow-up"], highlight: true },
     { title: "Clinic Comprehensive", price: "₹7,999", features: ["Full diagnostics", "In-clinic procedures as needed", "Monthly onsite reviews"] }
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-background via-background-soft to-background">
-      <header className="max-w-7xl mx-auto px-6 pt-20 pb-12 grid lg:grid-cols-2 gap-10 items-center">
+    <div className="bg-gradient-to-b from-background via-background-soft to-background">
+      <header className="max-w-7xl mx-auto px-6 pt-10 pb-10 grid lg:grid-cols-2 gap-10 items-center">
         <motion.div initial={{ opacity: 0, x: -16 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.6 }}>
           <p className="text-sm text-primary font-medium">Pricing • Clinic Consultation</p>
           <h1 className="text-4xl md:text-5xl font-extrabold mt-3 text-foreground">Clinic Consultation & Diagnostics</h1>
@@ -67,7 +67,7 @@ export default function ClinicConsultation() {
         </div>
       </section>
 
-      <section className="max-w-7xl mx-auto px-6 py-12">
+      <section className="max-w-7xl mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-8">
           <div className="p-6 rounded-2xl bg-secondary/40 border border-border">
             <h3 className="text-lg font-semibold text-foreground">What to expect</h3>
@@ -80,7 +80,7 @@ export default function ClinicConsultation() {
         </div>
       </section>
 
-      <div style={{ height: 120 }} />
+      {/* <div style={{ height: 120 }} /> */}
     </div>
   );
 }

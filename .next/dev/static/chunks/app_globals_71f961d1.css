@@ -1629,19 +1629,18 @@ img, video {
   padding-bottom: 1rem;
 }
 
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
 
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-}
-
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+.pb-10 {
+  padding-bottom: 2.5rem;
 }
 
 .pb-12 {
@@ -1666,6 +1665,10 @@ img, video {
 
 .pt-0 {
   padding-top: 0;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
 }
 
 .pt-16 {
@@ -2255,12 +2258,6 @@ html {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.hover\:scale-110:hover {
-  --tw-scale-x: 1.1;
-  --tw-scale-y: 1.1;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .hover\:bg-\[\#0A2C63\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(10 44 99 / var(--tw-bg-opacity, 1));
@@ -2298,8 +2295,16 @@ html {
   background-color: hsl(var(--secondary));
 }
 
+.hover\:bg-secondary\/40:hover {
+  background-color: hsl(var(--secondary) / .4);
+}
+
 .hover\:bg-secondary\/50:hover {
   background-color: hsl(var(--secondary) / .5);
+}
+
+.hover\:bg-secondary\/70:hover {
+  background-color: hsl(var(--secondary) / .7);
 }
 
 .hover\:bg-white:hover {
@@ -2309,14 +2314,6 @@ html {
 
 .hover\:bg-white\/30:hover {
   background-color: #ffffff4d;
-}
-
-.hover\:bg-secondary\/40:hover {
-  background-color: hsl(var(--secondary) / .4);
-}
-
-.hover\:bg-secondary\/70:hover {
-  background-color: hsl(var(--secondary) / .7);
 }
 
 .hover\:text-\[\#1F4DA0\]:hover {
@@ -2640,10 +2637,6 @@ html {
 
   .md\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
-  .md\:grid-cols-5 {
-    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
   .md\:gap-16 {

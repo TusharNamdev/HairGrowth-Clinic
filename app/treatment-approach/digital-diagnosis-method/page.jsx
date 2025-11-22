@@ -84,7 +84,7 @@ export default function DigitalDiagnosisMethod() {
   const heroImage = "/images/hero.png";
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-background via-background-soft to-background-muted">
+    <div className="bg-gradient-to-b from-background via-background-soft to-background-muted">
 
       {/* HERO */}
       <header className="max-w-7xl mx-auto px-6 pt-20 pb-12 grid lg:grid-cols-2 gap-10 items-center">
@@ -226,7 +226,7 @@ export default function DigitalDiagnosisMethod() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 text-center">
+      <section className="py-10 text-center">
         <div className="max-w-3xl mx-auto">
           <h3 className="text-2xl md:text-3xl font-bold text-foreground">
             Start Your Digital Diagnosis Today

@@ -169,7 +169,7 @@ export default function HomeVsClinicCare() {
 
 
       {/* CTA SECTION */}
-      <section className="py-16 text-center">
+      <section className="py-10 text-center">
         <motion.div
           {...fadeUp}
           transition={{ duration: 0.7 }}

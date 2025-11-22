@@ -148,7 +148,7 @@ export default function Testimonials() {
               Real transformations from people who healed their hair naturally with our program.
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10 mb-16">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10">
               {testimonials.map((t, idx) => (
                 <motion.div
                   key={idx}
