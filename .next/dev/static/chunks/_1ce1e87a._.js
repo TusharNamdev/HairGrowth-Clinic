@@ -684,8 +684,18 @@ function Testimonials() {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             className: "text-4xl font-bold text-center mb-6 text-foreground",
-                            children: "Before & After Transformations"
-                        }, void 0, false, {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "text-primary",
+                                    children: "Before & After"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Testimonials.jsx",
+                                    lineNumber: 121,
+                                    columnNumber: 13
+                                }, this),
+                                " Transformations"
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/components/Testimonials.jsx",
                             lineNumber: 120,
                             columnNumber: 11

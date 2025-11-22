@@ -81,7 +81,7 @@ export default function DigitalDiagnosisMethod() {
     }
   ];
 
-  const heroImage = "/mnt/data/447e7718-610e-4b26-8bb9-86240b66eb93.png";
+  const heroImage = "/images/hero.png";
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-background via-background-soft to-background-muted">
@@ -92,7 +92,7 @@ export default function DigitalDiagnosisMethod() {
           <p className="text-sm text-primary font-medium">Digital Diagnosis Method</p>
 
           <h1 className="text-4xl md:text-5xl font-extrabold mt-3 text-foreground">
-            Modern Digital Diagnosis for Precision Treatment
+            Modern <span className="text-primary">Digital Diagnosis</span> for Precision Treatment
           </h1>
 
           <p className="text-muted-foreground mt-4 max-w-xl">

@@ -58,7 +58,7 @@ export default function CompactHeroSlider() {
           </span>
 
           <h2 className="text-3xl md:text-4xl font-bold text-foreground leading-tight mt-2">
-            Personalized Treatment for Hair, Skin & Chronic Conditions
+            Personalized Treatment for<span className="text-primary"> Hair, Skin & Chronic</span> Conditions
           </h2>
 
           <p className="text-muted-foreground mt-4 max-w-md">

@@ -12,6 +12,7 @@ import CompactHeroSlider from "@/components/shared/CompactHeroSlider";
 import WhatWeTreat from "@/components/WhatWeTreat";
 import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
+import AppointmentForm from "@/components/AppointmentForm";
 
 
 export default function HomePage() {
@@ -137,7 +138,7 @@ export default function HomePage() {
             {/* WHY CHOOSE US (4 CARDS) */}
             <section className="py-20 px-6 md:px-16 lg:px-24">
                 <h2 className="text-3xl font-semibold text-center mb-12">
-                    Why Choose Our Clinic
+                    Why Choose <span className="text-primary"> Our Clinic</span>
                 </h2>
 
                 <div className="grid md:grid-cols-4 gap-10">
@@ -170,12 +171,14 @@ export default function HomePage() {
             <div className="w-full h-12 shadow-[0_-20px_40px_-15px_rgba(0,0,0,0.08)]" />
 
 
+            {/* Online Appoinment */}
+            <AppointmentForm />
 
 
             {/* OUR TREATMENTS (3 MAIN SERVICES) */}
             <section className="py-20 px-6 md:px-16 lg:px-24">
                 <h2 className="text-3xl font-semibold text-center mb-12">
-                    Our Specialized Treatments
+                    Our <span className="text-primary">Specialized</span> Treatments
                 </h2>
 
                 <div className="grid md:grid-cols-3 gap-10">
@@ -221,7 +224,7 @@ export default function HomePage() {
 
             {/* FAQ SECTION */}
             <FAQ limit={4} />
-            
+
         </div>
     );
 }

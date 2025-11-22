@@ -9,13 +9,13 @@ const conditions = [
         title: "Hair Loss",
         desc: "Personalized treatment for hair fall, dandruff, alopecia & scalp health.",
         img: "/images/conditions/hair.webp",
-        href: "/conditions/hair-loss"
+        href: "/conditions/hair-fall"
     },
     {
         title: "Skin Disorders",
         desc: "Holistic care for acne, eczema, psoriasis, pigmentation & more.",
         img: "/images/conditions/skin.jpg",
-        href: "/conditions/skin-disorders"
+        href: "/conditions/acne"
     },
     {
         title: "Respiratory",
@@ -27,7 +27,7 @@ const conditions = [
         title: "Child Health",
         desc: "Safe & gentle pediatric care for immunity, allergies & behavioral health.",
         img: "/images/conditions/child.jpg",
-        href: "/conditions/child-health"
+        href: "/conditions/low-immunity"
     },
     {
         title: "Women's Health",
@@ -51,7 +51,7 @@ const conditions = [
         title: "Mental Health",
         desc: "Homeopathic support for anxiety, stress, sleep & emotional balance.",
         img: "/images/conditions/mental.jpg",
-        href: "/conditions/mental-health"
+        href: "/conditions/stress"
     },
 ];
 
@@ -62,7 +62,7 @@ export default function WhatWeTreat() {
             {/* Section Heading */}
             <div className="text-center max-w-3xl mx-auto mb-14">
                 <h2 className="text-4xl font-bold text-foreground">
-                    What We <span className="text-primary">Treat</span>?
+                    What We <span className="text-primary">Treat?</span>
                 </h2>
 
                 <p className="mt-4 text-xl font-medium text-foreground">

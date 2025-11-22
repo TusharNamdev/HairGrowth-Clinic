@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, Check } from "lucide-react";
 import Testimonials from "@/components/Testimonials";
 
-const heroImage = "/mnt/data/447e7718-610e-4b26-8bb9-86240b66eb93.png";
+const heroImage = "/images/hero.png";
 
 export default function OnlineConsultation() {
   const plans = [

@@ -118,7 +118,7 @@ export default function Testimonials() {
         {/* Before & After Detailed Slider Section */}
         <>
           <h2 className="text-4xl font-bold text-center mb-6 text-foreground">
-            Before & After Transformations
+            <span className="text-primary">Before & After</span> Transformations
           </h2>
 
           <BeforeAfterCard data={patientData} />

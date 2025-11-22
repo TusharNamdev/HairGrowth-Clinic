@@ -623,8 +623,18 @@ function Testimonials() {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             className: "text-4xl font-bold text-center mb-6 text-foreground",
-                            children: "Before & After Transformations"
-                        }, void 0, false, {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "text-primary",
+                                    children: "Before & After"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Testimonials.jsx",
+                                    lineNumber: 121,
+                                    columnNumber: 13
+                                }, this),
+                                " Transformations"
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/components/Testimonials.jsx",
                             lineNumber: 120,
                             columnNumber: 11
@@ -919,7 +929,7 @@ function SafetyAndResearch() {
         "Data privacy & secure patient records"
     ];
     // Use uploaded local image path as hero (the tooling will transform this path during deploy)
-    const heroImage = "/mnt/data/447e7718-610e-4b26-8bb9-86240b66eb93.png";
+    const heroImage = "/images/hero.png";
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "min-h-screen bg-gradient-to-b from-background via-background-soft to-background-muted",
         children: [
@@ -942,8 +952,27 @@ function SafetyAndResearch() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                 className: "text-4xl md:text-5xl font-extrabold mt-3 text-foreground",
-                                children: "Evidence, Safety & Modern Research"
-                            }, void 0, false, {
+                                children: [
+                                    "Evidence, ",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "text-primary",
+                                        children: "Safety"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
+                                        lineNumber: 57,
+                                        columnNumber: 23
+                                    }, this),
+                                    " & Modern ",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "text-primary",
+                                        children: "Research"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
+                                        lineNumber: 57,
+                                        columnNumber: 77
+                                    }, this)
+                                ]
+                            }, void 0, true, {
                                 fileName: "[project]/app/treatment-approach/safety-and-research/page.jsx",
                                 lineNumber: 56,
                                 columnNumber: 11

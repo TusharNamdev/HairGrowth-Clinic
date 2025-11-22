@@ -45,7 +45,7 @@ export default function SafetyAndResearch() {
   ];
 
   // Use uploaded local image path as hero (the tooling will transform this path during deploy)
-  const heroImage = "/mnt/data/447e7718-610e-4b26-8bb9-86240b66eb93.png";
+  const heroImage = "/images/hero.png";
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-background via-background-soft to-background-muted">
@@ -54,7 +54,7 @@ export default function SafetyAndResearch() {
         <motion.div {...fadeUp} transition={{ duration: 0.6 }}>
           <p className="text-sm text-primary font-medium">Safety & Research</p>
           <h1 className="text-4xl md:text-5xl font-extrabold mt-3 text-foreground">
-            Evidence, Safety & Modern Research
+            Evidence, <span className="text-primary">Safety</span> & Modern <span className="text-primary">Research</span>
           </h1>
           <p className="text-muted-foreground mt-4 max-w-xl">
             We combine traditional homeopathic principles with modern clinical methods and validated digital diagnostics — transparency and safety are central to our practice.

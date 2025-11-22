@@ -53,7 +53,7 @@ export default function CustomProgramsPage() {
           >
             <p className="text-sm text-primary font-medium">Custom Programs</p>
             <h1 className="text-4xl md:text-5xl font-extrabold mt-3 text-foreground">
-              Personalized treatment plans built around you
+              Personalized <span className="text-primary">treatment plans</span> built around you
             </h1>
             <p className="text-muted-foreground mt-4 max-w-xl">
               Every patient is unique — our Custom Programs blend clinical expertise, diagnostics and lifestyle support
@@ -84,7 +84,7 @@ export default function CustomProgramsPage() {
             <div className="aspect-[4/3] relative">
               {/* Using uploaded local file path as hero image */}
               <Image
-                src={"/mnt/data/447e7718-610e-4b26-8bb9-86240b66eb93.png"}
+                src={"/images/hero.png"}
                 alt="Custom Programs Hero"
                 fill
                 className="object-cover"
