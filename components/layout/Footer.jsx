@@ -1,6 +1,7 @@
 "use client";
 
 import { FaInstagram, FaYoutube, FaWhatsapp } from "react-icons/fa";
+import { Phone, Mail, Clock, MapPin } from "lucide-react";
 import Link from "next/link";
 
 export default function Footer() {
@@ -66,14 +67,39 @@ export default function Footer() {
         {/* CONTACT */}
         <div>
           <h3 className="text-md font-semibold text-foreground mb-4">Contact</h3>
+
           <ul className="space-y-3 text-sm text-muted-foreground">
-            <li>📞 +91 9770799998</li>
-            <li>📧 mhomeo@yahoo.com</li>
-            <li>🕒 Mon–Sat: 10 AM – 7 PM</li>
-            <li>📍 202 Business Island, Nipania, Indore</li>
-            <li>📍 121 Orbit Mall, Indore</li>
-            <li>📍 India (Online Consultations)</li>
+            <li className="flex items-center gap-3">
+              <Phone size={16} className="text-primary" />
+              +91 9770799998
+            </li>
+
+            <li className="flex items-center gap-3">
+              <Mail size={16} className="text-primary" />
+              mhomeo@yahoo.com
+            </li>
+
+            <li className="flex items-center gap-3">
+              <Clock size={16} className="text-primary" />
+              Mon–Sat: 10 AM – 7 PM
+            </li>
+
+            <li className="flex items-center gap-3">
+              <MapPin size={16} className="text-primary" />
+              202 Business Island, Indore
+            </li>
+
+            <li className="flex items-center gap-3">
+              <MapPin size={16} className="text-primary" />
+              121 Orbit Mall, Indore
+            </li>
+
+            <li className="flex items-center gap-3">
+              <MapPin size={16} className="text-primary" />
+              India (Online Consultations)
+            </li>
           </ul>
+
 
           {/* SOCIAL ICONS */}
           <div className="flex items-center gap-4 mt-5">
