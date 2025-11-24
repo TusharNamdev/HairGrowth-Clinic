@@ -291,19 +291,27 @@ export default function ConditionPage(props) {
 
 
       {/* BOOK CTA */}
-      <div className="fixed bottom-6 left-1/2 transform -translate-x-1/2 z-40 max-w-3xl w-full px-6">
-        <div className="bg-card/90 backdrop-blur-xl border border-border rounded-2xl p-4 flex items-center justify-between shadow-md">
-          <div>
+      <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-40 w-full px-4 max-w-lg sm:max-w-3xl">
+        <div className="
+      bg-card/90 backdrop-blur-xl border border-border rounded-2xl shadow-md
+      p-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4
+    "
+        >
+          <div className="text-center sm:text-left">
             <div className="text-sm text-muted-foreground">Ready to get started?</div>
             <div className="font-semibold text-foreground">Book a consultation for {title}</div>
           </div>
-          <div>
+
+          <div className="flex justify-center sm:justify-end">
             <Link href="/HairGrowth/register">
-              <Button className="bg-primary hover:bg-primary-dark">Book Now</Button>
+              <Button className="bg-primary hover:bg-primary-dark w-full sm:w-auto">
+                Book Now
+              </Button>
             </Link>
           </div>
         </div>
       </div>
+
 
       {/* <div style={{ height: 120 }} /> */}
     </div>

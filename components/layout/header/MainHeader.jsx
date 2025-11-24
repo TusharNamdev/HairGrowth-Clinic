@@ -27,15 +27,15 @@ export default function Navbar() {
             {/* HEADER */}
             <header
                 className={`
-          sticky top-0 z-40 transition-all duration-300 
-          bg-card ${scrolled ? "shadow-[0_1px_6px_rgba(31,77,160,0.15)]" : ""}
-        `}
+                sticky top-0 z-40 transition-all duration-300 
+                bg-card ${scrolled ? "shadow-[0_1px_6px_rgba(31,77,160,0.15)]" : ""}
+                `}
             >
                 <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
 
                     {/* LEFT — LOGO */}
                     <Link href="/" className="flex items-center gap-3 cursor-pointer">
-                        <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center text-primary-foreground font-bold">
+                        <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center            text-primary-foreground font-bold">
                             MC
                         </div>
                         <div>
@@ -57,11 +57,11 @@ export default function Navbar() {
 
                             <div
                                 className="
-      absolute left-0 top-full mt-3 w-[750px]
-      bg-muted border border-border shadow-lg rounded-xl
-      opacity-0 invisible group-hover:opacity-100 group-hover:visible
-      transition-all duration-300 p-6 grid grid-cols-4 gap-6 z-50
-    "
+                                absolute left-0 top-full mt-3 w-[750px]
+                                bg-muted border border-border shadow-lg rounded-xl
+                                opacity-0 invisible group-hover:opacity-100 group-hover:visible
+                                transition-all duration-300 p-6 grid grid-cols-4 gap-6 z-50
+                                "
                             >
                                 {/* COLUMN A */}
                                 <div>
@@ -118,10 +118,10 @@ export default function Navbar() {
 
                             <div
                                 className="
-                  absolute left-0 top-full mt-3 w-64 bg-muted border border-border
-                  shadow-lg rounded-md opacity-0 invisible group-hover:opacity-100
-                  group-hover:visible transition-all duration-200 p-3 z-50
-                "
+                                absolute left-0 top-full mt-3 w-64 bg-muted border border-border
+                                shadow-lg rounded-md opacity-0 invisible group-hover:opacity-100
+                                group-hover:visible transition-all duration-200 p-3 z-50
+                                "
                             >
                                 <Link href="/doctor" className="block px-3 py-2 hover:bg-card">Meet Our Specialists</Link>
                                 <Link href="#qualification" className="block px-3 py-2 hover:bg-card">Qualifications & Expertise</Link>
@@ -139,10 +139,10 @@ export default function Navbar() {
 
                             <div
                                 className="
-                  absolute left-0 top-full mt-3 w-64 bg-muted border border-border 
-                  shadow-lg rounded-md opacity-0 invisible group-hover:opacity-100 
-                  group-hover:visible transition-all duration-200 p-3 z-50
-                "
+                                absolute left-0 top-full mt-3 w-64 bg-muted border border-border 
+                                shadow-lg rounded-md opacity-0 invisible group-hover:opacity-100 
+                                group-hover:visible transition-all duration-200 p-3 z-50
+                                "
                             >
                                 <Link href="/treatment-approach/how-homeopathy-works" className="block px-3 py-2 hover:bg-card">How Homeopathy Works</Link>
                                 <Link href="/treatment-approach/digital-diagnosis-method" className="block px-3 py-2 hover:bg-card">Digital Diagnosis Method</Link>
@@ -160,10 +160,10 @@ export default function Navbar() {
 
                             <div
                                 className="
-                  absolute left-0 top-full mt-3 w-64 bg-muted border border-border 
-                  shadow-lg rounded-md opacity-0 invisible group-hover:opacity-100 
-                  group-hover:visible transition-all duration-200 p-3 z-50
-                "
+                                absolute left-0 top-full mt-3 w-64 bg-muted border border-border 
+                                shadow-lg rounded-md opacity-0 invisible group-hover:opacity-100 
+                                group-hover:visible transition-all duration-200 p-3 z-50
+                                "
                             >
                                 <Link href="/testimonials" className="block px-3 py-2 hover:bg-card">Before / After</Link>
                                 <Link href="/case-studies" className="block px-3 py-2 hover:bg-card">Case Studies</Link>
@@ -180,10 +180,10 @@ export default function Navbar() {
 
                             <div
                                 className="
-                  absolute left-0 top-full mt-3 w-64 bg-muted border border-border 
-                  shadow-lg rounded-md opacity-0 invisible group-hover:opacity-100 
-                  group-hover:visible transition-all duration-200 p-3 z-50
-                "
+                                absolute left-0 top-full mt-3 w-64 bg-muted border border-border 
+                                shadow-lg rounded-md opacity-0 invisible group-hover:opacity-100 
+                                group-hover:visible transition-all duration-200 p-3 z-50
+                                "
                             >
                                 <Link href="/pricing/online-consultation" className="block px-3 py-2 hover:bg-card">Online Consultation</Link>
                                 <Link href="/pricing/clinic-consultation" className="block px-3 py-2 hover:bg-card">Clinic Consultation</Link>
@@ -200,10 +200,10 @@ export default function Navbar() {
 
                             <div
                                 className="
-                  absolute left-0 top-full mt-3 w-64 bg-muted border border-border 
-                  shadow-lg rounded-md opacity-0 invisible group-hover:opacity-100 
-                  group-hover:visible transition-all duration-200 p-3 z-50
-                "
+                                absolute left-0 top-full mt-3 w-64 bg-muted border border-border 
+                                shadow-lg rounded-md opacity-0 invisible group-hover:opacity-100 
+                                group-hover:visible transition-all duration-200 p-3 z-50
+                                "
                             >
                                 <Link href="/HairGrowth/register" className="block px-3 py-2 hover:bg-card">Book Appointment</Link>
                                 <Link href="#" className="block px-3 py-2 hover:bg-card">Clinic Locator</Link>
@@ -407,9 +407,9 @@ export default function Navbar() {
                     href="https://wa.me/919770799998"
                     target="_blank"
                     className="
-            fixed bottom-6 right-6 z-50 bg-primary text-primary-foreground p-4 rounded-full 
-            shadow-xl hover:shadow-2xl transition
-          "
+                    fixed bottom-6 right-6 z-50 bg-primary text-primary-foreground p-4 rounded-full 
+                    shadow-xl hover:shadow-2xl transition
+                    "
                 >
                     <FaWhatsapp size={26} />
                 </a>

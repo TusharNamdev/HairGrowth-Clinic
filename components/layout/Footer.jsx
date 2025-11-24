@@ -10,7 +10,7 @@ export default function Footer() {
       {/* TOP GRADIENT STRIP */}
       <div className="h-1 w-full bg-gradient-to-r from-primary to-accent opacity-70"></div>
 
-      <div className="max-w-7xl mx-auto px-6 py-16 grid md:grid-cols-4 lg:grid-cols-5 gap-10">
+      <div className="max-w-7xl mx-auto px-6 py-10 grid md:grid-cols-4 lg:grid-cols-5 gap-10">
 
         {/* LOGO + ABOUT */}
         <div className="md:col-span-2">
