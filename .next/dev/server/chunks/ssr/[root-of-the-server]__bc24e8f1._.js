@@ -1199,7 +1199,7 @@ function Navbar() {
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "   absolute left-0 top-full mt-3 w-[750px]   bg-popover border border-border shadow-lg rounded-xl   opacity-0 invisible group-hover:opacity-100 group-hover:visible   transition-all duration-300 p-6 grid grid-cols-4 gap-6 z-50   ",
+                                                className: "   absolute left-0 top-full mt-3 w-[750px]   bg-muted border border-border shadow-lg rounded-xl   opacity-0 invisible group-hover:opacity-100 group-hover:visible   transition-all duration-300 p-6 grid grid-cols-4 gap-6 z-50   ",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         children: [

@@ -58,7 +58,7 @@ export default function Navbar() {
                             <div
                                 className="
       absolute left-0 top-full mt-3 w-[750px]
-      bg-popover border border-border shadow-lg rounded-xl
+      bg-muted border border-border shadow-lg rounded-xl
       opacity-0 invisible group-hover:opacity-100 group-hover:visible
       transition-all duration-300 p-6 grid grid-cols-4 gap-6 z-50
     "

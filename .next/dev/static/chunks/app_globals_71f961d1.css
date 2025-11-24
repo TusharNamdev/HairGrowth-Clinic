@@ -563,10 +563,6 @@ img, video {
   margin-bottom: .5rem;
 }
 
-.mb-20 {
-  margin-bottom: 5rem;
-}
-
 .mb-3 {
   margin-bottom: .75rem;
 }
@@ -1318,11 +1314,6 @@ img, video {
   background-color: rgb(31 77 160 / var(--tw-bg-opacity, 1));
 }
 
-.bg-\[\#F3F7FF\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 247 255 / var(--tw-bg-opacity, 1));
-}
-
 .bg-accent {
   background-color: hsl(var(--accent));
 }
@@ -1789,16 +1780,6 @@ img, video {
 
 .tracking-wide {
   letter-spacing: .025em;
-}
-
-.text-\[\#0A2C63\] {
-  --tw-text-opacity: 1;
-  color: rgb(10 44 99 / var(--tw-text-opacity, 1));
-}
-
-.text-\[\#1F4DA0\] {
-  --tw-text-opacity: 1;
-  color: rgb(31 77 160 / var(--tw-text-opacity, 1));
 }
 
 .text-accent {
@@ -2329,6 +2310,10 @@ html {
   color: hsl(var(--accent-foreground));
 }
 
+.hover\:text-foreground:hover {
+  color: hsl(var(--foreground));
+}
+
 .hover\:text-gray-200:hover {
   --tw-text-opacity: 1;
   color: rgb(229 231 235 / var(--tw-text-opacity, 1));
@@ -2336,10 +2321,6 @@ html {
 
 .hover\:text-primary:hover {
   color: hsl(var(--primary));
-}
-
-.hover\:text-foreground:hover {
-  color: hsl(var(--foreground));
 }
 
 .hover\:underline:hover {
