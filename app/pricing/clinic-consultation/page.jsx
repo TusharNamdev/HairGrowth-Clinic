@@ -20,7 +20,7 @@ export default function ClinicConsultation() {
       <header className="max-w-7xl mx-auto px-6 pt-10 pb-10 grid lg:grid-cols-2 gap-10 items-center">
         <motion.div initial={{ opacity: 0, x: -16 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.6 }}>
           <p className="text-sm text-primary font-medium">Pricing • Clinic Consultation</p>
-          <h1 className="text-4xl md:text-5xl font-extrabold mt-3 text-foreground">Clinic Consultation & Diagnostics</h1>
+          <h1 className="text-4xl md:text-5xl font-extrabold mt-3 text-foreground"><span className="text-primary">Clinic</span> Consultation & Diagnostics</h1>
           <p className="text-muted-foreground mt-4 max-w-xl">In-depth physical assessments, advanced diagnostics and hands-on care — recommended for moderate to severe cases.</p>
 
           <div className="mt-6 flex items-center gap-4">

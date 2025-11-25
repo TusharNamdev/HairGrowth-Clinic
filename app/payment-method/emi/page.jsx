@@ -6,7 +6,7 @@ export default function EmiPaymentPage() {
   return (
     <div className="max-w-xl mx-auto px-6 py-20">
       <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.4 }}>
-        <h1 className="text-3xl font-bold text-foreground">EMI / Installment Options</h1>
+        <h1 className="text-3xl font-bold text-foreground"><span className="text-primary">EMI / Installment</span> Options</h1>
         <p className="text-muted-foreground mt-2">
           Choose a flexible monthly payment plan.
         </p>

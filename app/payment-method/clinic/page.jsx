@@ -6,7 +6,7 @@ export default function ClinicPaymentPage() {
   return (
     <div className="max-w-xl mx-auto px-6 py-20">
       <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.4 }}>
-        <h1 className="text-3xl font-bold text-foreground">Pay at Clinic</h1>
+        <h1 className="text-3xl font-bold text-foreground">Pay at <span className="text-primary">Clinic</span></h1>
         <p className="text-muted-foreground mt-2">
           Your appointment is reserved. Please complete the payment at the clinic.
         </p>

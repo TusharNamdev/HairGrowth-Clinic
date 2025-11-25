@@ -29,7 +29,7 @@ export default function PaymentMethodPage() {
   return (
     <div className="max-w-3xl mx-auto px-6 py-20">
       <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.4 }} className="text-center mb-12">
-        <h1 className="text-4xl font-bold text-foreground">Choose Payment Method</h1>
+        <h1 className="text-4xl font-bold text-foreground">Choose <span className="text-primary">Payment Method</span> </h1>
         <p className="text-muted-foreground mt-3 max-w-xl mx-auto">
           Select your preferred payment option to complete your appointment booking.
         </p>

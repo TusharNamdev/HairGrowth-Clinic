@@ -6,7 +6,7 @@ export default function OnlinePaymentPage() {
   return (
     <div className="max-w-2xl mx-auto px-6 py-20">
       <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.4 }}>
-        <h1 className="text-3xl font-bold text-foreground">Online Payment</h1>
+        <h1 className="text-3xl font-bold text-foreground"><span className="text-primary">Online</span> Payment</h1>
         <p className="text-muted-foreground mt-2">
           Complete payment using UPI, Credit/Debit Card or Net Banking.
         </p>

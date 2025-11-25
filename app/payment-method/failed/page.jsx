@@ -16,7 +16,7 @@ export default function PaymentFailedPage() {
         <XCircle className="w-20 h-20 text-red-500" />
       </motion.div>
 
-      <h1 className="mt-6 text-3xl font-bold text-foreground">Payment Failed</h1>
+      <h1 className="mt-6 text-3xl font-bold text-foreground">Payment <span className="text-primary">Failed</span></h1>
       <p className="text-muted-foreground mt-2">Something went wrong. Please try again.</p>
 
       <Link href="/payment-method">

@@ -21,7 +21,7 @@ export default function OnlineConsultation() {
       <header className="max-w-7xl mx-auto px-6 pt-20 pb-12 grid lg:grid-cols-2 gap-10 items-center">
         <motion.div initial={{ opacity: 0, x: -16 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.6 }}>
           <p className="text-sm text-primary font-medium">Pricing • Online Consultation</p>
-          <h1 className="text-4xl md:text-5xl font-extrabold mt-3 text-foreground">Online Consultation Plans</h1>
+          <h1 className="text-4xl md:text-5xl font-extrabold mt-3 text-foreground"><span className="text-primary">Online</span> Consultation Plans</h1>
           <p className="text-muted-foreground mt-4 max-w-xl">
             Fast, secure video consultations with our doctors — personalised plans and follow-ups without leaving home.
           </p>

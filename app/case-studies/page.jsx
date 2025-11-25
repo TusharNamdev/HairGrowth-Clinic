@@ -12,7 +12,7 @@ export default function CaseStudiesPage() {
         <div className=" bg-gradient-to-b from-background via-background-soft to-background-muted">
             <main className="max-w-7xl mx-auto px-6 py-10">
                 <div className="text-center mb-12">
-                    <h1 className="text-4xl font-bold text-foreground">Case Studies</h1>
+                    <h1 className="text-4xl font-bold text-foreground"><span className="text-primary">Case</span> Studies</h1>
                     <p className="text-muted-foreground mt-3 max-w-2xl mx-auto">
                         Real patient journeys — outcomes vary. Click a case to read the full story.
                     </p>
