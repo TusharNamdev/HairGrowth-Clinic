@@ -109,7 +109,6 @@ export default function Navbar() {
                             </div>
                         </div>
 
-
                         {/* OUR DOCTORS */}
                         <div className="relative group">
                             <button className="flex items-center gap-1 hover:text-[#1F4DA0] transition">
@@ -168,6 +167,7 @@ export default function Navbar() {
                                 <Link href="/testimonials" className="block px-3 py-2 hover:bg-card">Before / After</Link>
                                 <Link href="/case-studies" className="block px-3 py-2 hover:bg-card">Case Studies</Link>
                                 <Link href="/google-reviews" className="block px-3 py-2 hover:bg-card">Google Reviews</Link>
+                                <Link href="/blog" className="block px-3 py-2 hover:bg-card">Blogs</Link>
                                 <Link href="#" className="block px-3 py-2 hover:bg-card">Video Testimonials</Link>
                             </div>
                         </div>
@@ -333,6 +333,7 @@ export default function Navbar() {
                                     <Link href="/testimonials" className="block">Before / After</Link>
                                     <Link href="/case-studies" className="block">Case Studies</Link>
                                     <Link href="/google-reviews" className="block">Google Reviews</Link>
+                                    <Link href="/blog" className="block">Blogs</Link>
                                     <Link href="#" className="block">Video Testimonials</Link>
                                 </div>
                             </details>

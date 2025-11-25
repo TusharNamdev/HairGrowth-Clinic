@@ -7,22 +7,6 @@ import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
 import VideoReels from "@/components/VideoReels";
 
-// Reusable Condition Page Component
-// Location: /components/condition/ConditionPage.jsx
-// Default export as requested
-
-/**
- * Props shape (recommended):
- * {
- *   title, subtitle, heroImage, highlights: [],
- *   treatmentSteps: [{title, desc, icon}],
- *   rootCauses: [{title, desc, icon}],
- *   symptoms: [string],
- *   benefits: [string],
- *   beforeAfter: [{before, after, alt}],
- *   videos: [{id, title, thumb}],
- * }
- */
 
 export default function ConditionPage(props) {
   const {
@@ -191,9 +175,9 @@ export default function ConditionPage(props) {
 
                 {/* Bottom animated underline */}
                 <div className="
-            w-0 group-hover:w-16 h-0.5 bg-gradient-to-r from-primary to-accent 
-            mt-4 transition-all duration-500
-          "></div>
+                  w-0 group-hover:w-16 h-0.5 bg-gradient-to-r from-primary to-accent 
+                  mt-4 transition-all duration-500
+                  "></div>
               </motion.div>
             ))}
         </div>
@@ -234,10 +218,10 @@ export default function ConditionPage(props) {
 
                 {/* Soft Icon Placeholder */}
                 <div className="
-                w-12 h-12 mb-4 flex items-center justify-center 
-                rounded-xl bg-primary/10 text-primary
-                group-hover:bg-primary/20 transition
-                ">
+                  w-12 h-12 mb-4 flex items-center justify-center 
+                  rounded-xl bg-primary/10 text-primary
+                  group-hover:bg-primary/20 transition
+                  ">
                   <svg width="22" height="22" fill="none" stroke="currentColor" strokeWidth="1.8">
                     <circle cx="11" cy="11" r="9" />
                     <path d="M7 12l2 2 5-5" />
@@ -248,9 +232,9 @@ export default function ConditionPage(props) {
 
                 {/* Subtle underline animation */}
                 <div className="
-            w-0 group-hover:w-20 h-0.5 bg-gradient-to-r from-primary to-accent 
-            mt-3 transition-all duration-500
-          "></div>
+                  w-0 group-hover:w-20 h-0.5 bg-gradient-to-r from-primary to-accent 
+                  mt-3 transition-all duration-500
+                  "></div>
               </motion.div>
             ))}
         </div>
@@ -293,9 +277,9 @@ export default function ConditionPage(props) {
       {/* BOOK CTA */}
       <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-40 w-full px-4 max-w-lg sm:max-w-3xl">
         <div className="
-      bg-card/90 backdrop-blur-xl border border-border rounded-2xl shadow-md
-      p-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4
-    "
+          bg-card/90 backdrop-blur-xl border border-border rounded-2xl shadow-md
+          p-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4
+          "
         >
           <div className="text-center sm:text-left">
             <div className="text-sm text-muted-foreground">Ready to get started?</div>

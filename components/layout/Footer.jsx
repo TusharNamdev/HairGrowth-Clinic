@@ -45,6 +45,7 @@ export default function Footer() {
             <FooterLink href="/doctor" title="About Dr." />
             <FooterLink href="/HairGrowth/register" title="Book Assessment" />
             <FooterLink href="/testimonials" title="Testimonials" />
+            <FooterLink href="/blog" title="Blogs" />
             <FooterLink href="/faq" title="FAQ" />
             <FooterLink href="/privacy-policy" title="Privacy Policy" />
             <FooterLink href="/terms-and-conditions" title="Terms & Conditions" />

@@ -2140,7 +2140,7 @@ function AppointmentForm() {
         columnNumber: 9
     }, this);
 }
-/* ---------------- INPUT FIELD ---------------- */ function InputField({ icon, label, name, setForm, value, ...rest }) {
+/* INPUT FIELD */ function InputField({ icon, label, name, setForm, value, ...rest }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "flex flex-col",
         children: [
@@ -2183,7 +2183,7 @@ function AppointmentForm() {
         columnNumber: 9
     }, this);
 }
-/* ---------------- DROPDOWN SHELL ---------------- */ function DropdownShell({ children }) {
+/* DROPDOWN SHELL */ function DropdownShell({ children }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$dom$2f$motion$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
         initial: {
             opacity: 0,

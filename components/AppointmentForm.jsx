@@ -115,7 +115,7 @@ export default function AppointmentForm() {
                     setForm={setForm}
                 />
 
-                {/* ---------------- REGION DROPDOWN ---------------- */}
+                {/* REGION DROPDOWN */}
                 <div className="flex flex-col relative">
                     <label className="text-sm font-medium text-foreground mb-1">
                         Region
@@ -153,7 +153,7 @@ export default function AppointmentForm() {
                     )}
                 </div>
 
-                {/* ---------------- DISEASE DROPDOWN ---------------- */}
+                {/* DISEASE DROPDOWN */}
                 <div className="md:col-span-2 flex flex-col relative">
                     <label className="text-sm font-medium text-foreground mb-1">
                         Condition
@@ -199,7 +199,7 @@ export default function AppointmentForm() {
     );
 }
 
-/* ---------------- INPUT FIELD ---------------- */
+/* INPUT FIELD */
 function InputField({ icon, label, name, setForm, value, ...rest }) {
     return (
         <div className="flex flex-col">
@@ -220,7 +220,7 @@ function InputField({ icon, label, name, setForm, value, ...rest }) {
     );
 }
 
-/* ---------------- DROPDOWN SHELL ---------------- */
+/* DROPDOWN SHELL */
 function DropdownShell({ children }) {
     return (
         <motion.div
@@ -228,14 +228,14 @@ function DropdownShell({ children }) {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 6 }}
             className="
-        absolute top-full left-0 
-        mt-2 z-40 w-full 
-        bg-card/90 backdrop-blur-xl 
-        border border-border 
-        rounded-2xl shadow-xl 
-        p-2 
-        max-h-48 overflow-y-auto
-      "
+            absolute top-full left-0 
+            mt-2 z-40 w-full 
+            bg-card/90 backdrop-blur-xl 
+            border border-border 
+            rounded-2xl shadow-xl 
+            p-2 
+            max-h-48 overflow-y-auto
+            "
         >
             {children}
         </motion.div>

@@ -2262,7 +2262,7 @@ function AppointmentForm() {
 }
 _s(AppointmentForm, "ASrKlhjt8sd3cuyITVXepA2kb3w=");
 _c = AppointmentForm;
-/* ---------------- INPUT FIELD ---------------- */ function InputField({ icon, label, name, setForm, value, ...rest }) {
+/* INPUT FIELD */ function InputField({ icon, label, name, setForm, value, ...rest }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "flex flex-col",
         children: [
@@ -2306,7 +2306,7 @@ _c = AppointmentForm;
     }, this);
 }
 _c1 = InputField;
-/* ---------------- DROPDOWN SHELL ---------------- */ function DropdownShell({ children }) {
+/* DROPDOWN SHELL */ function DropdownShell({ children }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$dom$2f$motion$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
         initial: {
             opacity: 0,
