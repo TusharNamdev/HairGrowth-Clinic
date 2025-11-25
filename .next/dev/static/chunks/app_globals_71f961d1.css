@@ -1907,6 +1907,15 @@ img, video {
   background-color: #fff6;
 }
 
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#15c34a\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(21 195 74 / var(--tw-bg-opacity, 1));
+}
+
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }

@@ -2920,7 +2920,7 @@ function Navbar() {
             !hideFloating.includes(pathname) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                 href: "https://wa.me/919770799998",
                 target: "_blank",
-                className: "   fixed bottom-6 right-6 z-50 bg-primary text-primary-foreground p-4 rounded-full    shadow-xl hover:shadow-2xl transition   ",
+                className: "   fixed bottom-6 right-6 z-50 bg-[#15c34a] text-primary-foreground p-4 rounded-full    shadow-xl hover:shadow-2xl transition   ",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaWhatsapp"], {
                     size: 26
                 }, void 0, false, {

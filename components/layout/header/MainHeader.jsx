@@ -408,7 +408,7 @@ export default function Navbar() {
                     href="https://wa.me/919770799998"
                     target="_blank"
                     className="
-                    fixed bottom-6 right-6 z-50 bg-primary text-primary-foreground p-4 rounded-full 
+                    fixed bottom-6 right-6 z-50 bg-[#15c34a] text-primary-foreground p-4 rounded-full 
                     shadow-xl hover:shadow-2xl transition
                     "
                 >

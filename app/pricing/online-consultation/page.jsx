@@ -11,7 +11,7 @@ const heroImage = "/images/hero.png";
 export default function OnlineConsultation() {
   const plans = [
     { name: "Quick Consult", price: "₹499", desc: "15 min video consult + basic plan", highlights: ["Doctor review", "1 follow-up chat"] },
-    { name: "Standard Care", price: "₹1,499", desc: "30 min consult + 4-week plan", highlights: ["Personal Rx", "2 follow-ups"] , popular: true},
+    { name: "Standard Care", price: "₹1,499", desc: "30 min consult + 4-week plan", highlights: ["Personal Rx", "2 follow-ups"], popular: true },
     { name: "Comprehensive Remote", price: "₹3,999", desc: "Detailed digital diagnosis + 3 month support", highlights: ["AI-assisted report", "Monthly doctor reviews"] }
   ];
 
