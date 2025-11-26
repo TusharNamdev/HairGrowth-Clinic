@@ -1,10 +1,9 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
   "/case-studies/page": "app/case-studies/page.js",
-  "/doctor/page": "app/doctor/page.js",
+  "/conditions/alopecia/page": "app/conditions/alopecia/page.js",
+  "/conditions/hair-fall/page": "app/conditions/hair-fall/page.js",
   "/page": "app/page.js",
-  "/pricing/clinic-consultation/page": "app/pricing/clinic-consultation/page.js",
-  "/pricing/family-wellness/page": "app/pricing/family-wellness/page.js",
-  "/pricing/monthly-plans/page": "app/pricing/monthly-plans/page.js",
-  "/pricing/online-consultation/page": "app/pricing/online-consultation/page.js"
+  "/payment-method/page": "app/payment-method/page.js",
+  "/videos/page": "app/videos/page.js"
 }

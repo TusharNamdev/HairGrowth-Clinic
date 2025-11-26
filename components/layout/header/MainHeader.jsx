@@ -111,7 +111,7 @@ export default function Navbar() {
 
                         {/* OUR DOCTORS */}
                         <div className="relative group">
-                            <button className="flex items-center gap-1 hover:text-[#1F4DA0] transition">
+                            <button className="flex items-center gap-1 hover:text-primary transition">
                                 Our Doctors <SlArrowDown className="text-xs" />
                             </button>
 
@@ -132,7 +132,7 @@ export default function Navbar() {
 
                         {/* TREATMENT APPROACH */}
                         <div className="relative group">
-                            <button className="flex items-center gap-1 hover:text-[#1F4DA0] transition">
+                            <button className="flex items-center gap-1 hover:text-primary transition">
                                 Treatment Approach <SlArrowDown className="text-xs" />
                             </button>
 
@@ -153,7 +153,7 @@ export default function Navbar() {
 
                         {/* RESULTS */}
                         <div className="relative group">
-                            <button className="flex items-center gap-1 hover:text-[#1F4DA0] transition">
+                            <button className="flex items-center gap-1 hover:text-primary transition">
                                 Results <SlArrowDown className="text-xs" />
                             </button>
 
@@ -174,7 +174,7 @@ export default function Navbar() {
 
                         {/* PRICING */}
                         <div className="relative group">
-                            <button className="flex items-center gap-1 hover:text-[#1F4DA0] transition">
+                            <button className="flex items-center gap-1 hover:text-primary transition">
                                 Pricing <SlArrowDown className="text-xs" />
                             </button>
 
@@ -194,7 +194,7 @@ export default function Navbar() {
 
                         {/* CONTACT */}
                         <div className="relative group">
-                            <button className="flex items-center gap-1 hover:text-[#1F4DA0] transition">
+                            <button className="flex items-center gap-1 hover:text-primary transition">
                                 Contact <SlArrowDown className="text-xs" />
                             </button>
 
@@ -215,7 +215,7 @@ export default function Navbar() {
 
                     {/* RIGHT — LOGIN + CTA */}
                     <div className="hidden md:flex items-center gap-6">
-                        <Link href="/login" className="flex items-center gap-1 hover:text-[#1F4DA0]">
+                        <Link href="/login" className="flex items-center gap-1 hover:text-primary">
                             <User size={18} /> Login
                         </Link>
 

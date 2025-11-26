@@ -1212,7 +1212,7 @@ function ConditionPage(props) {
                                 children: highlights[0] ?? "Holistic • Doctor Guided • Natural Healing"
                             }, void 0, false, {
                                 fileName: "[project]/components/condition/ConditionPage.jsx",
-                                lineNumber: 48,
+                                lineNumber: 32,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -1220,7 +1220,7 @@ function ConditionPage(props) {
                                 children: title
                             }, void 0, false, {
                                 fileName: "[project]/components/condition/ConditionPage.jsx",
-                                lineNumber: 50,
+                                lineNumber: 34,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1228,7 +1228,7 @@ function ConditionPage(props) {
                                 children: subtitle
                             }, void 0, false, {
                                 fileName: "[project]/components/condition/ConditionPage.jsx",
-                                lineNumber: 52,
+                                lineNumber: 36,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1241,12 +1241,12 @@ function ConditionPage(props) {
                                             children: "Book Consultation"
                                         }, void 0, false, {
                                             fileName: "[project]/components/condition/ConditionPage.jsx",
-                                            lineNumber: 56,
+                                            lineNumber: 40,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/condition/ConditionPage.jsx",
-                                        lineNumber: 55,
+                                        lineNumber: 39,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1255,13 +1255,13 @@ function ConditionPage(props) {
                                         children: "How It Works"
                                     }, void 0, false, {
                                         fileName: "[project]/components/condition/ConditionPage.jsx",
-                                        lineNumber: 59,
+                                        lineNumber: 43,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/condition/ConditionPage.jsx",
-                                lineNumber: 54,
+                                lineNumber: 38,
                                 columnNumber: 11
                             }, this),
                             highlights.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1271,18 +1271,18 @@ function ConditionPage(props) {
                                         children: h
                                     }, i, false, {
                                         fileName: "[project]/components/condition/ConditionPage.jsx",
-                                        lineNumber: 67,
+                                        lineNumber: 51,
                                         columnNumber: 17
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/components/condition/ConditionPage.jsx",
-                                lineNumber: 65,
+                                lineNumber: 49,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/condition/ConditionPage.jsx",
-                        lineNumber: 47,
+                        lineNumber: 31,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$dom$2f$motion$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1303,35 +1303,35 @@ function ConditionPage(props) {
                                     className: "object-cover"
                                 }, void 0, false, {
                                     fileName: "[project]/components/condition/ConditionPage.jsx",
-                                    lineNumber: 76,
+                                    lineNumber: 60,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/condition/ConditionPage.jsx",
-                                lineNumber: 75,
+                                lineNumber: 59,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/condition/ConditionPage.jsx",
-                            lineNumber: 74,
+                            lineNumber: 58,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/condition/ConditionPage.jsx",
-                        lineNumber: 73,
+                        lineNumber: 57,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/condition/ConditionPage.jsx",
-                lineNumber: 46,
+                lineNumber: 30,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "w-full h-12 shadow-[0_-20px_40px_-15px_rgba(0,0,0,0.08)]"
             }, void 0, false, {
                 fileName: "[project]/components/condition/ConditionPage.jsx",
-                lineNumber: 84,
+                lineNumber: 68,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1346,7 +1346,7 @@ function ConditionPage(props) {
                                 children: "How Our Treatment Works"
                             }, void 0, false, {
                                 fileName: "[project]/components/condition/ConditionPage.jsx",
-                                lineNumber: 90,
+                                lineNumber: 74,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1354,13 +1354,13 @@ function ConditionPage(props) {
                                 children: "A medically guided step-by-step plan tailored for this condition."
                             }, void 0, false, {
                                 fileName: "[project]/components/condition/ConditionPage.jsx",
-                                lineNumber: 91,
+                                lineNumber: 75,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/condition/ConditionPage.jsx",
-                        lineNumber: 89,
+                        lineNumber: 73,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1400,17 +1400,17 @@ function ConditionPage(props) {
                                                 strokeWidth: "1.5"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/condition/ConditionPage.jsx",
-                                                lineNumber: 102,
+                                                lineNumber: 86,
                                                 columnNumber: 126
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/condition/ConditionPage.jsx",
-                                            lineNumber: 102,
+                                            lineNumber: 86,
                                             columnNumber: 31
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/condition/ConditionPage.jsx",
-                                        lineNumber: 101,
+                                        lineNumber: 85,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -1418,7 +1418,7 @@ function ConditionPage(props) {
                                         children: step.title
                                     }, void 0, false, {
                                         fileName: "[project]/components/condition/ConditionPage.jsx",
-                                        lineNumber: 105,
+                                        lineNumber: 89,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1426,38 +1426,38 @@ function ConditionPage(props) {
                                         children: step.desc
                                     }, void 0, false, {
                                         fileName: "[project]/components/condition/ConditionPage.jsx",
-                                        lineNumber: 106,
+                                        lineNumber: 90,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "w-0 group-hover:w-full h-0.5 bg-gradient-to-r from-primary to-accent mx-auto mt-5 transition-all duration-500"
                                     }, void 0, false, {
                                         fileName: "[project]/components/condition/ConditionPage.jsx",
-                                        lineNumber: 108,
+                                        lineNumber: 92,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, i, true, {
                                 fileName: "[project]/components/condition/ConditionPage.jsx",
-                                lineNumber: 100,
+                                lineNumber: 84,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/condition/ConditionPage.jsx",
-                        lineNumber: 94,
+                        lineNumber: 78,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/condition/ConditionPage.jsx",
-                lineNumber: 88,
+                lineNumber: 72,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "w-full h-12 shadow-[0_-20px_40px_-15px_rgba(0,0,0,0.08)]"
             }, void 0, false, {
                 fileName: "[project]/components/condition/ConditionPage.jsx",
-                lineNumber: 116,
+                lineNumber: 100,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1471,7 +1471,7 @@ function ConditionPage(props) {
                                 children: "What’s Causing This Condition?"
                             }, void 0, false, {
                                 fileName: "[project]/components/condition/ConditionPage.jsx",
-                                lineNumber: 122,
+                                lineNumber: 106,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1479,13 +1479,13 @@ function ConditionPage(props) {
                                 children: "We diagnose underlying triggers and address the root causes, not just symptoms."
                             }, void 0, false, {
                                 fileName: "[project]/components/condition/ConditionPage.jsx",
-                                lineNumber: 123,
+                                lineNumber: 107,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/condition/ConditionPage.jsx",
-                        lineNumber: 121,
+                        lineNumber: 105,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1517,19 +1517,19 @@ function ConditionPage(props) {
                                             className: "w-20 h-20 rounded-2xl"
                                         }, void 0, false, {
                                             fileName: "[project]/components/condition/ConditionPage.jsx",
-                                            lineNumber: 135,
+                                            lineNumber: 119,
                                             columnNumber: 19
                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "text-primary text-4xl flex items-center justify-center",
                                             children: item.icon
                                         }, void 0, false, {
                                             fileName: "[project]/components/condition/ConditionPage.jsx",
-                                            lineNumber: 137,
+                                            lineNumber: 121,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/condition/ConditionPage.jsx",
-                                        lineNumber: 133,
+                                        lineNumber: 117,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -1537,7 +1537,7 @@ function ConditionPage(props) {
                                         children: item.title
                                     }, void 0, false, {
                                         fileName: "[project]/components/condition/ConditionPage.jsx",
-                                        lineNumber: 143,
+                                        lineNumber: 127,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1545,38 +1545,38 @@ function ConditionPage(props) {
                                         children: item.desc
                                     }, void 0, false, {
                                         fileName: "[project]/components/condition/ConditionPage.jsx",
-                                        lineNumber: 144,
+                                        lineNumber: 128,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "w-0 group-hover:w-full h-0.5 bg-gradient-to-r from-primary to-accent mx-auto mt-4 transition-all duration-500"
                                     }, void 0, false, {
                                         fileName: "[project]/components/condition/ConditionPage.jsx",
-                                        lineNumber: 146,
+                                        lineNumber: 130,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, idx, true, {
                                 fileName: "[project]/components/condition/ConditionPage.jsx",
-                                lineNumber: 132,
+                                lineNumber: 116,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/condition/ConditionPage.jsx",
-                        lineNumber: 126,
+                        lineNumber: 110,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/condition/ConditionPage.jsx",
-                lineNumber: 120,
+                lineNumber: 104,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "w-full h-12 shadow-[0_-20px_40px_-15px_rgba(0,0,0,0.08)]"
             }, void 0, false, {
                 fileName: "[project]/components/condition/ConditionPage.jsx",
-                lineNumber: 154,
+                lineNumber: 138,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1590,7 +1590,7 @@ function ConditionPage(props) {
                                 children: "Common Symptoms"
                             }, void 0, false, {
                                 fileName: "[project]/components/condition/ConditionPage.jsx",
-                                lineNumber: 160,
+                                lineNumber: 144,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1598,13 +1598,13 @@ function ConditionPage(props) {
                                 children: "Symptoms vary from person to person — here are the most commonly reported ones."
                             }, void 0, false, {
                                 fileName: "[project]/components/condition/ConditionPage.jsx",
-                                lineNumber: 161,
+                                lineNumber: 145,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/condition/ConditionPage.jsx",
-                        lineNumber: 159,
+                        lineNumber: 143,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1635,7 +1635,7 @@ function ConditionPage(props) {
                                         className: "   w-3 h-3 rounded-full bg-gradient-to-br from-primary to-accent    mb-3 transition-all duration-500 group-hover:scale-110   "
                                     }, void 0, false, {
                                         fileName: "[project]/components/condition/ConditionPage.jsx",
-                                        lineNumber: 182,
+                                        lineNumber: 166,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -1643,38 +1643,38 @@ function ConditionPage(props) {
                                         children: s
                                     }, void 0, false, {
                                         fileName: "[project]/components/condition/ConditionPage.jsx",
-                                        lineNumber: 188,
+                                        lineNumber: 172,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "   w-0 group-hover:w-16 h-0.5 bg-gradient-to-r from-primary to-accent    mt-4 transition-all duration-500   "
                                     }, void 0, false, {
                                         fileName: "[project]/components/condition/ConditionPage.jsx",
-                                        lineNumber: 193,
+                                        lineNumber: 177,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, i, true, {
                                 fileName: "[project]/components/condition/ConditionPage.jsx",
-                                lineNumber: 169,
+                                lineNumber: 153,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/condition/ConditionPage.jsx",
-                        lineNumber: 166,
+                        lineNumber: 150,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/condition/ConditionPage.jsx",
-                lineNumber: 158,
+                lineNumber: 142,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "w-full h-12 shadow-[0_-20px_40px_-15px_rgba(0,0,0,0.08)]"
             }, void 0, false, {
                 fileName: "[project]/components/condition/ConditionPage.jsx",
-                lineNumber: 204,
+                lineNumber: 188,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1688,7 +1688,7 @@ function ConditionPage(props) {
                                 children: "Benefits of Our Approach"
                             }, void 0, false, {
                                 fileName: "[project]/components/condition/ConditionPage.jsx",
-                                lineNumber: 210,
+                                lineNumber: 194,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1696,13 +1696,13 @@ function ConditionPage(props) {
                                 children: "Why patients trust us for long-term healing."
                             }, void 0, false, {
                                 fileName: "[project]/components/condition/ConditionPage.jsx",
-                                lineNumber: 211,
+                                lineNumber: 195,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/condition/ConditionPage.jsx",
-                        lineNumber: 209,
+                        lineNumber: 193,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1733,7 +1733,7 @@ function ConditionPage(props) {
                                         className: "absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary to-accent opacity-70"
                                     }, void 0, false, {
                                         fileName: "[project]/components/condition/ConditionPage.jsx",
-                                        lineNumber: 233,
+                                        lineNumber: 217,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1751,25 +1751,25 @@ function ConditionPage(props) {
                                                     r: "9"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/condition/ConditionPage.jsx",
-                                                    lineNumber: 242,
+                                                    lineNumber: 226,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                                                     d: "M7 12l2 2 5-5"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/condition/ConditionPage.jsx",
-                                                    lineNumber: 243,
+                                                    lineNumber: 227,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/condition/ConditionPage.jsx",
-                                            lineNumber: 241,
+                                            lineNumber: 225,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/condition/ConditionPage.jsx",
-                                        lineNumber: 236,
+                                        lineNumber: 220,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -1777,31 +1777,31 @@ function ConditionPage(props) {
                                         children: b
                                     }, void 0, false, {
                                         fileName: "[project]/components/condition/ConditionPage.jsx",
-                                        lineNumber: 247,
+                                        lineNumber: 231,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "   w-0 group-hover:w-20 h-0.5 bg-gradient-to-r from-primary to-accent    mt-3 transition-all duration-500   "
                                     }, void 0, false, {
                                         fileName: "[project]/components/condition/ConditionPage.jsx",
-                                        lineNumber: 250,
+                                        lineNumber: 234,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, i, true, {
                                 fileName: "[project]/components/condition/ConditionPage.jsx",
-                                lineNumber: 219,
+                                lineNumber: 203,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/condition/ConditionPage.jsx",
-                        lineNumber: 216,
+                        lineNumber: 200,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/condition/ConditionPage.jsx",
-                lineNumber: 208,
+                lineNumber: 192,
                 columnNumber: 7
             }, this),
             videos && videos.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1815,7 +1815,7 @@ function ConditionPage(props) {
                                 children: "Videos & Case Studies"
                             }, void 0, false, {
                                 fileName: "[project]/components/condition/ConditionPage.jsx",
-                                lineNumber: 264,
+                                lineNumber: 248,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1823,52 +1823,52 @@ function ConditionPage(props) {
                                 children: "Watch short reels and case study clips."
                             }, void 0, false, {
                                 fileName: "[project]/components/condition/ConditionPage.jsx",
-                                lineNumber: 265,
+                                lineNumber: 249,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/condition/ConditionPage.jsx",
-                        lineNumber: 263,
+                        lineNumber: 247,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$VideoReels$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                         videos: videos
                     }, void 0, false, {
                         fileName: "[project]/components/condition/ConditionPage.jsx",
-                        lineNumber: 268,
+                        lineNumber: 252,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/condition/ConditionPage.jsx",
-                lineNumber: 262,
+                lineNumber: 246,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "w-full h-12 shadow-[0_-20px_40px_-15px_rgba(0,0,0,0.08)]"
             }, void 0, false, {
                 fileName: "[project]/components/condition/ConditionPage.jsx",
-                lineNumber: 274,
+                lineNumber: 258,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 className: "max-w-7xl mx-auto px-6 py-10",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Testimonials$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/components/condition/ConditionPage.jsx",
-                    lineNumber: 279,
+                    lineNumber: 263,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/condition/ConditionPage.jsx",
-                lineNumber: 278,
+                lineNumber: 262,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "w-full h-12 shadow-[0_-20px_40px_-15px_rgba(0,0,0,0.08)]"
             }, void 0, false, {
                 fileName: "[project]/components/condition/ConditionPage.jsx",
-                lineNumber: 284,
+                lineNumber: 268,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1877,12 +1877,12 @@ function ConditionPage(props) {
                     limit: 4
                 }, void 0, false, {
                     fileName: "[project]/components/condition/ConditionPage.jsx",
-                    lineNumber: 289,
+                    lineNumber: 273,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/condition/ConditionPage.jsx",
-                lineNumber: 288,
+                lineNumber: 272,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1898,7 +1898,7 @@ function ConditionPage(props) {
                                     children: "Ready to get started?"
                                 }, void 0, false, {
                                     fileName: "[project]/components/condition/ConditionPage.jsx",
-                                    lineNumber: 301,
+                                    lineNumber: 285,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1909,13 +1909,13 @@ function ConditionPage(props) {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/condition/ConditionPage.jsx",
-                                    lineNumber: 302,
+                                    lineNumber: 286,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/condition/ConditionPage.jsx",
-                            lineNumber: 300,
+                            lineNumber: 284,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1927,34 +1927,34 @@ function ConditionPage(props) {
                                     children: "Book Now"
                                 }, void 0, false, {
                                     fileName: "[project]/components/condition/ConditionPage.jsx",
-                                    lineNumber: 307,
+                                    lineNumber: 291,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/condition/ConditionPage.jsx",
-                                lineNumber: 306,
+                                lineNumber: 290,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/condition/ConditionPage.jsx",
-                            lineNumber: 305,
+                            lineNumber: 289,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/condition/ConditionPage.jsx",
-                    lineNumber: 295,
+                    lineNumber: 279,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/condition/ConditionPage.jsx",
-                lineNumber: 294,
+                lineNumber: 278,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/condition/ConditionPage.jsx",
-        lineNumber: 44,
+        lineNumber: 28,
         columnNumber: 5
     }, this);
 }
