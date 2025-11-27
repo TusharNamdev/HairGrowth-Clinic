@@ -19,97 +19,91 @@ body {
 
 @layer base {
   :root {
-    /* --- NEW PREMIUM BLUE–TEAL THEME --- */
+    /* --- CLEAN CLINICAL ROYAL BLUE THEME --- */
 
-    /* BACKGROUNDS */
-    --background: 189 75% 96%;
-    /* softer version of #caf0f8 */
-    --foreground: 236 30% 20%;
-    /* dark twilight text */
+    /* BACKGROUND (PURE WHITE) */
+    --background: 0 0% 100%;
+    --foreground: 225 30% 18%;
+    /* Deep medical navy text */
 
     /* SURFACES */
-    --card: 189 75% 88%;
-    /* #caf0f8 */
-    --card-foreground: 236 30% 20%;
+    --card: 0 0% 100%;
+    --card-foreground: 225 30% 18%;
 
-    --popover: 189 75% 88%;
-    --popover-foreground: 236 30% 20%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 225 30% 18%;
 
-    /* PRIMARY — Bright Teal Blue (#0077b6) */
-    --primary: 199 100% 36%;
-    --primary-foreground: 0 0% 98%;
+    /* BRAND PRIMARY — Royal Medical Blue (#1B3C7A) */
+    --primary: 220 60% 32%;
+    --primary-foreground: 0 0% 100%;
 
-    /* SECONDARY — Frosted Blue (#90e0ef) */
-    --secondary: 190 71% 74%;
-    --secondary-foreground: 236 30% 18%;
+    /* SECONDARY — Professional Blue (#2F6FED) */
+    --secondary: 220 85% 65%;
+    --secondary-foreground: 0 0% 100%;
 
-    /* ACCENT — Turquoise Surf (#00b4d8) */
-    --accent: 188 100% 42%;
-    --accent-foreground: 0 0% 100%;
+    /* ACCENT — Clinical Aqua (#4DD0E1) */
+    --accent: 185 60% 65%;
+    --accent-foreground: 225 30% 18%;
 
-    /* MUTED TEXT / BACKGROUND */
-    --muted: 189 75% 92%;
-    --muted-foreground: 236 20% 35%;
+    /* MUTED */
+    --muted: 220 35% 94%;
+    --muted-foreground: 225 25% 40%;
 
     /* DESTRUCTIVE */
-    --destructive: 0 75% 55%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive: 0 70% 55%;
+    --destructive-foreground: 0 0% 100%;
 
-    /* BORDERS / INPUT */
-    --border: 189 45% 78%;
-    /* soft frosted border */
-    --input: 189 45% 74%;
-    --ring: 199 100% 36%;
-    /* primary ring */
+    /* BORDERS (Soft frosted blue-gray) */
+    --border: 220 30% 86%;
+    --input: 220 30% 82%;
+    --ring: 220 60% 32%;
 
-    /* CHART COLORS */
-    --chart-1: 199 100% 36%;
-    --chart-2: 190 71% 60%;
-    --chart-3: 188 100% 42%;
-    --chart-4: 236 40% 35%;
-    --chart-5: 0 75% 55%;
-
+    /* RADIUS */
     --radius: 0.5rem;
   }
 
-  /* DARK MODE — Deep Twilight Theme */
+  /* --- DARK MODE (DEEP ROYAL MEDICAL BLUE) --- */
   .dark {
-    --background: 236 94% 12%;
-    /* #03045e but slightly softened */
-    --foreground: 189 75% 92%;
+    /* PURE BLACKISH MEDICAL MODE */
+    --background: 220 15% 8%;
+    /* charcoal black */
+    --foreground: 0 0% 98%;
+    /* almost pure white */
 
-    --card: 236 94% 16%;
-    --card-foreground: 189 75% 92%;
+    --card: 220 15% 12%;
+    /* deep charcoal */
+    --card-foreground: 0 0% 98%;
 
-    --popover: 236 94% 16%;
-    --popover-foreground: 189 75% 92%;
+    --popover: 220 15% 12%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 199 100% 55%;
-    /* brighter for dark mode */
-    --primary-foreground: 236 94% 12%;
+    /* PRIMARY BUTTONS STILL ROYAL BLUE */
+    --primary: 220 70% 55%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 190 40% 22%;
-    --secondary-foreground: 189 75% 92%;
+    /* SECONDARY BLUE SHADE */
+    --secondary: 220 25% 25%;
+    /* muted dark blue-gray */
+    --secondary-foreground: 0 0% 98%;
 
-    --accent: 188 100% 50%;
-    --accent-foreground: 236 94% 12%;
+    /* ACCENT POP (stays aqua) */
+    --accent: 185 70% 60%;
+    --accent-foreground: 220 15% 8%;
 
-    --muted: 236 40% 22%;
-    --muted-foreground: 189 35% 70%;
+    /* MUTED GRAYS */
+    --muted: 220 10% 18%;
+    --muted-foreground: 0 0% 75%;
 
+    /* DESTRUCTIVE */
     --destructive: 0 70% 55%;
-    --destructive-foreground: 189 75% 92%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 236 40% 28%;
-    --input: 236 40% 28%;
-    --ring: 199 100% 55%;
-
-    --chart-1: 199 100% 55%;
-    --chart-2: 190 70% 55%;
-    --chart-3: 188 100% 50%;
-    --chart-4: 236 40% 55%;
-    --chart-5: 0 80% 55%;
+    /* BORDERS — subtle gray */
+    --border: 220 10% 28%;
+    --input: 220 10% 28%;
+    --ring: 220 70% 55%;
   }
+
 }
 
 
