@@ -1,3 +1,8 @@
 {
-  "/page": "app/page.js"
+  "/HairGrowth/register/page": "app/HairGrowth/register/page.js",
+  "/page": "app/page.js",
+  "/payment-method/online/page": "app/payment-method/online/page.js",
+  "/payment-method/success/page": "app/payment-method/success/page.js",
+  "/pricing/monthly-plans/page": "app/pricing/monthly-plans/page.js",
+  "/pricing/online-consultation/page": "app/pricing/online-consultation/page.js"
 }

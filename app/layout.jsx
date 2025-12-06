@@ -5,6 +5,7 @@ import { ThemeProvider } from "next-themes";
 import TopBar from "@/components/layout/header/Topbar";
 import MainHeader from "@/components/layout/header/MainHeader";
 import ScrollToTop from "./scroll-reset";
+import { Providers } from "./providers";   // <-- IMPORTANT
 
 export const metadata = { title: "Modern Clinic", description: "Rediscover Your Confidence" };
 
@@ -12,6 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body>
+         <Providers>   {/* <-- REDUX WRAPPER START */}
         <ThemeProvider
           attribute="class"
           defaultTheme="light"
@@ -24,6 +26,7 @@ export default function RootLayout({ children }) {
           {children}
           <Footer />
         </ThemeProvider>
+        </Providers>   {/* <-- REDUX WRAPPER END */}
       </body>
     </html>
   );

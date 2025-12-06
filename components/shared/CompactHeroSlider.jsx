@@ -70,7 +70,7 @@ export default function CompactHeroSlider() {
           <div className="flex gap-3 pt-6 flex-wrap">
             <Link href="#appointment-form">
               <button className="px-5 py-3 rounded-xl bg-primary text-primary-foreground hover:opacity-90 transition font-medium">
-                Book Consultation
+                Book Appointment
               </button>
             </Link>
 

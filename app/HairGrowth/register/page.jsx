@@ -1,30 +1,194 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { useDispatch, useSelector } from "react-redux";
 import ProgressTabs from "@/components/Register/ProgressTabs";
 import QuestionCard from "@/components/Register/QuestionCard";
 import PhotoUploader from "@/components/Register/PhotoUploader";
+import PlanSelector from "@/components/PlanSelector";
+import { auth } from "@/lib/firebase";
+import { RecaptchaVerifier, signInWithPhoneNumber } from "firebase/auth";
+import useBaseURL from "@/hooks/useBaseURL";
+import { MapPin, ChevronDown } from "lucide-react";
+import { registerUser, verifyUser, submitData, createOrder, clearApiState } from "@/redux/slices/registerSlice";
 
 export default function RegisterFlow() {
   const router = useRouter();
-  const [step, setStep] = useState(0);
+  const dispatch = useDispatch();
 
+  // Redux state
+  const { loading, error, registerSuccess, verifySuccess, submitSuccess, createOrderSuccess, orderDetails, consultantId } = useSelector(
+    (state) => state.register
+  );
+
+  console.log("Register State:", { loading, error, registerSuccess, verifySuccess, submitSuccess, consultantId });
+  const [step, setStep] = useState(0);
   const [errors, setErrors] = useState({});
   const [form, setForm] = useState({
     name: "",
     phone: "",
     age: "",
+    region: "",
     gender: "",
+    healthIssue: "hair fall",
     stage: null,
-
     hair: {},
     internal: {},
     scalpPhoto: null,
+    plan: "",
+    planPrice: 0,
   });
 
-  // VALIDATION
+  const [openDropdown, setOpenDropdown] = useState(null);
+  const [confirmationResult, setConfirmationResult] = useState(null);
+  const recaptchaRef = useRef(null);
+
+  const [otpModalOpen, setOtpModalOpen] = useState(false);
+  const [otpSent, setOtpSent] = useState(false);
+  const [otp, setOtp] = useState("");
+
+  const baseURL = useBaseURL();
+
+  const regionList = [
+    "India",
+    "Asia",
+    "Europe, Australia",
+    "USA, Canada",
+    "South America, Africa"
+  ];
+
+  const healthIssues = [
+    "Hair Fall",
+    "Respiratory",
+    "Skin Disorders",
+    "Gastrointestinal",
+    "Mental & Emotional Health",
+    "Musculoskeletal",
+    "ENT Problems",
+    "Women’s Health",
+    "Children’s Health",
+    "Chronic Conditions",
+    "Lifestyle-Related Problems",
+    "Obesity"
+  ];
+
+
+  // Initialize Recaptcha
+  useEffect(() => {
+    if (!recaptchaRef.current) {
+      recaptchaRef.current = new RecaptchaVerifier(
+        "recaptcha-container",
+        { size: "invisible" },
+        auth
+      );
+    }
+  }, []);
+
+  // Handle registration success → automatically proceed to verify
+  useEffect(() => {
+    if (registerSuccess && consultantId) {
+      console.log("Registration successful! ConsultantId:", consultantId);
+      localStorage.setItem("consultantId", consultantId);
+      // Now send OTP via Firebase
+      sendOtp();
+    }
+  }, [registerSuccess, consultantId]);
+
+  // Handle verify success → move to step 1 or 4
+  useEffect(() => {
+    if (verifySuccess) {
+      setOtpModalOpen(false);
+      setStep(form.healthIssue === "hair fall" ? 1 : 4);
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      dispatch(clearApiState());
+    }
+  }, [verifySuccess, form.healthIssue]);
+
+  // Handle submit success → create order
+  useEffect(() => {
+    if (submitSuccess) {
+      const currentConsultantId = consultantId || localStorage.getItem("consultantId");
+      dispatch(createOrder({
+        consultantId: currentConsultantId,
+        amount: form.planPrice
+      }));
+      dispatch(clearApiState());
+    }
+  }, [submitSuccess]);
+
+  // Handle create order success → redirect to payment
+  useEffect(() => {
+    if (createOrderSuccess && orderDetails) {
+      const params = new URLSearchParams({
+        orderId: orderDetails.orderId,
+        amount: orderDetails.amount,
+        currency: orderDetails.currency,
+        key: orderDetails.key,
+        consultantId: consultantId || localStorage.getItem("consultantId")
+      });
+      router.push(`/payment-method/online?${params.toString()}`);
+      dispatch(clearApiState());
+    }
+  }, [createOrderSuccess, orderDetails]);
+
+  // Handle errors
+  useEffect(() => {
+    if (error) {
+      alert(error);
+      dispatch(clearApiState());
+    }
+  }, [error]);
+
+  // Send OTP via Firebase
+  async function sendOtp() {
+    try {
+      if (!recaptchaRef.current) {
+        alert("Recaptcha not ready! Try again.");
+        return;
+      }
+
+      const phone = "+91" + form.phone;
+      const result = await signInWithPhoneNumber(auth, phone, recaptchaRef.current);
+
+      setConfirmationResult(result);
+      setOtpSent(true);
+    } catch (err) {
+      console.log("SEND OTP ERROR:", err);
+      alert("OTP sending failed. Try again.");
+    }
+  }
+
+  // Verify OTP and call Redux verify API
+  async function verifyOtp() {
+    try {
+      if (!confirmationResult) {
+        alert("OTP expired. Please resend.");
+        return;
+      }
+
+      // Confirm OTP with Firebase
+      await confirmationResult.confirm(otp);
+
+      // Get Firebase ID token
+      const idToken = await auth.currentUser.getIdToken();
+
+      // Dispatch Redux verify action
+      dispatch(
+        verifyUser({
+          mobile: form.phone,
+          idToken: idToken,
+          consultantId: consultantId,
+        })
+      );
+    } catch (err) {
+      console.log("VERIFY ERROR", err);
+      alert("Invalid OTP");
+    }
+  }
+
+  // Validation
   function validateStep() {
     let err = {};
 
@@ -33,6 +197,7 @@ export default function RegisterFlow() {
       if (!form.phone.trim()) err.phone = "Phone is required";
       if (!form.age) err.age = "Age is required";
       if (!form.gender) err.gender = "Gender is required";
+      if (!form.region) err.region = "Region is required";
     }
 
     if (step === 1) {
@@ -43,18 +208,51 @@ export default function RegisterFlow() {
       if (!form.scalpPhoto) err.scalpPhoto = "Scalp photo is required";
     }
 
+    if (step === 4) {
+      if (!form.plan) err.plan = "Please select a plan";
+    }
+
     setErrors(err);
     return Object.keys(err).length === 0;
   }
 
   function next() {
     if (!validateStep()) return;
+
+    if (step === 0) {
+      // Dispatch Redux register action
+      dispatch(
+        registerUser({
+          name: form.name,
+          mobile: form.phone,
+          age: form.age,
+          gender: form.gender,
+          region: form.region,
+          healthIssue: form.healthIssue,
+        })
+      );
+      setOtpModalOpen(true);
+      return;
+    }
+
     setStep((p) => p + 1);
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
   function prev() {
-    setStep((p) => Math.max(0, p - 1));
+    if (step === 1) {
+      setStep(0);
+    } else if (step === 2) {
+      setStep(1);
+    } else if (step === 3) {
+      setStep(2);
+    } else if (step === 4) {
+      if (form.healthIssue === "hair fall") {
+        setStep(3);
+      } else {
+        setStep(0);
+      }
+    }
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
@@ -69,29 +267,36 @@ export default function RegisterFlow() {
     }));
   }
 
-  // SUBMIT
+  // Submit final assessment
   function submit() {
     if (!validateStep()) return;
 
-    const params = new URLSearchParams();
+    const currentConsultantId = consultantId || localStorage.getItem("consultantId");
+    if (!currentConsultantId) {
+      alert("Please complete registration and verification first");
+      setStep(0);
+      return;
+    }
 
-    Object.entries(form).forEach(([key, val]) => {
-      if (key !== "hair" && key !== "internal" && key !== "scalpPhoto") {
-        params.set(key, val);
-      }
-    });
+    const consultationData = {
+      hairHealth: {
+        stage: form.stage,
+        familyHistory: form.hair?.family || "",
+        dandruff: form.hair?.dandruff || "",
+        selectedStage: form.stage
+      },
+      internalHealth: form.internal || {},
+      scalpAssessment: {
+        scalpPhoto: form.scalpPhoto?.name || null
+      },
+      plan: form.plan
+    };
 
-    Object.entries(form.hair || {}).forEach(([key, val]) =>
-      params.set("hair_" + key, val)
-    );
-
-    Object.entries(form.internal || {}).forEach(([key, val]) =>
-      params.set("internal_" + key, val)
-    );
-
-    params.set("scalpPhoto", form.scalpPhoto?.name || "");
-
-    router.push("/HairGrowth/coach?" + params.toString());
+    dispatch(submitData({
+      consultantId: currentConsultantId,
+      consultationData: consultationData,
+      scalpPhoto: form.scalpPhoto
+    }));
   }
 
   const hairQuestions = [
@@ -181,9 +386,16 @@ export default function RegisterFlow() {
   const gender = form.gender || "male";
   const stageImages = stageData[gender];
 
+  const DropdownShell = ({ children }) => (
+    <div className="absolute top-full left-0 w-full mt-2 bg-card border border-border shadow-lg rounded-xl p-2 z-20">
+      {children}
+    </div>
+  );
+
   return (
     <div className="min-h-screen py-8 bg-background-soft">
       <main className="max-w-4xl mx-auto px-6">
+        <div id="recaptcha-container"></div>
 
         {/* Top Bar */}
         <div className="flex justify-between mb-4 text-sm text-muted-foreground">
@@ -191,7 +403,7 @@ export default function RegisterFlow() {
           <Link href="/" className="hover:text-accent">Exit</Link>
         </div>
 
-        <ProgressTabs step={step} />
+        <ProgressTabs step={step} healthIssue={form.healthIssue} />
 
         {/* CARD WRAPPER */}
         <div className="bg-card mt-6 rounded-2xl shadow-soft border border-border p-6">
@@ -246,33 +458,107 @@ export default function RegisterFlow() {
               {/* Gender */}
               <div>
                 <label className="font-medium text-foreground">Gender</label>
-
                 <div className="flex gap-3 mt-2">
                   {["male", "female"].map((g) => (
                     <button
                       key={g}
                       onClick={() => updateField("gender", g)}
                       className={`px-5 py-2 rounded border 
-                        ${
-                          form.gender === g
-                            ? "bg-primary text-primary-foreground"
-                            : "bg-muted text-foreground border-border"
+                        ${form.gender === g
+                          ? "bg-primary text-primary-foreground"
+                          : "bg-muted text-foreground border-border"
                         }`}
                     >
                       {g.toUpperCase()}
                     </button>
                   ))}
                 </div>
-
                 {errors.gender && (
                   <p className="text-red-600 text-sm mt-1">{errors.gender}</p>
+                )}
+              </div>
+
+              {/* REGION */}
+              <div className="flex flex-col relative mt-4">
+                <label className="text-sm font-medium text-foreground mb-1">
+                  Region
+                </label>
+                <button
+                  type="button"
+                  onClick={() =>
+                    setOpenDropdown(openDropdown === "region" ? null : "region")
+                  }
+                  className="flex items-center justify-between bg-background border border-border px-3 py-2 rounded-xl w-full text-foreground"
+                >
+                  <div className="flex items-center gap-2">
+                    <MapPin size={18} className="text-primary" />
+                    {form.region || "Select Region"}
+                  </div>
+                  <ChevronDown size={16} className="text-muted-foreground" />
+                </button>
+
+                {openDropdown === "region" && (
+                  <DropdownShell>
+                    {regionList.map((r) => (
+                      <div
+                        key={r}
+                        onClick={() => {
+                          updateField("region", r);
+                          setOpenDropdown(null);
+                        }}
+                        className="px-3 py-2 hover:bg-secondary/15 rounded-lg cursor-pointer text-sm text-foreground"
+                      >
+                        {r}
+                      </div>
+                    ))}
+                  </DropdownShell>
+                )}
+
+                {errors.region && (
+                  <p className="text-red-600 text-sm mt-1">{errors.region}</p>
+                )}
+              </div>
+
+              {/* HEALTH ISSUE */}
+              <div className="flex flex-col relative mt-4">
+                <label className="text-sm font-medium text-foreground mb-1">
+                  Health Issue
+                </label>
+                <button
+                  type="button"
+                  onClick={() =>
+                    setOpenDropdown(openDropdown === "health" ? null : "health")
+                  }
+                  className="flex items-center justify-between bg-background border border-border px-3 py-2 rounded-xl w-full text-foreground"
+                >
+                  <div className="flex items-center gap-2">
+                    <span>{form.healthIssue || "Select Health Issue"}</span>
+                  </div>
+                  <ChevronDown size={16} className="text-muted-foreground" />
+                </button>
+
+                {openDropdown === "health" && (
+                  <DropdownShell>
+                    {healthIssues.map((h) => (
+                      <div
+                        key={h}
+                        onClick={() => {
+                          updateField("healthIssue", h.toLowerCase());
+                          setOpenDropdown(null);
+                        }}
+                        className="px-3 py-2 hover:bg-secondary/15 rounded-lg cursor-pointer text-sm text-foreground"
+                      >
+                        {h}
+                      </div>
+                    ))}
+                  </DropdownShell>
                 )}
               </div>
             </>
           )}
 
           {/* STEP 1 — HAIR HEALTH */}
-          {step === 1 && (
+          {step === 1 && form.healthIssue === "hair fall" && (
             <>
               <h2 className="text-4xl text-center font-bold mb-8 text-foreground">
                 Hair Health
@@ -284,11 +570,10 @@ export default function RegisterFlow() {
                   <div
                     key={s.id}
                     onClick={() => updateField("stage", s.id)}
-                    className={`rounded-xl border p-4 cursor-pointer transition 
-                      ${
-                        form.stage === s.id
-                          ? "ring-2 ring-primary bg-primary/10"
-                          : "border-border bg-muted"
+                    className={`rounded-xl border p-4 cursor-pointer transition
+                      ${form.stage === s.id
+                        ? "ring-2 ring-primary bg-primary/10"
+                        : "border-border bg-muted"
                       }`}
                   >
                     <img src={s.img} className="w-full mb-3 rounded" />
@@ -317,7 +602,7 @@ export default function RegisterFlow() {
           )}
 
           {/* STEP 2 — INTERNAL HEALTH */}
-          {step === 2 && (
+          {step === 2 && form.healthIssue === "hair fall" && (
             <>
               <h2 className="text-4xl text-center font-bold mb-8 text-foreground">
                 Internal Health
@@ -338,7 +623,7 @@ export default function RegisterFlow() {
           )}
 
           {/* STEP 3 — SCALP PHOTO */}
-          {step === 3 && (
+          {step === 3 && form.healthIssue === "hair fall" && (
             <>
               <h2 className="text-2xl font-semibold text-center mb-4 text-foreground">
                 Upload your scalp picture
@@ -355,25 +640,100 @@ export default function RegisterFlow() {
             </>
           )}
 
+          {/* STEP 4 — PLAN SELECTION */}
+          {step === 4 && (
+            <>
+              <h2 className="text-4xl text-center font-bold mb-8 text-foreground">
+                Choose Your Plan
+              </h2>
+
+              <PlanSelector
+                selectedPlan={form.plan}
+                onSelect={(plan) => {
+                  updateField("plan", plan.id);
+                  updateField("planPrice", plan.price);
+                }}
+              />
+
+              {errors.plan && (
+                <p className="text-red-600 text-sm mt-4 text-center">{errors.plan}</p>
+              )}
+            </>
+          )}
+
           {/* BUTTONS */}
           <div className="flex justify-end mt-6">
-            {step < 3 ? (
+            {step < 4 ? (
               <button
                 onClick={next}
-                className="px-6 py-2 bg-primary text-primary-foreground rounded shadow-soft hover:bg-primary-dark"
+                disabled={loading}
+                className="px-6 py-2 bg-primary text-primary-foreground rounded shadow-soft hover:bg-primary-dark disabled:opacity-50"
               >
-                Next →
+                {loading ? "Processing..." : "Next →"}
               </button>
             ) : (
               <button
                 onClick={submit}
                 className="px-6 py-2 bg-accent text-accent-foreground rounded shadow-soft hover:bg-accent/80"
               >
-                Submit Assessment
+                Proceed to Payment
               </button>
             )}
           </div>
         </div>
+
+        {/* OTP MODAL */}
+        {otpModalOpen && (
+          <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
+            <div className="bg-white p-6 rounded-xl shadow-xl w-full max-w-md">
+              <h2 className="text-xl font-semibold text-center mb-4">
+                Verify Your Phone
+              </h2>
+
+              <p className="text-center text-gray-600 text-sm mb-2">
+                OTP will be sent to:
+              </p>
+              <p className="text-center font-medium mb-4">
+                +91 {form.phone}
+              </p>
+
+              {!otpSent ? (
+                <div className="text-center text-gray-500">
+                  Sending OTP...
+                </div>
+              ) : (
+                <>
+                  <input
+                    type="text"
+                    className="w-full border px-3 py-2 rounded mb-3"
+                    placeholder="Enter OTP"
+                    value={otp}
+                    onChange={(e) => setOtp(e.target.value)}
+                  />
+
+                  <button
+                    onClick={verifyOtp}
+                    disabled={loading}
+                    className="w-full bg-primary text-white py-2 rounded-lg disabled:opacity-50"
+                  >
+                    {loading ? "Verifying..." : "Verify OTP"}
+                  </button>
+                </>
+              )}
+
+              <button
+                onClick={() => {
+                  setOtpModalOpen(false);
+                  setOtpSent(false);
+                  setOtp("");
+                }}
+                className="mt-4 w-full text-center text-gray-500 text-sm"
+              >
+                Cancel
+              </button>
+            </div>
+          </div>
+        )}
       </main>
     </div>
   );

@@ -1838,6 +1838,10 @@ img, video {
   background-color: #0006;
 }
 
+.bg-black\/50 {
+  background-color: #00000080;
+}
+
 .bg-border {
   background-color: hsl(var(--border));
 }
@@ -1914,6 +1918,11 @@ img, video {
 
 .bg-transparent {
   background-color: #0000;
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
 .bg-white\/20 {
@@ -2304,6 +2313,16 @@ img, video {
 
 .text-foreground\/90 {
   color: hsl(var(--foreground) / .9);
+}
+
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity, 1));
+}
+
+.text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity, 1));
 }
 
 .text-green-500 {

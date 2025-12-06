@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import { FaUserMd, FaRegSmileBeam, FaLeaf, FaWeight } from "react-icons/fa";
 import { MdHealthAndSafety, MdOutlineScience } from "react-icons/md";
 import Slider from "@/components/shared/Slider";
@@ -180,8 +181,14 @@ export default function HomePage() {
             <div className="w-full h-12 shadow-[0_-20px_40px_-15px_rgba(0,0,0,0.08)]" />
 
 
-            {/* Online Appoinment */}
-            <AppointmentForm />
+            {/* Online Appointment */}
+            <div className="py-16 px-6 md:px-16 lg:px-24">
+                <div className="text-center mb-8">
+                    <h2 className="text-3xl font-semibold mb-6">Book Your Online Appointment</h2>
+                    <p className="text-muted-foreground">Get a consultation with our doctor within 24 hours.</p>
+                </div>
+                <AppointmentForm />
+            </div>
 
 
             {/* OUR TREATMENTS (3 MAIN SERVICES) */}
@@ -238,3 +245,4 @@ export default function HomePage() {
         </div>
     );
 }
+

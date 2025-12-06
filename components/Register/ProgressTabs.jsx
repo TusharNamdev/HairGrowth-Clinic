@@ -2,9 +2,9 @@
 
 import React from "react";
 
-export default function ProgressTabs({ step = 0 }) {
-  const tabs = ["About You", "Hair Health", "Internal Health", "Scalp Assessment"];
-  const percent = Math.round((step / (tabs.length - 1)) * 100);
+export default function ProgressTabs({ step = 0, healthIssue = "hair fall" }) {
+  const tabs = ["About You", "Hair Health", "Internal Health", "Scalp Assessment", "Plan Selection"];
+  const percent = healthIssue === "hair fall" ? Math.round((step / 4) * 100) : (step === 0 ? 0 : 100);
 
   return (
     <div className="w-full">
@@ -23,21 +23,24 @@ export default function ProgressTabs({ step = 0 }) {
             py-1
           "
         >
-          {tabs.map((t, i) => (
-            <div
-              key={t}
-              className={`
-                px-4 py-2 rounded-lg text-sm font-medium whitespace-nowrap
-                ${
-                  i <= step
-                    ? "bg-primary/20 text-foreground"
-                    : "bg-muted text-muted-foreground"
-                }
-              `}
-            >
-              {t}
-            </div>
-          ))}
+          {tabs.map((t, i) => {
+            if (healthIssue !== "hair fall" && i > 0 && i < 4) return null;
+            return (
+              <div
+                key={t}
+                className={`
+                  px-4 py-2 rounded-lg text-sm font-medium whitespace-nowrap
+                  ${
+                    i <= step
+                      ? "bg-primary/20 text-foreground"
+                      : "bg-muted text-muted-foreground"
+                  }
+                `}
+              >
+                {t}
+              </div>
+            );
+          })}
         </div>
 
         {/* Right: Percentage */}
